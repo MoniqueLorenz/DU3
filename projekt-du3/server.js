@@ -58,7 +58,7 @@ serve(async (req) => {
     });
   }
 
-  // 📜 drinks.js (klient‑JS för drink)
+  // drinks.js (klient‑JS för drink)
   if (pathname === "/drinks.js") {
     const js = await Deno.readTextFile("./client/drinks.js");
     return new Response(js, {
