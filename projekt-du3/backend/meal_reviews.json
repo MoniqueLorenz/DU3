@@ -1,0 +1,3324 @@
+[
+  {
+    "id": "52768",
+    "name": "Apple Frangipan Tart",
+    "rating": 1.9,
+    "votes": 164,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-01-20",
+      "text": "Smaken föll mig inte alls i smaken."
+    }
+  },
+  {
+    "id": "52893",
+    "name": "Apple & Blackberry Crumble",
+    "rating": 1.9,
+    "votes": 63,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-09-23",
+      "text": "Tyvärr inget jag vill prova igen."
+    }
+  },
+  {
+    "id": "53049",
+    "name": "Apam balik",
+    "rating": 2.9,
+    "votes": 154,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2023-07-21",
+      "text": "Smakerna fungerade inte ihop tyvärr."
+    }
+  },
+  {
+    "id": "53050",
+    "name": "Ayam Percik",
+    "rating": 3.8,
+    "votes": 386,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2024-08-02",
+      "text": "Neutral upplevelse, varken bra eller dålig."
+    }
+  },
+  {
+    "id": "52767",
+    "name": "Bakewell tart",
+    "rating": 2.9,
+    "votes": 305,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2023-08-09",
+      "text": "Lite för konstig för min smak."
+    }
+  },
+  {
+    "id": "52792",
+    "name": "Bread and Butter Pudding",
+    "rating": 2.7,
+    "votes": 274,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2024-10-07",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52803",
+    "name": "Beef Wellington",
+    "rating": 4.2,
+    "votes": 130,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-06-22",
+      "text": "Väldigt god och värd att prova!"
+    }
+  },
+  {
+    "id": "52807",
+    "name": "Baingan Bharta",
+    "rating": 1.2,
+    "votes": 162,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2023-08-10",
+      "text": "Smakade konstigt – undviker i framtiden."
+    }
+  },
+  {
+    "id": "52812",
+    "name": "Beef Brisket Pot Roast",
+    "rating": 2.4,
+    "votes": 215,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2025-04-19",
+      "text": "Smakerna fungerade inte ihop tyvärr."
+    }
+  },
+  {
+    "id": "52824",
+    "name": "Beef Sunday Roast",
+    "rating": 3.4,
+    "votes": 213,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-11-30",
+      "text": "Neutral upplevelse, varken bra eller dålig."
+    }
+  },
+  {
+    "id": "52826",
+    "name": "Braised Beef Chilli",
+    "rating": 3.1,
+    "votes": 410,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-05-18",
+      "text": "Smaken var okej men inte min stil."
+    }
+  },
+  {
+    "id": "52834",
+    "name": "Beef stroganoff",
+    "rating": 3.4,
+    "votes": 196,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2023-11-06",
+      "text": "Neutral upplevelse, varken bra eller dålig."
+    }
+  },
+  {
+    "id": "52842",
+    "name": "Broccoli & Stilton soup",
+    "rating": 4.3,
+    "votes": 106,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2023-10-24",
+      "text": "Väldigt god och värd att prova!"
+    }
+  },
+  {
+    "id": "52848",
+    "name": "Bean & Sausage Hotpot",
+    "rating": 3.2,
+    "votes": 103,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2023-12-26",
+      "text": "Fungerar – men inget speciellt."
+    }
+  },
+  {
+    "id": "52855",
+    "name": "Banana Pancakes",
+    "rating": 2.4,
+    "votes": 11,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-03-20",
+      "text": "Kanske bättre med några ändringar."
+    }
+  },
+  {
+    "id": "52873",
+    "name": "Beef Dumpling Stew",
+    "rating": 2.1,
+    "votes": 219,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-01-21",
+      "text": "Kanske bättre med några ändringar."
+    }
+  },
+  {
+    "id": "52874",
+    "name": "Beef and Mustard Pie",
+    "rating": 2.7,
+    "votes": 46,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-10-29",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52878",
+    "name": "Beef and Oyster pie",
+    "rating": 4.1,
+    "votes": 148,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-08-15",
+      "text": "En fin överraskning – lagar gärna igen."
+    }
+  },
+  {
+    "id": "52891",
+    "name": "Blackberry Fool",
+    "rating": 3.3,
+    "votes": 298,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2023-10-10",
+      "text": "Helt okej, men inget jag lagar igen."
+    }
+  },
+  {
+    "id": "52894",
+    "name": "Battenberg Cake",
+    "rating": 2.9,
+    "votes": 44,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2023-12-01",
+      "text": "Smakerna fungerade inte ihop tyvärr."
+    }
+  },
+  {
+    "id": "52904",
+    "name": "Beef Bourguignon",
+    "rating": 4.8,
+    "votes": 193,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2025-02-21",
+      "text": "En riktig fullträff, rekommenderas varmt!"
+    }
+  },
+  {
+    "id": "52913",
+    "name": "Brie wrapped in prosciutto & brioche",
+    "rating": 4.7,
+    "votes": 91,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2025-04-24",
+      "text": "Wow, det här var något extra!"
+    }
+  },
+  {
+    "id": "52914",
+    "name": "Boulangère Potatoes",
+    "rating": 3.9,
+    "votes": 183,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-02-15",
+      "text": "Lite tråkig i längden."
+    }
+  },
+  {
+    "id": "52928",
+    "name": "BeaverTails",
+    "rating": 2.1,
+    "votes": 314,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-07-15",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52940",
+    "name": "Brown Stew Chicken",
+    "rating": 2,
+    "votes": 354,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2024-03-24",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52952",
+    "name": "Beef Lo Mein",
+    "rating": 4.3,
+    "votes": 190,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2024-09-01",
+      "text": "Väldigt god och värd att prova!"
+    }
+  },
+  {
+    "id": "52959",
+    "name": "Baked salmon with fennel & tomatoes",
+    "rating": 4,
+    "votes": 56,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2023-11-24",
+      "text": "Mycket trevlig rätt."
+    }
+  },
+  {
+    "id": "52961",
+    "name": "Budino Di Ricotta",
+    "rating": 4.5,
+    "votes": 218,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2023-06-12",
+      "text": "En riktig fullträff, rekommenderas varmt!"
+    }
+  },
+  {
+    "id": "52965",
+    "name": "Breakfast Potatoes",
+    "rating": 1.8,
+    "votes": 117,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2025-04-16",
+      "text": "En besvikelse."
+    }
+  },
+  {
+    "id": "52979",
+    "name": "Bitterballen (Dutch meatballs)",
+    "rating": 3.1,
+    "votes": 290,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-04-13",
+      "text": "Smaken var okej men inte min stil."
+    }
+  },
+  {
+    "id": "52995",
+    "name": "BBQ Pork Sloppy Joes",
+    "rating": 1.7,
+    "votes": 72,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2024-06-22",
+      "text": "Smaken föll mig inte alls i smaken."
+    }
+  },
+  {
+    "id": "52997",
+    "name": "Beef Banh Mi Bowls with Sriracha Mayo, Carrot & Pickled Cucumber",
+    "rating": 2.2,
+    "votes": 23,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2024-02-06",
+      "text": "Lite för konstig för min smak."
+    }
+  },
+  {
+    "id": "53013",
+    "name": "Big Mac",
+    "rating": 3.7,
+    "votes": 171,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-06-27",
+      "text": "Smaken var okej men inte min stil."
+    }
+  },
+  {
+    "id": "53018",
+    "name": "Bigos (Hunters Stew)",
+    "rating": 4.1,
+    "votes": 102,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-05-14",
+      "text": "Smakrikt och mättande."
+    }
+  },
+  {
+    "id": "53036",
+    "name": "Boxty Breakfast",
+    "rating": 2.8,
+    "votes": 500,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-09-15",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "53053",
+    "name": "Beef Rendang",
+    "rating": 2.6,
+    "votes": 116,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2023-10-24",
+      "text": "Kanske bättre med några ändringar."
+    }
+  },
+  {
+    "id": "53060",
+    "name": "Burek",
+    "rating": 3,
+    "votes": 162,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2024-02-23",
+      "text": "Helt okej, men inget jag lagar igen."
+    }
+  },
+  {
+    "id": "53068",
+    "name": "Beef Mechado",
+    "rating": 4.1,
+    "votes": 127,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2023-09-12",
+      "text": "Väldigt god och värd att prova!"
+    }
+  },
+  {
+    "id": "53069",
+    "name": "Bistek",
+    "rating": 2.2,
+    "votes": 256,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2023-09-30",
+      "text": "Smakerna fungerade inte ihop tyvärr."
+    }
+  },
+  {
+    "id": "53070",
+    "name": "Beef Caldereta",
+    "rating": 2.4,
+    "votes": 86,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-11-02",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "53071",
+    "name": "Beef Asado",
+    "rating": 3.9,
+    "votes": 414,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2023-06-03",
+      "text": "Fungerar – men inget speciellt."
+    }
+  },
+  {
+    "id": "53076",
+    "name": "Bread omelette",
+    "rating": 3,
+    "votes": 70,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2023-05-26",
+      "text": "Lite tråkig i längden."
+    }
+  },
+  {
+    "id": "53078",
+    "name": "Beetroot Soup (Borscht)",
+    "rating": 2.8,
+    "votes": 236,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-04-06",
+      "text": "Kanske bättre med några ändringar."
+    }
+  },
+  {
+    "id": "53080",
+    "name": "Blini Pancakes",
+    "rating": 1.6,
+    "votes": 277,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2024-07-12",
+      "text": "En besvikelse."
+    }
+  },
+  {
+    "id": "52765",
+    "name": "Chicken Enchilada Casserole",
+    "rating": 4.5,
+    "votes": 46,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2023-10-29",
+      "text": "Fantastisk smak – skulle äta detta varje vecka!"
+    }
+  },
+  {
+    "id": "52776",
+    "name": "Chocolate Gateau",
+    "rating": 2.5,
+    "votes": 285,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-08-15",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52779",
+    "name": "Cream Cheese Tart",
+    "rating": 2.9,
+    "votes": 33,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2024-01-15",
+      "text": "Lite för konstig för min smak."
+    }
+  },
+  {
+    "id": "52788",
+    "name": "Christmas Pudding Flapjack",
+    "rating": 4.9,
+    "votes": 210,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2024-05-21",
+      "text": "Otroligt god! En ny favorit."
+    }
+  },
+  {
+    "id": "52795",
+    "name": "Chicken Handi",
+    "rating": 1.8,
+    "votes": 92,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2025-01-10",
+      "text": "En besvikelse."
+    }
+  },
+  {
+    "id": "52796",
+    "name": "Chicken Alfredo Primavera",
+    "rating": 4.5,
+    "votes": 53,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2023-05-26",
+      "text": "Perfekt till både vardag och fest."
+    }
+  },
+  {
+    "id": "52818",
+    "name": "Chicken Fajita Mac and Cheese",
+    "rating": 1.7,
+    "votes": 337,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2023-12-20",
+      "text": "Smaken föll mig inte alls i smaken."
+    }
+  },
+  {
+    "id": "52819",
+    "name": "Cajun spiced fish tacos",
+    "rating": 3.1,
+    "votes": 364,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-08-06",
+      "text": "Neutral upplevelse, varken bra eller dålig."
+    }
+  },
+  {
+    "id": "52830",
+    "name": "Crock Pot Chicken Baked Tacos",
+    "rating": 2.1,
+    "votes": 186,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-12-16",
+      "text": "Smakerna fungerade inte ihop tyvärr."
+    }
+  },
+  {
+    "id": "52831",
+    "name": "Chicken Karaage",
+    "rating": 1.4,
+    "votes": 373,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-08-01",
+      "text": "Detta var inte gott."
+    }
+  },
+  {
+    "id": "52832",
+    "name": "Coq au vin",
+    "rating": 3.2,
+    "votes": 363,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-06-07",
+      "text": "Smaken var okej men inte min stil."
+    }
+  },
+  {
+    "id": "52839",
+    "name": "Chilli prawn linguine",
+    "rating": 1.6,
+    "votes": 458,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-07-05",
+      "text": "Detta var inte gott."
+    }
+  },
+  {
+    "id": "52840",
+    "name": "Clam chowder",
+    "rating": 4.1,
+    "votes": 145,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2025-03-11",
+      "text": "Inte perfekt, men väldigt god."
+    }
+  },
+  {
+    "id": "52841",
+    "name": "Creamy Tomato Soup",
+    "rating": 1.2,
+    "votes": 364,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2024-09-01",
+      "text": "En besvikelse."
+    }
+  },
+  {
+    "id": "52846",
+    "name": "Chicken & mushroom Hotpot",
+    "rating": 2.5,
+    "votes": 496,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2023-07-07",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52850",
+    "name": "Chicken Couscous",
+    "rating": 2.4,
+    "votes": 28,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2024-06-20",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52853",
+    "name": "Chocolate Avocado Mousse",
+    "rating": 1.9,
+    "votes": 472,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2025-04-05",
+      "text": "Smaken föll mig inte alls i smaken."
+    }
+  },
+  {
+    "id": "52856",
+    "name": "Choc Chip Pecan Pie",
+    "rating": 1.9,
+    "votes": 448,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2024-06-09",
+      "text": "En besvikelse."
+    }
+  },
+  {
+    "id": "52860",
+    "name": "Chocolate Raspberry Brownies",
+    "rating": 3.3,
+    "votes": 226,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2023-12-20",
+      "text": "Neutral upplevelse, varken bra eller dålig."
+    }
+  },
+  {
+    "id": "52870",
+    "name": "Chickpea Fajitas",
+    "rating": 2.2,
+    "votes": 286,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2025-01-31",
+      "text": "Kanske bättre med några ändringar."
+    }
+  },
+  {
+    "id": "52875",
+    "name": "Chicken Ham and Leek Pie",
+    "rating": 5,
+    "votes": 223,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2023-06-16",
+      "text": "Wow, det här var något extra!"
+    }
+  },
+  {
+    "id": "52879",
+    "name": "Chicken Parmentier",
+    "rating": 3.8,
+    "votes": 141,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2023-07-28",
+      "text": "Smaken var okej men inte min stil."
+    }
+  },
+  {
+    "id": "52897",
+    "name": "Carrot Cake",
+    "rating": 1.5,
+    "votes": 225,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2024-01-05",
+      "text": "Detta var inte gott."
+    }
+  },
+  {
+    "id": "52898",
+    "name": "Chelsea Buns",
+    "rating": 4.7,
+    "votes": 407,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2025-05-11",
+      "text": "En riktig fullträff, rekommenderas varmt!"
+    }
+  },
+  {
+    "id": "52905",
+    "name": "Chocolate Souffle",
+    "rating": 2.6,
+    "votes": 292,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2023-09-25",
+      "text": "Lite för konstig för min smak."
+    }
+  },
+  {
+    "id": "52910",
+    "name": "Chinon Apple Tarts",
+    "rating": 1.4,
+    "votes": 209,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2025-01-23",
+      "text": "Tyvärr inget jag vill prova igen."
+    }
+  },
+  {
+    "id": "52920",
+    "name": "Chicken Marengo",
+    "rating": 2.8,
+    "votes": 129,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2025-04-03",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52923",
+    "name": "Canadian Butter Tarts",
+    "rating": 4.9,
+    "votes": 500,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2025-02-24",
+      "text": "Fantastisk smak – skulle äta detta varje vecka!"
+    }
+  },
+  {
+    "id": "52934",
+    "name": "Chicken Basquaise",
+    "rating": 4.6,
+    "votes": 284,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2023-07-17",
+      "text": "Otroligt god! En ny favorit."
+    }
+  },
+  {
+    "id": "52939",
+    "name": "Callaloo Jamaican Style",
+    "rating": 4.7,
+    "votes": 388,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2023-08-16",
+      "text": "Wow, det här var något extra!"
+    }
+  },
+  {
+    "id": "52956",
+    "name": "Chicken Congee",
+    "rating": 4.2,
+    "votes": 484,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-01-09",
+      "text": "Smakrikt och mättande."
+    }
+  },
+  {
+    "id": "52966",
+    "name": "Chocolate Caramel Crispy",
+    "rating": 4.8,
+    "votes": 364,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2024-04-10",
+      "text": "En riktig fullträff, rekommenderas varmt!"
+    }
+  },
+  {
+    "id": "52969",
+    "name": "Chakchouka ",
+    "rating": 3.3,
+    "votes": 457,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2025-02-10",
+      "text": "Lite tråkig i längden."
+    }
+  },
+  {
+    "id": "52976",
+    "name": "Cashew Ghoriba Biscuits",
+    "rating": 2.2,
+    "votes": 112,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-02-05",
+      "text": "Kanske bättre med några ändringar."
+    }
+  },
+  {
+    "id": "52977",
+    "name": "Corba",
+    "rating": 1,
+    "votes": 480,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2024-07-20",
+      "text": "Detta var inte gott."
+    }
+  },
+  {
+    "id": "52988",
+    "name": "Classic Christmas pudding",
+    "rating": 2.4,
+    "votes": 336,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2025-02-12",
+      "text": "Smakerna fungerade inte ihop tyvärr."
+    }
+  },
+  {
+    "id": "52989",
+    "name": "Christmas Pudding Trifle",
+    "rating": 2.5,
+    "votes": 143,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-10-13",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52990",
+    "name": "Christmas cake",
+    "rating": 3.5,
+    "votes": 306,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2023-11-11",
+      "text": "Smaken var okej men inte min stil."
+    }
+  },
+  {
+    "id": "52998",
+    "name": "Corned Beef and Cabbage",
+    "rating": 1.4,
+    "votes": 283,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-04-08",
+      "text": "Tyvärr inget jag vill prova igen."
+    }
+  },
+  {
+    "id": "52999",
+    "name": "Crispy Sausages and Greens",
+    "rating": 3.1,
+    "votes": 377,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-08-06",
+      "text": "Neutral upplevelse, varken bra eller dålig."
+    }
+  },
+  {
+    "id": "53011",
+    "name": "Chicken Quinoa Greek Salad",
+    "rating": 2.8,
+    "votes": 493,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-01-09",
+      "text": "Lite för konstig för min smak."
+    }
+  },
+  {
+    "id": "53016",
+    "name": "Chick-Fil-A Sandwich",
+    "rating": 1.2,
+    "votes": 401,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2023-12-06",
+      "text": "Detta var inte gott."
+    }
+  },
+  {
+    "id": "53037",
+    "name": "Coddled pork with cider",
+    "rating": 1.3,
+    "votes": 93,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2023-09-06",
+      "text": "Smaken föll mig inte alls i smaken."
+    }
+  },
+  {
+    "id": "53055",
+    "name": "Cevapi Sausages",
+    "rating": 1.9,
+    "votes": 193,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2023-06-20",
+      "text": "Smaken föll mig inte alls i smaken."
+    }
+  },
+  {
+    "id": "53056",
+    "name": "Croatian lamb peka",
+    "rating": 2.8,
+    "votes": 52,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2024-12-03",
+      "text": "Inte riktigt min smak."
+    }
+  },
+  {
+    "id": "53058",
+    "name": "Croatian Bean Stew",
+    "rating": 4.5,
+    "votes": 11,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2023-07-05",
+      "text": "Perfekt till både vardag och fest."
+    }
+  },
+  {
+    "id": "53063",
+    "name": "Chivito uruguayo",
+    "rating": 2.2,
+    "votes": 196,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2024-04-04",
+      "text": "Kanske bättre med några ändringar."
+    }
+  },
+  {
+    "id": "53072",
+    "name": "Crispy Eggplant",
+    "rating": 3.2,
+    "votes": 105,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2023-08-29",
+      "text": "Smaken var okej men inte min stil."
+    }
+  },
+  {
+    "id": "53077",
+    "name": "Cabbage Soup (Shchi)",
+    "rating": 3.8,
+    "votes": 191,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2024-04-24",
+      "text": "Lite tråkig i längden."
+    }
+  },
+  {
+    "id": "52785",
+    "name": "Dal fry",
+    "rating": 1.5,
+    "votes": 313,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2025-02-01",
+      "text": "Smakade konstigt – undviker i framtiden."
+    }
+  },
+  {
+    "id": "52899",
+    "name": "Dundee cake",
+    "rating": 1.5,
+    "votes": 398,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-07-20",
+      "text": "Smaken föll mig inte alls i smaken."
+    }
+  },
+  {
+    "id": "52907",
+    "name": "Duck Confit",
+    "rating": 2.7,
+    "votes": 139,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2023-08-08",
+      "text": "Inte riktigt min smak."
+    }
+  },
+  {
+    "id": "52791",
+    "name": "Eton Mess",
+    "rating": 4.9,
+    "votes": 473,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2023-11-19",
+      "text": "Otroligt god! En ny favorit."
+    }
+  },
+  {
+    "id": "52888",
+    "name": "Eccles Cakes",
+    "rating": 2,
+    "votes": 435,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2023-11-27",
+      "text": "Lite för konstig för min smak."
+    }
+  },
+  {
+    "id": "52895",
+    "name": "English Breakfast",
+    "rating": 4.7,
+    "votes": 362,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2025-01-28",
+      "text": "Otroligt god! En ny favorit."
+    }
+  },
+  {
+    "id": "52944",
+    "name": "Escovitch Fish",
+    "rating": 4.6,
+    "votes": 300,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2024-07-19",
+      "text": "En riktig fullträff, rekommenderas varmt!"
+    }
+  },
+  {
+    "id": "52955",
+    "name": "Egg Drop Soup",
+    "rating": 1.3,
+    "votes": 21,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-02-21",
+      "text": "Smakade konstigt – undviker i framtiden."
+    }
+  },
+  {
+    "id": "53031",
+    "name": "Egyptian Fatteh",
+    "rating": 3.7,
+    "votes": 137,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-08-07",
+      "text": "Fungerar – men inget speciellt."
+    }
+  },
+  {
+    "id": "53073",
+    "name": "Eggplant Adobo",
+    "rating": 1.3,
+    "votes": 290,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-04-19",
+      "text": "Smakade konstigt – undviker i framtiden."
+    }
+  },
+  {
+    "id": "52802",
+    "name": "Fish pie",
+    "rating": 1.8,
+    "votes": 464,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2024-08-16",
+      "text": "Smakade konstigt – undviker i framtiden."
+    }
+  },
+  {
+    "id": "52815",
+    "name": "French Lentils With Garlic and Thyme",
+    "rating": 3.9,
+    "votes": 393,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2023-06-24",
+      "text": "Smaken var okej men inte min stil."
+    }
+  },
+  {
+    "id": "52835",
+    "name": "Fettucine alfredo",
+    "rating": 1.4,
+    "votes": 137,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2023-06-19",
+      "text": "Detta var inte gott."
+    }
+  },
+  {
+    "id": "52896",
+    "name": "Full English Breakfast",
+    "rating": 4.1,
+    "votes": 167,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2023-08-10",
+      "text": "Smakrikt och mättande."
+    }
+  },
+  {
+    "id": "52903",
+    "name": "French Onion Soup",
+    "rating": 4.9,
+    "votes": 325,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2024-04-03",
+      "text": "Fantastisk smak – skulle äta detta varje vecka!"
+    }
+  },
+  {
+    "id": "52906",
+    "name": "Flamiche",
+    "rating": 2.4,
+    "votes": 359,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2023-09-22",
+      "text": "Kanske bättre med några ändringar."
+    }
+  },
+  {
+    "id": "52915",
+    "name": "French Omelette",
+    "rating": 3.7,
+    "votes": 75,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-02-12",
+      "text": "Helt okej, men inget jag lagar igen."
+    }
+  },
+  {
+    "id": "52918",
+    "name": "Fish Stew with Rouille",
+    "rating": 1.1,
+    "votes": 169,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-08-18",
+      "text": "Detta var inte gott."
+    }
+  },
+  {
+    "id": "52919",
+    "name": "Fennel Dauphinoise",
+    "rating": 2.6,
+    "votes": 279,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-01-22",
+      "text": "Lite för konstig för min smak."
+    }
+  },
+  {
+    "id": "52957",
+    "name": "Fruit and Cream Cheese Breakfast Pastries",
+    "rating": 4.9,
+    "votes": 324,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2023-09-12",
+      "text": "Otroligt god! En ny favorit."
+    }
+  },
+  {
+    "id": "52996",
+    "name": "French Onion Chicken with Roasted Carrots & Mashed Potatoes",
+    "rating": 1.3,
+    "votes": 405,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-12-25",
+      "text": "Detta var inte gott."
+    }
+  },
+  {
+    "id": "53025",
+    "name": "Ful Medames",
+    "rating": 3.2,
+    "votes": 429,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-09-25",
+      "text": "Smaken var okej men inte min stil."
+    }
+  },
+  {
+    "id": "53030",
+    "name": "Feteer Meshaltet",
+    "rating": 1.1,
+    "votes": 68,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-07-31",
+      "text": "Tyvärr inget jag vill prova igen."
+    }
+  },
+  {
+    "id": "53043",
+    "name": "Fish fofos",
+    "rating": 1.3,
+    "votes": 91,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2025-02-24",
+      "text": "En besvikelse."
+    }
+  },
+  {
+    "id": "53061",
+    "name": "Fresh sardines",
+    "rating": 3.3,
+    "votes": 458,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-12-17",
+      "text": "Helt okej, men inget jag lagar igen."
+    }
+  },
+  {
+    "id": "53064",
+    "name": "Fettuccine Alfredo",
+    "rating": 2.7,
+    "votes": 273,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-08-10",
+      "text": "Inte riktigt min smak."
+    }
+  },
+  {
+    "id": "53079",
+    "name": "Fish Soup (Ukha)",
+    "rating": 3.1,
+    "votes": 40,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2023-07-09",
+      "text": "Smaken var okej men inte min stil."
+    }
+  },
+  {
+    "id": "52764",
+    "name": "Garides Saganaki",
+    "rating": 2.6,
+    "votes": 68,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-04-29",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52829",
+    "name": "Grilled Mac and Cheese Sandwich",
+    "rating": 2.5,
+    "votes": 253,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-06-20",
+      "text": "Inte riktigt min smak."
+    }
+  },
+  {
+    "id": "52951",
+    "name": "General Tsos Chicken",
+    "rating": 3.3,
+    "votes": 489,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-08-14",
+      "text": "Helt okej, men inget jag lagar igen."
+    }
+  },
+  {
+    "id": "53012",
+    "name": "Gigantes Plaki",
+    "rating": 2,
+    "votes": 29,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-12-05",
+      "text": "Inte riktigt min smak."
+    }
+  },
+  {
+    "id": "53021",
+    "name": "Golabki (cabbage roll)",
+    "rating": 4.3,
+    "votes": 305,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-06-04",
+      "text": "Inte perfekt, men väldigt god."
+    }
+  },
+  {
+    "id": "53041",
+    "name": "Grilled Portuguese sardines",
+    "rating": 1.9,
+    "votes": 196,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2023-10-30",
+      "text": "Detta var inte gott."
+    }
+  },
+  {
+    "id": "53074",
+    "name": "Grilled eggplant with coconut milk",
+    "rating": 4.6,
+    "votes": 279,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2024-09-25",
+      "text": "Wow, det här var något extra!"
+    }
+  },
+  {
+    "id": "52773",
+    "name": "Honey Teriyaki Salmon",
+    "rating": 2.4,
+    "votes": 45,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-01-27",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52787",
+    "name": "Hot Chocolate Fudge",
+    "rating": 3.3,
+    "votes": 11,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-02-12",
+      "text": "Neutral upplevelse, varken bra eller dålig."
+    }
+  },
+  {
+    "id": "52954",
+    "name": "Hot and Sour Soup",
+    "rating": 3.3,
+    "votes": 314,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-01-24",
+      "text": "Helt okej, men inget jag lagar igen."
+    }
+  },
+  {
+    "id": "52967",
+    "name": "Home-made Mandazi",
+    "rating": 1.4,
+    "votes": 402,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2024-04-05",
+      "text": "Smaken föll mig inte alls i smaken."
+    }
+  },
+  {
+    "id": "52993",
+    "name": "Honey Balsamic Chicken with Crispy Broccoli & Potatoes",
+    "rating": 2.1,
+    "votes": 415,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2023-09-11",
+      "text": "Smakerna fungerade inte ihop tyvärr."
+    }
+  },
+  {
+    "id": "53007",
+    "name": "Honey Yogurt Cheesecake",
+    "rating": 1,
+    "votes": 31,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2025-03-14",
+      "text": "Tyvärr inget jag vill prova igen."
+    }
+  },
+  {
+    "id": "53035",
+    "name": "Ham hock colcannon",
+    "rating": 1.7,
+    "votes": 425,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2023-11-29",
+      "text": "Detta var inte gott."
+    }
+  },
+  {
+    "id": "52781",
+    "name": "Irish stew",
+    "rating": 4.4,
+    "votes": 499,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2025-05-15",
+      "text": "En fin överraskning – lagar gärna igen."
+    }
+  },
+  {
+    "id": "52890",
+    "name": "Jam Roly-Poly",
+    "rating": 1.1,
+    "votes": 262,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-02-27",
+      "text": "Smakade konstigt – undviker i framtiden."
+    }
+  },
+  {
+    "id": "52937",
+    "name": "Jerk chicken with rice & peas",
+    "rating": 4.7,
+    "votes": 498,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2025-05-03",
+      "text": "Otroligt god! En ny favorit."
+    }
+  },
+  {
+    "id": "52938",
+    "name": "Jamaican Beef Patties",
+    "rating": 3.1,
+    "votes": 150,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2023-06-10",
+      "text": "Smaken var okej men inte min stil."
+    }
+  },
+  {
+    "id": "53033",
+    "name": "Japanese gohan rice",
+    "rating": 3.9,
+    "votes": 374,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-10-31",
+      "text": "Neutral upplevelse, varken bra eller dålig."
+    }
+  },
+  {
+    "id": "53034",
+    "name": "Japanese Katsudon",
+    "rating": 3,
+    "votes": 20,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2023-08-20",
+      "text": "Neutral upplevelse, varken bra eller dålig."
+    }
+  },
+  {
+    "id": "52769",
+    "name": "Kapsalon",
+    "rating": 4.8,
+    "votes": 438,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2024-11-06",
+      "text": "En riktig fullträff, rekommenderas varmt!"
+    }
+  },
+  {
+    "id": "52813",
+    "name": "Kentucky Fried Chicken",
+    "rating": 4.4,
+    "votes": 202,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-01-30",
+      "text": "Smakrikt och mättande."
+    }
+  },
+  {
+    "id": "52820",
+    "name": "Katsu Chicken curry",
+    "rating": 4.4,
+    "votes": 361,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2024-04-07",
+      "text": "Smakrikt och mättande."
+    }
+  },
+  {
+    "id": "52859",
+    "name": "Key Lime Pie",
+    "rating": 4.1,
+    "votes": 361,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2024-12-30",
+      "text": "Mycket trevlig rätt."
+    }
+  },
+  {
+    "id": "52868",
+    "name": "Kidney Bean Curry",
+    "rating": 3.3,
+    "votes": 406,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2025-02-23",
+      "text": "Fungerar men inget speciellt."
+    }
+  },
+  {
+    "id": "52887",
+    "name": "Kedgeree",
+    "rating": 2,
+    "votes": 131,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-11-17",
+      "text": "Smakerna fungerade inte ihop tyvärr."
+    }
+  },
+  {
+    "id": "52945",
+    "name": "Kung Pao Chicken",
+    "rating": 1.4,
+    "votes": 219,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-01-27",
+      "text": "Tyvärr inget jag vill prova igen."
+    }
+  },
+  {
+    "id": "52946",
+    "name": "Kung Po Prawns",
+    "rating": 1.1,
+    "votes": 296,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2024-09-27",
+      "text": "Smaken föll mig inte alls i smaken."
+    }
+  },
+  {
+    "id": "52971",
+    "name": "Kafteji",
+    "rating": 3.5,
+    "votes": 89,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2023-07-15",
+      "text": "Helt okej, men inget jag lagar igen."
+    }
+  },
+  {
+    "id": "52974",
+    "name": "Keleya Zaara",
+    "rating": 4.3,
+    "votes": 270,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2024-07-24",
+      "text": "En fin överraskning – lagar gärna igen."
+    }
+  },
+  {
+    "id": "52978",
+    "name": "Kumpir",
+    "rating": 1.2,
+    "votes": 481,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2025-02-15",
+      "text": "En besvikelse."
+    }
+  },
+  {
+    "id": "53015",
+    "name": "Krispy Kreme Donut",
+    "rating": 3.3,
+    "votes": 297,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2023-06-13",
+      "text": "Helt okej, men inget jag lagar igen."
+    }
+  },
+  {
+    "id": "53027",
+    "name": "Koshari",
+    "rating": 1.5,
+    "votes": 257,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2024-07-25",
+      "text": "Tyvärr inget jag vill prova igen."
+    }
+  },
+  {
+    "id": "52782",
+    "name": "Lamb tomato and sweet spices",
+    "rating": 3.7,
+    "votes": 452,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-05-10",
+      "text": "Fungerar – men inget speciellt."
+    }
+  },
+  {
+    "id": "52805",
+    "name": "Lamb Biryani",
+    "rating": 4.8,
+    "votes": 464,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-07-23",
+      "text": "Fantastisk smak – skulle äta detta varje vecka!"
+    }
+  },
+  {
+    "id": "52808",
+    "name": "Lamb Rogan josh",
+    "rating": 3,
+    "votes": 214,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2023-05-26",
+      "text": "Fungerar – men inget speciellt."
+    }
+  },
+  {
+    "id": "52821",
+    "name": "Laksa King Prawn Noodles",
+    "rating": 4.9,
+    "votes": 182,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2025-01-06",
+      "text": "Fantastisk smak – skulle äta detta varje vecka!"
+    }
+  },
+  {
+    "id": "52843",
+    "name": "Lamb Tagine",
+    "rating": 1.9,
+    "votes": 196,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2023-07-01",
+      "text": "Smaken föll mig inte alls i smaken."
+    }
+  },
+  {
+    "id": "52844",
+    "name": "Lasagne",
+    "rating": 1,
+    "votes": 239,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2024-10-27",
+      "text": "En besvikelse."
+    }
+  },
+  {
+    "id": "52877",
+    "name": "Lamb and Potato pie",
+    "rating": 4.2,
+    "votes": 314,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2025-02-25",
+      "text": "Inte perfekt, men väldigt god."
+    }
+  },
+  {
+    "id": "52884",
+    "name": "Lancashire hotpot",
+    "rating": 2.4,
+    "votes": 276,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2023-05-22",
+      "text": "Smakerna fungerade inte ihop tyvärr."
+    }
+  },
+  {
+    "id": "52973",
+    "name": "Leblebi Soup",
+    "rating": 4.4,
+    "votes": 154,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2023-06-17",
+      "text": "Väldigt god och värd att prova!"
+    }
+  },
+  {
+    "id": "52987",
+    "name": "Lasagna Sandwiches",
+    "rating": 2.3,
+    "votes": 81,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-06-19",
+      "text": "Inte riktigt min smak."
+    }
+  },
+  {
+    "id": "53009",
+    "name": "Lamb and Lemon Souvlaki",
+    "rating": 3.5,
+    "votes": 268,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2025-01-23",
+      "text": "Smaken var okej men inte min stil."
+    }
+  },
+  {
+    "id": "53010",
+    "name": "Lamb Tzatziki Burgers",
+    "rating": 5,
+    "votes": 481,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-11-08",
+      "text": "En riktig fullträff, rekommenderas varmt!"
+    }
+  },
+  {
+    "id": "53083",
+    "name": "Lamb Pilaf (Plov)",
+    "rating": 3.2,
+    "votes": 183,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2023-10-03",
+      "text": "Neutral upplevelse, varken bra eller dålig."
+    }
+  },
+  {
+    "id": "52777",
+    "name": "Mediterranean Pasta Salad",
+    "rating": 2.4,
+    "votes": 204,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2023-10-22",
+      "text": "Lite för konstig för min smak."
+    }
+  },
+  {
+    "id": "52827",
+    "name": "Massaman Beef curry",
+    "rating": 1.2,
+    "votes": 304,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2023-12-05",
+      "text": "Smaken föll mig inte alls i smaken."
+    }
+  },
+  {
+    "id": "52864",
+    "name": "Mushroom & Chestnut Rotolo",
+    "rating": 2.8,
+    "votes": 263,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2023-10-25",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52865",
+    "name": "Matar Paneer",
+    "rating": 4.2,
+    "votes": 330,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-06-16",
+      "text": "En fin överraskning – lagar gärna igen."
+    }
+  },
+  {
+    "id": "52876",
+    "name": "Minced Beef Pie",
+    "rating": 2.5,
+    "votes": 251,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2023-10-02",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52880",
+    "name": "McSinghs Scotch pie",
+    "rating": 2.8,
+    "votes": 486,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2023-10-14",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52900",
+    "name": "Madeira Cake",
+    "rating": 2.3,
+    "votes": 421,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2023-09-18",
+      "text": "Lite för konstig för min smak."
+    }
+  },
+  {
+    "id": "52927",
+    "name": "Montreal Smoked Meat",
+    "rating": 4,
+    "votes": 24,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-07-15",
+      "text": "Smakrikt och mättande."
+    }
+  },
+  {
+    "id": "52947",
+    "name": "Ma Po Tofu",
+    "rating": 3.6,
+    "votes": 41,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2025-01-27",
+      "text": "Neutral upplevelse, varken bra eller dålig."
+    }
+  },
+  {
+    "id": "52968",
+    "name": "Mbuzi Choma (Roasted Goat)",
+    "rating": 3.5,
+    "votes": 40,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-04-16",
+      "text": "Smaken var okej men inte min stil."
+    }
+  },
+  {
+    "id": "52991",
+    "name": "Mince Pies",
+    "rating": 1.3,
+    "votes": 358,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2023-05-21",
+      "text": "Smaken föll mig inte alls i smaken."
+    }
+  },
+  {
+    "id": "53006",
+    "name": "Moussaka",
+    "rating": 2,
+    "votes": 193,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-05-04",
+      "text": "Inte riktigt min smak."
+    }
+  },
+  {
+    "id": "53029",
+    "name": "Mulukhiyah",
+    "rating": 1.5,
+    "votes": 391,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2023-10-10",
+      "text": "Tyvärr inget jag vill prova igen."
+    }
+  },
+  {
+    "id": "53038",
+    "name": "Mustard champ",
+    "rating": 2.5,
+    "votes": 185,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2024-01-26",
+      "text": "Kanske bättre med några ändringar."
+    }
+  },
+  {
+    "id": "53047",
+    "name": "Moroccan Carrot Soup",
+    "rating": 4,
+    "votes": 295,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2023-11-13",
+      "text": "Väldigt god och värd att prova!"
+    }
+  },
+  {
+    "id": "53048",
+    "name": "Mee goreng mamak",
+    "rating": 1.6,
+    "votes": 287,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-03-27",
+      "text": "Detta var inte gott."
+    }
+  },
+  {
+    "id": "53059",
+    "name": "Mushroom soup with buckwheat",
+    "rating": 3.8,
+    "votes": 303,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2025-04-11",
+      "text": "Helt okej, men inget jag lagar igen."
+    }
+  },
+  {
+    "id": "53086",
+    "name": "Migas",
+    "rating": 2.7,
+    "votes": 52,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2024-05-02",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52851",
+    "name": "Nutty Chicken Curry",
+    "rating": 3.3,
+    "votes": 97,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-08-17",
+      "text": "Lite tråkig i längden."
+    }
+  },
+  {
+    "id": "52858",
+    "name": "New York cheesecake",
+    "rating": 3.4,
+    "votes": 303,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2023-06-02",
+      "text": "Neutral upplevelse, varken bra eller dålig."
+    }
+  },
+  {
+    "id": "52924",
+    "name": "Nanaimo Bars",
+    "rating": 1.1,
+    "votes": 314,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-09-23",
+      "text": "Tyvärr inget jag vill prova igen."
+    }
+  },
+  {
+    "id": "53051",
+    "name": "Nasi lemak",
+    "rating": 2.6,
+    "votes": 151,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2025-04-15",
+      "text": "Kanske bättre med några ändringar."
+    }
+  },
+  {
+    "id": "52810",
+    "name": "Osso Buco alla Milanese",
+    "rating": 3.9,
+    "votes": 90,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-01-09",
+      "text": "Neutral upplevelse, varken bra eller dålig."
+    }
+  },
+  {
+    "id": "52943",
+    "name": "Oxtail with broad beans",
+    "rating": 2.2,
+    "votes": 242,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2024-07-20",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52774",
+    "name": "Pad See Ew",
+    "rating": 1.6,
+    "votes": 450,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2024-01-17",
+      "text": "Detta var inte gott."
+    }
+  },
+  {
+    "id": "52780",
+    "name": "Potato Gratin with Chicken",
+    "rating": 1.4,
+    "votes": 349,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-12-05",
+      "text": "Tyvärr inget jag vill prova igen."
+    }
+  },
+  {
+    "id": "52804",
+    "name": "Poutine",
+    "rating": 1.9,
+    "votes": 389,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2023-10-22",
+      "text": "En besvikelse."
+    }
+  },
+  {
+    "id": "52837",
+    "name": "Pilchard puttanesca",
+    "rating": 4.8,
+    "votes": 161,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-08-20",
+      "text": "Fantastisk smak – skulle äta detta varje vecka!"
+    }
+  },
+  {
+    "id": "52847",
+    "name": "Pork Cassoulet",
+    "rating": 1.9,
+    "votes": 144,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2024-04-20",
+      "text": "En besvikelse."
+    }
+  },
+  {
+    "id": "52854",
+    "name": "Pancakes",
+    "rating": 2.2,
+    "votes": 97,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2024-11-30",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52857",
+    "name": "Pumpkin Pie",
+    "rating": 3.1,
+    "votes": 398,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2023-06-09",
+      "text": "Lite tråkig i längden."
+    }
+  },
+  {
+    "id": "52861",
+    "name": "Peanut Butter Cheesecake",
+    "rating": 4.4,
+    "votes": 135,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-08-16",
+      "text": "En fin överraskning – lagar gärna igen."
+    }
+  },
+  {
+    "id": "52862",
+    "name": "Peach & Blueberry Grunt",
+    "rating": 3.5,
+    "votes": 447,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-08-08",
+      "text": "Neutral upplevelse, varken bra eller dålig."
+    }
+  },
+  {
+    "id": "52902",
+    "name": "Parkin Cake",
+    "rating": 2,
+    "votes": 140,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2023-12-06",
+      "text": "Kanske bättre med några ändringar."
+    }
+  },
+  {
+    "id": "52916",
+    "name": "Pear Tarte Tatin",
+    "rating": 2.4,
+    "votes": 361,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2023-06-26",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52921",
+    "name": "Provençal Omelette Cake",
+    "rating": 4.2,
+    "votes": 21,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2025-02-01",
+      "text": "Smakrikt och mättande."
+    }
+  },
+  {
+    "id": "52922",
+    "name": "Prawn & Fennel Bisque",
+    "rating": 4.8,
+    "votes": 92,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2023-12-17",
+      "text": "Otroligt god! En ny favorit."
+    }
+  },
+  {
+    "id": "52930",
+    "name": "Pate Chinois",
+    "rating": 3.6,
+    "votes": 323,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2025-04-24",
+      "text": "Fungerar – men inget speciellt."
+    }
+  },
+  {
+    "id": "52932",
+    "name": "Pouding chomeur",
+    "rating": 4.4,
+    "votes": 162,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2025-02-03",
+      "text": "Smakrikt och mättande."
+    }
+  },
+  {
+    "id": "52958",
+    "name": "Peanut Butter Cookies",
+    "rating": 2.1,
+    "votes": 38,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2024-12-08",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "53014",
+    "name": "Pizza Express Margherita",
+    "rating": 2.2,
+    "votes": 148,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2025-03-01",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "53017",
+    "name": "Paszteciki (Polish Pasties)",
+    "rating": 2.4,
+    "votes": 449,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-03-10",
+      "text": "Smakerna fungerade inte ihop tyvärr."
+    }
+  },
+  {
+    "id": "53019",
+    "name": "Pierogi (Polish Dumplings)",
+    "rating": 2.2,
+    "votes": 406,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2024-11-15",
+      "text": "Smakerna fungerade inte ihop tyvärr."
+    }
+  },
+  {
+    "id": "53022",
+    "name": "Polskie Nalesniki (Polish Pancakes)",
+    "rating": 1.3,
+    "votes": 411,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2024-10-05",
+      "text": "En besvikelse."
+    }
+  },
+  {
+    "id": "53039",
+    "name": "Piri-piri chicken and slaw",
+    "rating": 4,
+    "votes": 84,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-05-24",
+      "text": "Väldigt god och värd att prova!"
+    }
+  },
+  {
+    "id": "53042",
+    "name": "Portuguese prego with green piri-piri",
+    "rating": 1.5,
+    "votes": 441,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2023-10-31",
+      "text": "Smaken föll mig inte alls i smaken."
+    }
+  },
+  {
+    "id": "53044",
+    "name": "Portuguese barbecued pork (Febras assadas)",
+    "rating": 4,
+    "votes": 226,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2023-10-10",
+      "text": "Inte perfekt, men väldigt god."
+    }
+  },
+  {
+    "id": "53045",
+    "name": "Portuguese fish stew (Caldeirada de peixe)",
+    "rating": 3.1,
+    "votes": 73,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2023-11-25",
+      "text": "Lite tråkig i längden."
+    }
+  },
+  {
+    "id": "53046",
+    "name": "Portuguese custard tarts",
+    "rating": 1,
+    "votes": 102,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-10-13",
+      "text": "Smaken föll mig inte alls i smaken."
+    }
+  },
+  {
+    "id": "53081",
+    "name": "Potato Salad (Olivier Salad)",
+    "rating": 5,
+    "votes": 477,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-11-01",
+      "text": "Wow, det här var något extra!"
+    }
+  },
+  {
+    "id": "52783",
+    "name": "Rigatoni with fennel sausage sauce",
+    "rating": 1.8,
+    "votes": 430,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2023-09-30",
+      "text": "Detta var inte gott."
+    }
+  },
+  {
+    "id": "52786",
+    "name": "Rocky Road Fudge",
+    "rating": 2.7,
+    "votes": 411,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2023-10-10",
+      "text": "Inte riktigt min smak."
+    }
+  },
+  {
+    "id": "52809",
+    "name": "Recheado Masala Fish",
+    "rating": 3.1,
+    "votes": 57,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-09-26",
+      "text": "Lite tråkig i längden."
+    }
+  },
+  {
+    "id": "52811",
+    "name": "Ribollita",
+    "rating": 2.1,
+    "votes": 307,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-02-19",
+      "text": "Lite för konstig för min smak."
+    }
+  },
+  {
+    "id": "52816",
+    "name": "Roasted Eggplant With Tahini, Pine Nuts, and Lentils",
+    "rating": 3.4,
+    "votes": 184,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2025-02-15",
+      "text": "Fungerar – men inget speciellt."
+    }
+  },
+  {
+    "id": "52901",
+    "name": "Rock Cakes",
+    "rating": 2.1,
+    "votes": 69,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-12-22",
+      "text": "Kanske bättre med några ändringar."
+    }
+  },
+  {
+    "id": "52908",
+    "name": "Ratatouille",
+    "rating": 2.9,
+    "votes": 404,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2023-10-04",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52933",
+    "name": "Rappie Pie",
+    "rating": 2,
+    "votes": 62,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2023-09-26",
+      "text": "Kanske bättre med några ändringar."
+    }
+  },
+  {
+    "id": "52941",
+    "name": "Red Peas Soup",
+    "rating": 4.9,
+    "votes": 25,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2024-04-23",
+      "text": "En riktig fullträff, rekommenderas varmt!"
+    }
+  },
+  {
+    "id": "52942",
+    "name": "Roast fennel and aubergine paella",
+    "rating": 1.3,
+    "votes": 395,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2024-04-24",
+      "text": "Detta var inte gott."
+    }
+  },
+  {
+    "id": "53020",
+    "name": "Rosol (Polish Chicken Soup)",
+    "rating": 3.5,
+    "votes": 187,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-11-03",
+      "text": "Smaken var okej men inte min stil."
+    }
+  },
+  {
+    "id": "53024",
+    "name": "Rogaliki (Polish Croissant Cookies)",
+    "rating": 2.6,
+    "votes": 12,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2023-06-29",
+      "text": "Inte riktigt min smak."
+    }
+  },
+  {
+    "id": "53052",
+    "name": "Roti john",
+    "rating": 3.5,
+    "votes": 445,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-07-28",
+      "text": "Lite tråkig i längden."
+    }
+  },
+  {
+    "id": "52770",
+    "name": "Spaghetti Bolognese",
+    "rating": 4.7,
+    "votes": 326,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2024-05-16",
+      "text": "Perfekt till både vardag och fest."
+    }
+  },
+  {
+    "id": "52771",
+    "name": "Spicy Arrabiata Penne",
+    "rating": 2.3,
+    "votes": 396,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2024-06-27",
+      "text": "Smakerna fungerade inte ihop tyvärr."
+    }
+  },
+  {
+    "id": "52784",
+    "name": "Smoky Lentil Chili with Squash",
+    "rating": 3.7,
+    "votes": 343,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-04-22",
+      "text": "Lite tråkig i längden."
+    }
+  },
+  {
+    "id": "52793",
+    "name": "Sticky Toffee Pudding Ultimate",
+    "rating": 3,
+    "votes": 21,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2023-09-19",
+      "text": "Lite tråkig i längden."
+    }
+  },
+  {
+    "id": "52797",
+    "name": "Spicy North African Potato Salad",
+    "rating": 4,
+    "votes": 325,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2023-09-04",
+      "text": "Smakrikt och mättande."
+    }
+  },
+  {
+    "id": "52817",
+    "name": "Stovetop Eggplant With Harissa, Chickpeas, and Cumin Yogurt",
+    "rating": 2.4,
+    "votes": 161,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-03-25",
+      "text": "Smakerna fungerade inte ihop tyvärr."
+    }
+  },
+  {
+    "id": "52823",
+    "name": "Salmon Prawn Risotto",
+    "rating": 2,
+    "votes": 227,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2025-02-06",
+      "text": "Inte riktigt min smak."
+    }
+  },
+  {
+    "id": "52833",
+    "name": "Salted Caramel Cheescake",
+    "rating": 3.2,
+    "votes": 273,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-11-13",
+      "text": "Smaken var okej men inte min stil."
+    }
+  },
+  {
+    "id": "52836",
+    "name": "Seafood fideuà",
+    "rating": 4.3,
+    "votes": 139,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-07-21",
+      "text": "Inte perfekt, men väldigt god."
+    }
+  },
+  {
+    "id": "52849",
+    "name": "Spinach & Ricotta Cannelloni",
+    "rating": 1.2,
+    "votes": 339,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-10-02",
+      "text": "Smakade konstigt – undviker i framtiden."
+    }
+  },
+  {
+    "id": "52866",
+    "name": "Squash linguine",
+    "rating": 1.5,
+    "votes": 372,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-03-13",
+      "text": "Smakade konstigt – undviker i framtiden."
+    }
+  },
+  {
+    "id": "52872",
+    "name": "Spanish Tortilla",
+    "rating": 2.4,
+    "votes": 289,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2023-10-03",
+      "text": "Lite för konstig för min smak."
+    }
+  },
+  {
+    "id": "52881",
+    "name": "Steak and Kidney Pie",
+    "rating": 3.5,
+    "votes": 176,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2024-10-11",
+      "text": "Lite tråkig i längden."
+    }
+  },
+  {
+    "id": "52883",
+    "name": "Sticky Toffee Pudding",
+    "rating": 3,
+    "votes": 401,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2025-03-24",
+      "text": "Fungerar – men inget speciellt."
+    }
+  },
+  {
+    "id": "52886",
+    "name": "Spotted Dick",
+    "rating": 3,
+    "votes": 173,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2023-09-05",
+      "text": "Helt okej, men inget jag lagar igen."
+    }
+  },
+  {
+    "id": "52889",
+    "name": "Summer Pudding",
+    "rating": 1.9,
+    "votes": 222,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-08-14",
+      "text": "Smakade konstigt – undviker i framtiden."
+    }
+  },
+  {
+    "id": "52911",
+    "name": "Summer Pistou",
+    "rating": 4.4,
+    "votes": 108,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2024-01-21",
+      "text": "Väldigt god och värd att prova!"
+    }
+  },
+  {
+    "id": "52925",
+    "name": "Split Pea Soup",
+    "rating": 1.3,
+    "votes": 470,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2023-11-01",
+      "text": "Detta var inte gott."
+    }
+  },
+  {
+    "id": "52931",
+    "name": "Sugar Pie",
+    "rating": 1.5,
+    "votes": 252,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2025-02-14",
+      "text": "Detta var inte gott."
+    }
+  },
+  {
+    "id": "52935",
+    "name": "Steak Diane",
+    "rating": 1.7,
+    "votes": 309,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-11-14",
+      "text": "Detta var inte gott."
+    }
+  },
+  {
+    "id": "52936",
+    "name": "Saltfish and Ackee",
+    "rating": 1.2,
+    "votes": 87,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-12-05",
+      "text": "Tyvärr inget jag vill prova igen."
+    }
+  },
+  {
+    "id": "52949",
+    "name": "Sweet and Sour Pork",
+    "rating": 4.3,
+    "votes": 97,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2024-08-21",
+      "text": "Mycket trevlig rätt."
+    }
+  },
+  {
+    "id": "52950",
+    "name": "Szechuan Beef",
+    "rating": 2,
+    "votes": 203,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2024-11-28",
+      "text": "Smakerna fungerade inte ihop tyvärr."
+    }
+  },
+  {
+    "id": "52953",
+    "name": "Shrimp Chow Fun",
+    "rating": 4.7,
+    "votes": 155,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-03-06",
+      "text": "Perfekt till både vardag och fest."
+    }
+  },
+  {
+    "id": "52960",
+    "name": "Salmon Avocado Salad",
+    "rating": 2.5,
+    "votes": 217,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2025-01-05",
+      "text": "Kanske bättre med några ändringar."
+    }
+  },
+  {
+    "id": "52962",
+    "name": "Salmon Eggs Eggs Benedict",
+    "rating": 3.7,
+    "votes": 274,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2024-04-28",
+      "text": "Smaken var okej men inte min stil."
+    }
+  },
+  {
+    "id": "52963",
+    "name": "Shakshuka",
+    "rating": 2,
+    "votes": 41,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2024-03-29",
+      "text": "Lite för konstig för min smak."
+    }
+  },
+  {
+    "id": "52964",
+    "name": "Smoked Haddock Kedgeree",
+    "rating": 3.4,
+    "votes": 175,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2025-01-16",
+      "text": "Smaken var okej men inte min stil."
+    }
+  },
+  {
+    "id": "52980",
+    "name": "Stamppot",
+    "rating": 4,
+    "votes": 306,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2023-10-29",
+      "text": "Smakrikt och mättande."
+    }
+  },
+  {
+    "id": "52981",
+    "name": "Snert (Dutch Split Pea Soup)",
+    "rating": 4.8,
+    "votes": 353,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2025-04-16",
+      "text": "Wow, det här var något extra!"
+    }
+  },
+  {
+    "id": "52982",
+    "name": "Spaghetti alla Carbonara",
+    "rating": 2,
+    "votes": 69,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2024-12-24",
+      "text": "Lite för konstig för min smak."
+    }
+  },
+  {
+    "id": "52992",
+    "name": "Soy-Glazed Meatloaves with Wasabi Mashed Potatoes & Roasted Carrots",
+    "rating": 4.9,
+    "votes": 24,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2024-01-17",
+      "text": "En riktig fullträff, rekommenderas varmt!"
+    }
+  },
+  {
+    "id": "52994",
+    "name": "Skillet Apple Pork Chops with Roasted Sweet Potatoes & Zucchini",
+    "rating": 4.7,
+    "votes": 181,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-05-28",
+      "text": "Fantastisk smak – skulle äta detta varje vecka!"
+    }
+  },
+  {
+    "id": "53005",
+    "name": "Strawberry Rhubarb Pie",
+    "rating": 2.7,
+    "votes": 269,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2023-08-24",
+      "text": "Inte riktigt min smak."
+    }
+  },
+  {
+    "id": "53008",
+    "name": "Stuffed Lamb Tomatoes",
+    "rating": 4.8,
+    "votes": 269,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2024-01-05",
+      "text": "Wow, det här var något extra!"
+    }
+  },
+  {
+    "id": "53023",
+    "name": "Sledz w Oleju (Polish Herrings)",
+    "rating": 3.9,
+    "votes": 360,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2023-10-15",
+      "text": "Neutral upplevelse, varken bra eller dålig."
+    }
+  },
+  {
+    "id": "53028",
+    "name": "Shawarma",
+    "rating": 3.1,
+    "votes": 354,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-12-07",
+      "text": "Helt okej, men inget jag lagar igen."
+    }
+  },
+  {
+    "id": "53040",
+    "name": "Spring onion and prawn empanadas",
+    "rating": 1.8,
+    "votes": 401,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2025-02-20",
+      "text": "Tyvärr inget jag vill prova igen."
+    }
+  },
+  {
+    "id": "53054",
+    "name": "Seri muka kuih",
+    "rating": 4,
+    "votes": 393,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2025-03-04",
+      "text": "En fin överraskning – lagar gärna igen."
+    }
+  },
+  {
+    "id": "53065",
+    "name": "Sushi",
+    "rating": 3.2,
+    "votes": 245,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2023-06-28",
+      "text": "Lite tråkig i längden."
+    }
+  },
+  {
+    "id": "53067",
+    "name": "Stuffed Bell Peppers with Quinoa and Black Beans",
+    "rating": 3.7,
+    "votes": 356,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2023-11-22",
+      "text": "Fungerar – men inget speciellt."
+    }
+  },
+  {
+    "id": "53082",
+    "name": "Strawberries Romanoff",
+    "rating": 3.4,
+    "votes": 426,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2025-05-05",
+      "text": "Neutral upplevelse, varken bra eller dålig."
+    }
+  },
+  {
+    "id": "52772",
+    "name": "Teriyaki Chicken Casserole",
+    "rating": 2.5,
+    "votes": 429,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2024-03-06",
+      "text": "Lite för konstig för min smak."
+    }
+  },
+  {
+    "id": "52806",
+    "name": "Tandoori chicken",
+    "rating": 2.7,
+    "votes": 236,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-11-26",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52814",
+    "name": "Thai Green Curry",
+    "rating": 1.1,
+    "votes": 368,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-02-04",
+      "text": "En besvikelse."
+    }
+  },
+  {
+    "id": "52822",
+    "name": "Toad In The Hole",
+    "rating": 1.9,
+    "votes": 240,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2025-02-24",
+      "text": "Smakade konstigt – undviker i framtiden."
+    }
+  },
+  {
+    "id": "52845",
+    "name": "Turkey Meatloaf",
+    "rating": 1.5,
+    "votes": 172,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2023-09-23",
+      "text": "Smaken föll mig inte alls i smaken."
+    }
+  },
+  {
+    "id": "52852",
+    "name": "Tuna Nicoise",
+    "rating": 2,
+    "votes": 259,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-06-15",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52869",
+    "name": "Tahini Lentils",
+    "rating": 2.1,
+    "votes": 362,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-01-05",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52882",
+    "name": "Three Fish Pie",
+    "rating": 1.3,
+    "votes": 100,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2024-08-12",
+      "text": "Smakade konstigt – undviker i framtiden."
+    }
+  },
+  {
+    "id": "52892",
+    "name": "Treacle Tart",
+    "rating": 4.4,
+    "votes": 378,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2023-07-20",
+      "text": "Väldigt god och värd att prova!"
+    }
+  },
+  {
+    "id": "52909",
+    "name": "Tarte Tatin",
+    "rating": 4.4,
+    "votes": 223,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2023-09-28",
+      "text": "Väldigt god och värd att prova!"
+    }
+  },
+  {
+    "id": "52912",
+    "name": "Three-cheese souffles",
+    "rating": 3.5,
+    "votes": 448,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2023-11-17",
+      "text": "Fungerar – men inget speciellt."
+    }
+  },
+  {
+    "id": "52926",
+    "name": "Tourtiere",
+    "rating": 4.2,
+    "votes": 71,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2023-08-12",
+      "text": "Smakrikt och mättande."
+    }
+  },
+  {
+    "id": "52929",
+    "name": "Timbits",
+    "rating": 2.9,
+    "votes": 136,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2023-08-23",
+      "text": "Kanske bättre med några ändringar."
+    }
+  },
+  {
+    "id": "52970",
+    "name": "Tunisian Orange Cake",
+    "rating": 1.5,
+    "votes": 287,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2023-08-08",
+      "text": "En besvikelse."
+    }
+  },
+  {
+    "id": "52972",
+    "name": "Tunisian Lamb Soup",
+    "rating": 3.9,
+    "votes": 345,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-07-15",
+      "text": "Smaken var okej men inte min stil."
+    }
+  },
+  {
+    "id": "52975",
+    "name": "Tuna and Egg Briks",
+    "rating": 4.7,
+    "votes": 474,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2023-11-09",
+      "text": "Otroligt god! En ny favorit."
+    }
+  },
+  {
+    "id": "53026",
+    "name": "Tamiya",
+    "rating": 2.3,
+    "votes": 140,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-09-25",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "53032",
+    "name": "Tonkatsu pork",
+    "rating": 1.8,
+    "votes": 279,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2025-01-07",
+      "text": "Smaken föll mig inte alls i smaken."
+    }
+  },
+  {
+    "id": "53057",
+    "name": "Traditional Croatian Goulash",
+    "rating": 1.8,
+    "votes": 460,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2023-10-25",
+      "text": "En besvikelse."
+    }
+  },
+  {
+    "id": "53075",
+    "name": "Tortang Talong",
+    "rating": 4.9,
+    "votes": 54,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2023-07-10",
+      "text": "Otroligt god! En ny favorit."
+    }
+  },
+  {
+    "id": "52775",
+    "name": "Vegan Lasagna",
+    "rating": 2.4,
+    "votes": 442,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2023-08-21",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52794",
+    "name": "Vegan Chocolate Cake",
+    "rating": 4.1,
+    "votes": 161,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2025-05-01",
+      "text": "Väldigt god och värd att prova!"
+    }
+  },
+  {
+    "id": "52828",
+    "name": "Vietnamese Grilled Pork (bun-thit-nuong)",
+    "rating": 4.7,
+    "votes": 90,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-03-23",
+      "text": "Wow, det här var något extra!"
+    }
+  },
+  {
+    "id": "52838",
+    "name": "Venetian Duck Ragu",
+    "rating": 1.3,
+    "votes": 436,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-12-23",
+      "text": "En besvikelse."
+    }
+  },
+  {
+    "id": "52863",
+    "name": "Vegetarian Casserole",
+    "rating": 2.7,
+    "votes": 66,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-02-16",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52867",
+    "name": "Vegetarian Chilli",
+    "rating": 2,
+    "votes": 313,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2023-10-19",
+      "text": "Lite för konstig för min smak."
+    }
+  },
+  {
+    "id": "53000",
+    "name": "Vegetable Shepherds Pie",
+    "rating": 1.4,
+    "votes": 376,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-04-01",
+      "text": "Tyvärr inget jag vill prova igen."
+    }
+  },
+  {
+    "id": "52917",
+    "name": "White chocolate creme brulee",
+    "rating": 3.6,
+    "votes": 303,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2023-05-27",
+      "text": "Helt okej, men inget jag lagar igen."
+    }
+  },
+  {
+    "id": "52948",
+    "name": "Wontons",
+    "rating": 4.1,
+    "votes": 16,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2024-04-01",
+      "text": "Väldigt god och värd att prova!"
+    }
+  },
+  {
+    "id": "53062",
+    "name": "Walnut Roll Gužvara",
+    "rating": 2.1,
+    "votes": 38,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2024-07-18",
+      "text": "Kände inte riktigt att det passade mig."
+    }
+  },
+  {
+    "id": "52871",
+    "name": "Yaki Udon",
+    "rating": 4.1,
+    "votes": 194,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2023-10-26",
+      "text": "Inte perfekt, men väldigt god."
+    }
+  }
+]

@@ -1,0 +1,4688 @@
+[
+  {
+    "id": "17222",
+    "name": "A1",
+    "rating": 4.4,
+    "votes": 415,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2023-12-24",
+      "text": "Väldigt trevlig drink."
+    }
+  },
+  {
+    "id": "13501",
+    "name": "ABC",
+    "rating": 3.3,
+    "votes": 150,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-05-29",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "17225",
+    "name": "Ace",
+    "rating": 2.3,
+    "votes": 441,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2025-02-21",
+      "text": "För stark och obalanserad."
+    }
+  },
+  {
+    "id": "14610",
+    "name": "ACID",
+    "rating": 5,
+    "votes": 214,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2023-06-13",
+      "text": "En riktig höjdare – skulle beställa den varje gång!"
+    }
+  },
+  {
+    "id": "13938",
+    "name": "AT&T",
+    "rating": 3.6,
+    "votes": 426,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2025-04-06",
+      "text": "Lite för söt för min smak."
+    }
+  },
+  {
+    "id": "17837",
+    "name": "Adam",
+    "rating": 3,
+    "votes": 154,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2024-07-06",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "17833",
+    "name": "A. J.",
+    "rating": 2.7,
+    "votes": 325,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2023-11-26",
+      "text": "För stark och obalanserad."
+    }
+  },
+  {
+    "id": "17839",
+    "name": "Affair",
+    "rating": 4.4,
+    "votes": 200,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-04-25",
+      "text": "Väldigt trevlig drink."
+    }
+  },
+  {
+    "id": "15266",
+    "name": "Avalon",
+    "rating": 4.8,
+    "votes": 302,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-03-21",
+      "text": "Fantastisk smak och bra balans."
+    }
+  },
+  {
+    "id": "15106",
+    "name": "Apello",
+    "rating": 4.4,
+    "votes": 56,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2024-07-03",
+      "text": "Mycket god, perfekt för sommarkvällar."
+    }
+  },
+  {
+    "id": "11023",
+    "name": "Almeria",
+    "rating": 3.1,
+    "votes": 160,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-01-02",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "17835",
+    "name": "Abilene",
+    "rating": 4.4,
+    "votes": 400,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2023-05-30",
+      "text": "Bra blandning, skulle ta den igen."
+    }
+  },
+  {
+    "id": "17228",
+    "name": "Addison",
+    "rating": 2.1,
+    "votes": 280,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-07-21",
+      "text": "Kunde varit bättre."
+    }
+  },
+  {
+    "id": "17180",
+    "name": "Aviation",
+    "rating": 1.3,
+    "votes": 204,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2024-05-24",
+      "text": "Skulle inte rekommendera."
+    }
+  },
+  {
+    "id": "11046",
+    "name": "Applecar",
+    "rating": 3.5,
+    "votes": 304,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2025-01-22",
+      "text": "Helt okej – varken toppen eller botten."
+    }
+  },
+  {
+    "id": "17840",
+    "name": "Affinity",
+    "rating": 1.7,
+    "votes": 341,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2023-10-24",
+      "text": "Smakade bara sprit och inget mer."
+    }
+  },
+  {
+    "id": "17836",
+    "name": "Acapulco",
+    "rating": 4.2,
+    "votes": 141,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2025-04-13",
+      "text": "Väldigt trevlig drink."
+    }
+  },
+  {
+    "id": "11014",
+    "name": "Alexander",
+    "rating": 2.7,
+    "votes": 497,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2023-09-30",
+      "text": "Inte riktigt vad jag hoppades på."
+    }
+  },
+  {
+    "id": "16419",
+    "name": "Avalanche",
+    "rating": 2.3,
+    "votes": 142,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2024-06-20",
+      "text": "Smakerna passade inte riktigt ihop."
+    }
+  },
+  {
+    "id": "11021",
+    "name": "Allegheny",
+    "rating": 4.4,
+    "votes": 291,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2023-08-29",
+      "text": "Mycket god, perfekt för sommarkvällar."
+    }
+  },
+  {
+    "id": "15941",
+    "name": "Americano",
+    "rating": 1.7,
+    "votes": 213,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2023-07-16",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "11020",
+    "name": "Algonquin",
+    "rating": 1.1,
+    "votes": 267,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-03-24",
+      "text": "Nej tack – den här gick inte ner."
+    }
+  },
+  {
+    "id": "11055",
+    "name": "Artillery",
+    "rating": 3.5,
+    "votes": 98,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2024-09-09",
+      "text": "Helt okej – varken toppen eller botten."
+    }
+  },
+  {
+    "id": "12560",
+    "name": "Afterglow",
+    "rating": 2.9,
+    "votes": 178,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2023-09-18",
+      "text": "Inte riktigt vad jag hoppades på."
+    }
+  },
+  {
+    "id": "17227",
+    "name": "Addington",
+    "rating": 2.4,
+    "votes": 283,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2023-12-13",
+      "text": "Smakerna passade inte riktigt ihop."
+    }
+  },
+  {
+    "id": "15853",
+    "name": "B-52",
+    "rating": 3.9,
+    "votes": 322,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2024-02-14",
+      "text": "Helt okej – varken toppen eller botten."
+    }
+  },
+  {
+    "id": "13332",
+    "name": "B-53",
+    "rating": 4.9,
+    "votes": 341,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-07-14",
+      "text": "Otroligt fräsch och välbalanserad."
+    }
+  },
+  {
+    "id": "17254",
+    "name": "Bijou",
+    "rating": 1.7,
+    "votes": 25,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2024-02-24",
+      "text": "Nej tack – den här gick inte ner."
+    }
+  },
+  {
+    "id": "11149",
+    "name": "Boxcar",
+    "rating": 1.8,
+    "votes": 279,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-07-25",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "13222",
+    "name": "Big Red",
+    "rating": 4.1,
+    "votes": 35,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2024-03-04",
+      "text": "Bra blandning, skulle ta den igen."
+    }
+  },
+  {
+    "id": "17195",
+    "name": "Bellini",
+    "rating": 1.2,
+    "votes": 431,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-06-26",
+      "text": "Smakade bara sprit och inget mer."
+    }
+  },
+  {
+    "id": "17210",
+    "name": "Bramble",
+    "rating": 2.6,
+    "votes": 279,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-04-01",
+      "text": "Kunde varit bättre."
+    }
+  },
+  {
+    "id": "11060",
+    "name": "Balmoral",
+    "rating": 2,
+    "votes": 423,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-09-11",
+      "text": "För stark och obalanserad."
+    }
+  },
+  {
+    "id": "11120",
+    "name": "Bluebird",
+    "rating": 1.1,
+    "votes": 366,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2025-02-23",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "178310",
+    "name": "Brooklyn",
+    "rating": 4.4,
+    "votes": 199,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-06-22",
+      "text": "Inte dum alls, riktigt uppfriskande."
+    }
+  },
+  {
+    "id": "12572",
+    "name": "Bora Bora",
+    "rating": 1.4,
+    "votes": 65,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2023-06-04",
+      "text": "Smakade bara sprit och inget mer."
+    }
+  },
+  {
+    "id": "11124",
+    "name": "Boomerang",
+    "rating": 3.6,
+    "votes": 174,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2023-12-15",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "17209",
+    "name": "Barracuda",
+    "rating": 1.4,
+    "votes": 94,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2023-06-04",
+      "text": "Nej tack – den här gick inte ner."
+    }
+  },
+  {
+    "id": "17825",
+    "name": "Brigadier",
+    "rating": 3.7,
+    "votes": 407,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-03-18",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "178311",
+    "name": "Broadside",
+    "rating": 3.1,
+    "votes": 173,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-11-06",
+      "text": "Helt okej – varken toppen eller botten."
+    }
+  },
+  {
+    "id": "17035",
+    "name": "Buccaneer",
+    "rating": 2.8,
+    "votes": 224,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-12-26",
+      "text": "Lite konstig eftersmak."
+    }
+  },
+  {
+    "id": "17120",
+    "name": "Brain Fart",
+    "rating": 1.8,
+    "votes": 367,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2025-04-14",
+      "text": "Smakade bara sprit och inget mer."
+    }
+  },
+  {
+    "id": "11106",
+    "name": "Blackthorn",
+    "rating": 4.8,
+    "votes": 160,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2025-01-23",
+      "text": "Fantastisk smak och bra balans."
+    }
+  },
+  {
+    "id": "13395",
+    "name": "Bob Marley",
+    "rating": 4.5,
+    "votes": 299,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2024-08-09",
+      "text": "En riktig höjdare – skulle beställa den varje gång!"
+    }
+  },
+  {
+    "id": "16986",
+    "name": "Bible Belt",
+    "rating": 3.7,
+    "votes": 316,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2024-05-05",
+      "text": "Neutral känsla – saknade något extra."
+    }
+  },
+  {
+    "id": "14730",
+    "name": "Bubble Gum",
+    "rating": 1.5,
+    "votes": 344,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2025-04-23",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "14538",
+    "name": "Bumble Bee",
+    "rating": 4.8,
+    "votes": 425,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-04-29",
+      "text": "En riktig höjdare – skulle beställa den varje gång!"
+    }
+  },
+  {
+    "id": "15511",
+    "name": "Baby Eskimo",
+    "rating": 2.9,
+    "votes": 400,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2025-02-25",
+      "text": "Lite konstig eftersmak."
+    }
+  },
+  {
+    "id": "11129",
+    "name": "Boston Sour",
+    "rating": 1.2,
+    "votes": 49,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-08-26",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "17267",
+    "name": "Bahama Mama",
+    "rating": 1.5,
+    "votes": 207,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2024-12-12",
+      "text": "Skulle inte rekommendera."
+    }
+  },
+  {
+    "id": "17185",
+    "name": "Casino",
+    "rating": 4.7,
+    "votes": 241,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2024-12-09",
+      "text": "Fantastisk smak och bra balans."
+    }
+  },
+  {
+    "id": "14181",
+    "name": "Cafe Savoy",
+    "rating": 4.3,
+    "votes": 416,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2023-06-15",
+      "text": "Bra blandning, skulle ta den igen."
+    }
+  },
+  {
+    "id": "11202",
+    "name": "Caipirinha",
+    "rating": 2.7,
+    "votes": 69,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-02-24",
+      "text": "Smakerna passade inte riktigt ihop."
+    }
+  },
+  {
+    "id": "14608",
+    "name": "Cream Soda",
+    "rating": 4.3,
+    "votes": 199,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-12-08",
+      "text": "Frisk och trevlig – rekommenderas!"
+    }
+  },
+  {
+    "id": "13751",
+    "name": "Cuba Libra",
+    "rating": 2,
+    "votes": 263,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2023-11-24",
+      "text": "Inte riktigt vad jag hoppades på."
+    }
+  },
+  {
+    "id": "11239",
+    "name": "Cherry Rum",
+    "rating": 2.2,
+    "votes": 153,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2023-09-21",
+      "text": "Kunde varit bättre."
+    }
+  },
+  {
+    "id": "11288",
+    "name": "Cuba Libre",
+    "rating": 2.8,
+    "votes": 96,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2024-01-23",
+      "text": "Lite konstig eftersmak."
+    }
+  },
+  {
+    "id": "17830",
+    "name": "Corn n Oil",
+    "rating": 3.5,
+    "votes": 279,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2025-03-01",
+      "text": "Helt okej – varken toppen eller botten."
+    }
+  },
+  {
+    "id": "17135",
+    "name": "Citrus Coke",
+    "rating": 1.1,
+    "votes": 433,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-04-02",
+      "text": "Smakade bara sprit och inget mer."
+    }
+  },
+  {
+    "id": "11222",
+    "name": "Casa Blanca",
+    "rating": 4.9,
+    "votes": 153,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2023-10-11",
+      "text": "En riktig höjdare – skulle beställa den varje gång!"
+    }
+  },
+  {
+    "id": "17186",
+    "name": "Clover Club",
+    "rating": 4.6,
+    "votes": 277,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2024-07-23",
+      "text": "Bästa drinken jag någonsin smakat!"
+    }
+  },
+  {
+    "id": "13206",
+    "name": "Caipirissima",
+    "rating": 4,
+    "votes": 425,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2023-07-15",
+      "text": "Inte dum alls, riktigt uppfriskande."
+    }
+  },
+  {
+    "id": "11251",
+    "name": "City Slicker",
+    "rating": 2.1,
+    "votes": 486,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2025-04-06",
+      "text": "Kunde varit bättre."
+    }
+  },
+  {
+    "id": "16047",
+    "name": "Campari Beer",
+    "rating": 3.2,
+    "votes": 26,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2025-03-28",
+      "text": "Lite för söt för min smak."
+    }
+  },
+  {
+    "id": "11242",
+    "name": "Chicago Fizz",
+    "rating": 1.8,
+    "votes": 116,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2023-09-14",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "17196",
+    "name": "Cosmopolitan",
+    "rating": 2.9,
+    "votes": 97,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2024-04-18",
+      "text": "Inte riktigt vad jag hoppades på."
+    }
+  },
+  {
+    "id": "12800",
+    "name": "Coffee-Vodka",
+    "rating": 2.6,
+    "votes": 88,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2023-06-21",
+      "text": "Smakerna passade inte riktigt ihop."
+    }
+  },
+  {
+    "id": "11224",
+    "name": "Casino Royale",
+    "rating": 4.7,
+    "votes": 92,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2025-02-11",
+      "text": "En riktig höjdare – skulle beställa den varje gång!"
+    }
+  },
+  {
+    "id": "17250",
+    "name": "Corpse Reviver",
+    "rating": 2.9,
+    "votes": 255,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-04-09",
+      "text": "För stark och obalanserad."
+    }
+  },
+  {
+    "id": "13328",
+    "name": "Chocolate Milk",
+    "rating": 1.7,
+    "votes": 51,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2025-03-04",
+      "text": "Nej tack – den här gick inte ner."
+    }
+  },
+  {
+    "id": "11255",
+    "name": "Clove Cocktail",
+    "rating": 4.3,
+    "votes": 21,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2023-06-07",
+      "text": "Bra blandning, skulle ta den igen."
+    }
+  },
+  {
+    "id": "12798",
+    "name": "Coffee Liqueur",
+    "rating": 1.5,
+    "votes": 177,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2023-08-20",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "17108",
+    "name": "Coke and Drops",
+    "rating": 2,
+    "votes": 93,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-08-21",
+      "text": "Inte riktigt vad jag hoppades på."
+    }
+  },
+  {
+    "id": "12734",
+    "name": "Chocolate Drink",
+    "rating": 3.4,
+    "votes": 220,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2024-10-21",
+      "text": "Helt okej – varken toppen eller botten."
+    }
+  },
+  {
+    "id": "12890",
+    "name": "Cranberry Punch",
+    "rating": 4.2,
+    "votes": 385,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2025-01-02",
+      "text": "Frisk och trevlig – rekommenderas!"
+    }
+  },
+  {
+    "id": "17187",
+    "name": "Derby",
+    "rating": 4.1,
+    "votes": 436,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2024-11-28",
+      "text": "Väldigt trevlig drink."
+    }
+  },
+  {
+    "id": "13128",
+    "name": "Diesel",
+    "rating": 1.3,
+    "votes": 481,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-01-17",
+      "text": "Smakade bara sprit och inget mer."
+    }
+  },
+  {
+    "id": "11006",
+    "name": "Daiquiri",
+    "rating": 1.9,
+    "votes": 294,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2023-12-02",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "15409",
+    "name": "Danbooka",
+    "rating": 2.5,
+    "votes": 145,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-02-16",
+      "text": "Smakerna passade inte riktigt ihop."
+    }
+  },
+  {
+    "id": "16991",
+    "name": "Downshift",
+    "rating": 4.2,
+    "votes": 448,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2024-10-19",
+      "text": "Inte dum alls, riktigt uppfriskande."
+    }
+  },
+  {
+    "id": "11320",
+    "name": "Dragonfly",
+    "rating": 4.5,
+    "votes": 128,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-11-26",
+      "text": "Den här drinken är magisk!"
+    }
+  },
+  {
+    "id": "11005",
+    "name": "Dry Martini",
+    "rating": 4.3,
+    "votes": 267,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2023-09-12",
+      "text": "Mycket god, perfekt för sommarkvällar."
+    }
+  },
+  {
+    "id": "11324",
+    "name": "Dry Rob Roy",
+    "rating": 4.5,
+    "votes": 477,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-12-28",
+      "text": "Otroligt fräsch och välbalanserad."
+    }
+  },
+  {
+    "id": "14466",
+    "name": "Dirty Nipple",
+    "rating": 4.2,
+    "votes": 374,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2023-11-10",
+      "text": "Frisk och trevlig – rekommenderas!"
+    }
+  },
+  {
+    "id": "17181",
+    "name": "Dirty Martini",
+    "rating": 1.7,
+    "votes": 235,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-06-15",
+      "text": "Skulle inte rekommendera."
+    }
+  },
+  {
+    "id": "14482",
+    "name": "Darkwood Sling",
+    "rating": 3,
+    "votes": 310,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2025-05-17",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "17211",
+    "name": "Dark and Stormy",
+    "rating": 1.4,
+    "votes": 160,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2024-07-03",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "17177",
+    "name": "Dark Caipirinha",
+    "rating": 3.3,
+    "votes": 487,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2023-11-08",
+      "text": "Helt okej – varken toppen eller botten."
+    }
+  },
+  {
+    "id": "17182",
+    "name": "Duchamp's Punch",
+    "rating": 3.1,
+    "votes": 46,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-10-19",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "13194",
+    "name": "Damned if you do",
+    "rating": 3.1,
+    "votes": 177,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-02-29",
+      "text": "Helt okej – varken toppen eller botten."
+    }
+  },
+  {
+    "id": "11326",
+    "name": "Dubonnet Cocktail",
+    "rating": 2.2,
+    "votes": 451,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-12-09",
+      "text": "För stark och obalanserad."
+    }
+  },
+  {
+    "id": "12736",
+    "name": "Drinking Chocolate",
+    "rating": 1.1,
+    "votes": 250,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2023-10-29",
+      "text": "Nej tack – den här gick inte ner."
+    }
+  },
+  {
+    "id": "178334",
+    "name": "Death in the Afternoon",
+    "rating": 1.4,
+    "votes": 143,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2024-03-25",
+      "text": "Skulle inte rekommendera."
+    }
+  },
+  {
+    "id": "12668",
+    "name": "Egg Cream",
+    "rating": 1.6,
+    "votes": 385,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2023-05-24",
+      "text": "Skulle inte rekommendera."
+    }
+  },
+  {
+    "id": "12910",
+    "name": "Egg Nog #4",
+    "rating": 3,
+    "votes": 265,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-10-28",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "11338",
+    "name": "English Highball",
+    "rating": 2.1,
+    "votes": 260,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2023-05-30",
+      "text": "För stark och obalanserad."
+    }
+  },
+  {
+    "id": "17212",
+    "name": "Espresso Martini",
+    "rating": 1.9,
+    "votes": 244,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-03-30",
+      "text": "Nej tack – den här gick inte ner."
+    }
+  },
+  {
+    "id": "178309",
+    "name": "Espresso Rumtini",
+    "rating": 2.4,
+    "votes": 332,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2025-01-15",
+      "text": "Lite konstig eftersmak."
+    }
+  },
+  {
+    "id": "12916",
+    "name": "Egg Nog - Healthy",
+    "rating": 2.2,
+    "votes": 253,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2024-04-07",
+      "text": "Lite konstig eftersmak."
+    }
+  },
+  {
+    "id": "11339",
+    "name": "English Rose Cocktail",
+    "rating": 2.3,
+    "votes": 250,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2023-12-26",
+      "text": "För stark och obalanserad."
+    }
+  },
+  {
+    "id": "178346",
+    "name": "Elderflower Caipirinha",
+    "rating": 1.5,
+    "votes": 452,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2023-06-13",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "12914",
+    "name": "Egg-Nog - Classic Cooked",
+    "rating": 1.1,
+    "votes": 320,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-08-06",
+      "text": "Skulle inte rekommendera."
+    }
+  },
+  {
+    "id": "17246",
+    "name": "Empellón Cocina's Fat-Washed Mezcal",
+    "rating": 4.9,
+    "votes": 66,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2023-06-21",
+      "text": "Otroligt fräsch och välbalanserad."
+    }
+  },
+  {
+    "id": "178352",
+    "name": "Frosé",
+    "rating": 2.9,
+    "votes": 101,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-07-10",
+      "text": "Kunde varit bättre."
+    }
+  },
+  {
+    "id": "12768",
+    "name": "Frappé",
+    "rating": 3.7,
+    "votes": 104,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-04-13",
+      "text": "Lite för söt för min smak."
+    }
+  },
+  {
+    "id": "11375",
+    "name": "Foxy Lady",
+    "rating": 1.5,
+    "votes": 323,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2023-08-09",
+      "text": "Skulle inte rekommendera."
+    }
+  },
+  {
+    "id": "17197",
+    "name": "French 75",
+    "rating": 3.6,
+    "votes": 115,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2023-06-26",
+      "text": "Neutral känsla – saknade något extra."
+    }
+  },
+  {
+    "id": "178344",
+    "name": "Figgy Thyme",
+    "rating": 4.1,
+    "votes": 307,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2024-03-04",
+      "text": "Mycket god, perfekt för sommarkvällar."
+    }
+  },
+  {
+    "id": "11382",
+    "name": "Frisco Sour",
+    "rating": 2.8,
+    "votes": 389,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-03-30",
+      "text": "Kunde varit bättre."
+    }
+  },
+  {
+    "id": "12674",
+    "name": "Fruit Shake",
+    "rating": 4.5,
+    "votes": 303,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2023-11-21",
+      "text": "Bästa drinken jag någonsin smakat!"
+    }
+  },
+  {
+    "id": "12670",
+    "name": "Fruit Cooler",
+    "rating": 1.4,
+    "votes": 448,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2025-05-02",
+      "text": "Skulle inte rekommendera."
+    }
+  },
+  {
+    "id": "14688",
+    "name": "Freddy Kruger",
+    "rating": 4.1,
+    "votes": 50,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2025-05-13",
+      "text": "Bra blandning, skulle ta den igen."
+    }
+  },
+  {
+    "id": "178328",
+    "name": "Funk and Soul",
+    "rating": 1.6,
+    "votes": 390,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2023-11-28",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "15743",
+    "name": "Fuzzy Asshole",
+    "rating": 2.4,
+    "votes": 242,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2025-04-02",
+      "text": "Smakerna passade inte riktigt ihop."
+    }
+  },
+  {
+    "id": "17213",
+    "name": "French Martini",
+    "rating": 4.4,
+    "votes": 321,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2023-09-01",
+      "text": "Inte dum alls, riktigt uppfriskande."
+    }
+  },
+  {
+    "id": "17248",
+    "name": "French Negroni",
+    "rating": 3.8,
+    "votes": 71,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-05-05",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "13070",
+    "name": "Fahrenheit 5000",
+    "rating": 4.5,
+    "votes": 493,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2023-08-11",
+      "text": "Otroligt fräsch och välbalanserad."
+    }
+  },
+  {
+    "id": "11368",
+    "name": "Flying Dutchman",
+    "rating": 2.5,
+    "votes": 364,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2023-06-24",
+      "text": "Lite konstig eftersmak."
+    }
+  },
+  {
+    "id": "11387",
+    "name": "Frozen Daiquiri",
+    "rating": 3.2,
+    "votes": 132,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-07-14",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "12672",
+    "name": "Fruit Flip-Flop",
+    "rating": 3.7,
+    "votes": 161,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2025-04-05",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "11369",
+    "name": "Flying Scotchman",
+    "rating": 1.6,
+    "votes": 71,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2023-09-12",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "17198",
+    "name": "French Connection",
+    "rating": 1.6,
+    "votes": 398,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2024-10-28",
+      "text": "Nej tack – den här gick inte ner."
+    }
+  },
+  {
+    "id": "13202",
+    "name": "Flaming Dr. Pepper",
+    "rating": 5,
+    "votes": 489,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2023-10-02",
+      "text": "En riktig höjdare – skulle beställa den varje gång!"
+    }
+  },
+  {
+    "id": "16485",
+    "name": "Flaming Lamborghini",
+    "rating": 4.8,
+    "votes": 57,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2025-02-04",
+      "text": "Bästa drinken jag någonsin smakat!"
+    }
+  },
+  {
+    "id": "13675",
+    "name": "Flander's Flake-Out",
+    "rating": 3,
+    "votes": 414,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2023-12-22",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "11390",
+    "name": "Frozen Mint Daiquiri",
+    "rating": 2.4,
+    "votes": 34,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-03-02",
+      "text": "För stark och obalanserad."
+    }
+  },
+  {
+    "id": "11391",
+    "name": "Frozen Pineapple Daiquiri",
+    "rating": 2.4,
+    "votes": 61,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-09-02",
+      "text": "För stark och obalanserad."
+    }
+  },
+  {
+    "id": "15997",
+    "name": "GG",
+    "rating": 3.7,
+    "votes": 354,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2024-07-11",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "17255",
+    "name": "Gimlet",
+    "rating": 1.8,
+    "votes": 232,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2023-12-13",
+      "text": "Smakade bara sprit och inget mer."
+    }
+  },
+  {
+    "id": "11422",
+    "name": "Godchild",
+    "rating": 4.1,
+    "votes": 63,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2025-05-05",
+      "text": "Frisk och trevlig – rekommenderas!"
+    }
+  },
+  {
+    "id": "11410",
+    "name": "Gin Fizz",
+    "rating": 3.8,
+    "votes": 283,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2023-07-10",
+      "text": "Neutral känsla – saknade något extra."
+    }
+  },
+  {
+    "id": "11417",
+    "name": "Gin Sour",
+    "rating": 2.3,
+    "votes": 359,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2025-01-16",
+      "text": "Smakerna passade inte riktigt ihop."
+    }
+  },
+  {
+    "id": "12758",
+    "name": "Gagliardo",
+    "rating": 2.4,
+    "votes": 450,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2025-04-28",
+      "text": "Smakerna passade inte riktigt ihop."
+    }
+  },
+  {
+    "id": "11424",
+    "name": "Godmother",
+    "rating": 2.1,
+    "votes": 77,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2023-06-05",
+      "text": "För stark och obalanserad."
+    }
+  },
+  {
+    "id": "11423",
+    "name": "Godfather",
+    "rating": 4.7,
+    "votes": 161,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2023-07-21",
+      "text": "Fantastisk smak och bra balans."
+    }
+  },
+  {
+    "id": "12944",
+    "name": "Gluehwein",
+    "rating": 3.6,
+    "votes": 56,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2025-02-24",
+      "text": "Helt okej – varken toppen eller botten."
+    }
+  },
+  {
+    "id": "178365",
+    "name": "Gin Tonic",
+    "rating": 1.8,
+    "votes": 26,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-05-04",
+      "text": "Smakade bara sprit och inget mer."
+    }
+  },
+  {
+    "id": "11420",
+    "name": "Gin Toddy",
+    "rating": 4.3,
+    "votes": 119,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2023-09-06",
+      "text": "Inte dum alls, riktigt uppfriskande."
+    }
+  },
+  {
+    "id": "11416",
+    "name": "Gin Smash",
+    "rating": 5,
+    "votes": 413,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2024-12-04",
+      "text": "Bästa drinken jag någonsin smakat!"
+    }
+  },
+  {
+    "id": "11408",
+    "name": "Gin Daisy",
+    "rating": 1.2,
+    "votes": 111,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2024-11-28",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "178366",
+    "name": "Gin Lemon",
+    "rating": 4,
+    "votes": 327,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2024-07-26",
+      "text": "Mycket god, perfekt för sommarkvällar."
+    }
+  },
+  {
+    "id": "11415",
+    "name": "Gin Sling",
+    "rating": 3.6,
+    "votes": 123,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2023-05-25",
+      "text": "Neutral känsla – saknade något extra."
+    }
+  },
+  {
+    "id": "17252",
+    "name": "Greyhound",
+    "rating": 1.4,
+    "votes": 450,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2023-05-23",
+      "text": "Nej tack – den här gick inte ner."
+    }
+  },
+  {
+    "id": "17230",
+    "name": "Gin Rickey",
+    "rating": 2.5,
+    "votes": 313,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2024-02-16",
+      "text": "Inte riktigt vad jag hoppades på."
+    }
+  },
+  {
+    "id": "11418",
+    "name": "Gin Squirt",
+    "rating": 2.7,
+    "votes": 289,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2023-10-28",
+      "text": "Lite konstig eftersmak."
+    }
+  },
+  {
+    "id": "15427",
+    "name": "Grand Blue",
+    "rating": 4.2,
+    "votes": 491,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2024-12-17",
+      "text": "Mycket god, perfekt för sommarkvällar."
+    }
+  },
+  {
+    "id": "11407",
+    "name": "Gin Cooler",
+    "rating": 3.1,
+    "votes": 15,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-04-30",
+      "text": "Helt okej – varken toppen eller botten."
+    }
+  },
+  {
+    "id": "11419",
+    "name": "Gin Swizzle",
+    "rating": 1.4,
+    "votes": 351,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2024-12-08",
+      "text": "Nej tack – den här gick inte ner."
+    }
+  },
+  {
+    "id": "11433",
+    "name": "Grass Skirt",
+    "rating": 4.6,
+    "votes": 397,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2024-09-01",
+      "text": "Otroligt fräsch och välbalanserad."
+    }
+  },
+  {
+    "id": "17200",
+    "name": "Grasshopper",
+    "rating": 4.5,
+    "votes": 375,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2024-04-27",
+      "text": "Otroligt fräsch och välbalanserad."
+    }
+  },
+  {
+    "id": "14642",
+    "name": "Grim Reaper",
+    "rating": 2.2,
+    "votes": 183,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2023-07-07",
+      "text": "Inte riktigt vad jag hoppades på."
+    }
+  },
+  {
+    "id": "178342",
+    "name": "Gin and Soda",
+    "rating": 1.7,
+    "votes": 318,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2023-09-18",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "16262",
+    "name": "H.D.",
+    "rating": 1.2,
+    "votes": 161,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2025-01-02",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "178316",
+    "name": "Honey Bee",
+    "rating": 1.3,
+    "votes": 351,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2024-07-25",
+      "text": "Skulle inte rekommendera."
+    }
+  },
+  {
+    "id": "178345",
+    "name": "Hot Toddy",
+    "rating": 1.1,
+    "votes": 55,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2024-06-13",
+      "text": "Smakade bara sprit och inget mer."
+    }
+  },
+  {
+    "id": "15813",
+    "name": "Herbal flame",
+    "rating": 1.4,
+    "votes": 115,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2023-06-12",
+      "text": "Skulle inte rekommendera."
+    }
+  },
+  {
+    "id": "17202",
+    "name": "Horse's Neck",
+    "rating": 2.3,
+    "votes": 225,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-09-17",
+      "text": "Lite konstig eftersmak."
+    }
+  },
+  {
+    "id": "12766",
+    "name": "Happy Skipper",
+    "rating": 4.1,
+    "votes": 106,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2025-03-11",
+      "text": "Mycket god, perfekt för sommarkvällar."
+    }
+  },
+  {
+    "id": "17239",
+    "name": "Hunter's Moon",
+    "rating": 4.6,
+    "votes": 254,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2023-12-23",
+      "text": "Bästa drinken jag någonsin smakat!"
+    }
+  },
+  {
+    "id": "178313",
+    "name": "Halloween Punch",
+    "rating": 4.1,
+    "votes": 411,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2025-02-19",
+      "text": "Inte dum alls, riktigt uppfriskande."
+    }
+  },
+  {
+    "id": "11470",
+    "name": "Havana Cocktail",
+    "rating": 3.4,
+    "votes": 190,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2025-02-26",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "12954",
+    "name": "Holloween Punch",
+    "rating": 1.7,
+    "votes": 258,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2024-08-23",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "17044",
+    "name": "Homemade Kahlua",
+    "rating": 3.3,
+    "votes": 474,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2024-07-20",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "14782",
+    "name": "Hot Creamy Bush",
+    "rating": 4.6,
+    "votes": 161,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-02-27",
+      "text": "Bästa drinken jag någonsin smakat!"
+    }
+  },
+  {
+    "id": "11462",
+    "name": "Harvey Wallbanger",
+    "rating": 3.4,
+    "votes": 431,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-11-14",
+      "text": "Lite för söt för min smak."
+    }
+  },
+  {
+    "id": "11472",
+    "name": "Hawaiian Cocktail",
+    "rating": 4.7,
+    "votes": 284,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-11-14",
+      "text": "Bästa drinken jag någonsin smakat!"
+    }
+  },
+  {
+    "id": "17201",
+    "name": "Hemingway Special",
+    "rating": 4.2,
+    "votes": 10,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2023-08-19",
+      "text": "Mycket god, perfekt för sommarkvällar."
+    }
+  },
+  {
+    "id": "11476",
+    "name": "Highland Fling Cocktail",
+    "rating": 3.8,
+    "votes": 276,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-01-06",
+      "text": "Lite för söt för min smak."
+    }
+  },
+  {
+    "id": "12738",
+    "name": "Hot Chocolate to Die for",
+    "rating": 3,
+    "votes": 258,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2025-04-04",
+      "text": "Helt okej – varken toppen eller botten."
+    }
+  },
+  {
+    "id": "17176",
+    "name": "Ipamena",
+    "rating": 4,
+    "votes": 219,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2023-12-02",
+      "text": "Väldigt trevlig drink."
+    }
+  },
+  {
+    "id": "13539",
+    "name": "Ice Pick",
+    "rating": 1.3,
+    "votes": 384,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-07-30",
+      "text": "Nej tack – den här gick inte ner."
+    }
+  },
+  {
+    "id": "12770",
+    "name": "Iced Coffee",
+    "rating": 4.6,
+    "votes": 72,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-01-29",
+      "text": "Den här drinken är magisk!"
+    }
+  },
+  {
+    "id": "12820",
+    "name": "Irish Cream",
+    "rating": 2.4,
+    "votes": 68,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2024-07-14",
+      "text": "Kunde varit bättre."
+    }
+  },
+  {
+    "id": "13971",
+    "name": "Irish Coffee",
+    "rating": 2.9,
+    "votes": 59,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2023-11-10",
+      "text": "Smakerna passade inte riktigt ihop."
+    }
+  },
+  {
+    "id": "11528",
+    "name": "Irish Spring",
+    "rating": 4.5,
+    "votes": 19,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2024-02-25",
+      "text": "Bästa drinken jag någonsin smakat!"
+    }
+  },
+  {
+    "id": "11524",
+    "name": "Imperial Fizz",
+    "rating": 3.9,
+    "votes": 174,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2023-12-19",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "17015",
+    "name": "Irish Russian",
+    "rating": 2.9,
+    "votes": 312,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2024-07-05",
+      "text": "Inte riktigt vad jag hoppades på."
+    }
+  },
+  {
+    "id": "12706",
+    "name": "Imperial Cocktail",
+    "rating": 4.4,
+    "votes": 140,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2023-09-06",
+      "text": "Bra blandning, skulle ta den igen."
+    }
+  },
+  {
+    "id": "12772",
+    "name": "Iced Coffee Fillip",
+    "rating": 3.8,
+    "votes": 212,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2023-07-16",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "16987",
+    "name": "Irish Curdling Cow",
+    "rating": 1.3,
+    "votes": 431,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2023-11-10",
+      "text": "Skulle inte rekommendera."
+    }
+  },
+  {
+    "id": "17178",
+    "name": "Jam Donut",
+    "rating": 1.4,
+    "votes": 78,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2025-05-20",
+      "text": "Smakade bara sprit och inget mer."
+    }
+  },
+  {
+    "id": "16178",
+    "name": "Jitterbug",
+    "rating": 3.6,
+    "votes": 499,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2025-04-22",
+      "text": "Neutral känsla – saknade något extra."
+    }
+  },
+  {
+    "id": "13847",
+    "name": "Jackhammer",
+    "rating": 2.1,
+    "votes": 304,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2025-01-30",
+      "text": "Smakerna passade inte riktigt ihop."
+    }
+  },
+  {
+    "id": "13775",
+    "name": "Jelly Bean",
+    "rating": 1.7,
+    "votes": 218,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-02-24",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "14956",
+    "name": "Jello shots",
+    "rating": 2.5,
+    "votes": 143,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-12-08",
+      "text": "Lite konstig eftersmak."
+    }
+  },
+  {
+    "id": "14095",
+    "name": "Jamaica Kiss",
+    "rating": 1.6,
+    "votes": 313,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2024-05-28",
+      "text": "Smakade bara sprit och inget mer."
+    }
+  },
+  {
+    "id": "11580",
+    "name": "John Collins",
+    "rating": 2.3,
+    "votes": 91,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2025-02-19",
+      "text": "Inte riktigt vad jag hoppades på."
+    }
+  },
+  {
+    "id": "11558",
+    "name": "Japanese Fizz",
+    "rating": 2.5,
+    "votes": 134,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-05-02",
+      "text": "Kunde varit bättre."
+    }
+  },
+  {
+    "id": "15825",
+    "name": "Jamaican Coffee",
+    "rating": 4.7,
+    "votes": 322,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2023-09-16",
+      "text": "En riktig höjdare – skulle beställa den varje gång!"
+    }
+  },
+  {
+    "id": "12688",
+    "name": "Just a Moonmint",
+    "rating": 2.4,
+    "votes": 289,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-08-31",
+      "text": "Smakerna passade inte riktigt ihop."
+    }
+  },
+  {
+    "id": "11566",
+    "name": "Jewel Of The Nile",
+    "rating": 3.8,
+    "votes": 134,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2025-04-02",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "11542",
+    "name": "Jack Rose Cocktail",
+    "rating": 3.1,
+    "votes": 378,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2025-03-20",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "16275",
+    "name": "Jack's Vanilla Coke",
+    "rating": 3.2,
+    "votes": 259,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2024-09-22",
+      "text": "Neutral känsla – saknade något extra."
+    }
+  },
+  {
+    "id": "17203",
+    "name": "Kir",
+    "rating": 4.1,
+    "votes": 269,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2023-10-31",
+      "text": "Inte dum alls, riktigt uppfriskande."
+    }
+  },
+  {
+    "id": "12764",
+    "name": "Karsk",
+    "rating": 2.6,
+    "votes": 283,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2023-08-25",
+      "text": "Kunde varit bättre."
+    }
+  },
+  {
+    "id": "11600",
+    "name": "Kamikaze",
+    "rating": 3.8,
+    "votes": 417,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2023-06-10",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "13837",
+    "name": "Kir Royale",
+    "rating": 4,
+    "votes": 498,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-01-15",
+      "text": "Väldigt trevlig drink."
+    }
+  },
+  {
+    "id": "14752",
+    "name": "Kiwi Lemon",
+    "rating": 1.5,
+    "votes": 217,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2023-07-06",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "14456",
+    "name": "Kurant Tea",
+    "rating": 2.5,
+    "votes": 93,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2023-11-02",
+      "text": "Kunde varit bättre."
+    }
+  },
+  {
+    "id": "16951",
+    "name": "Kioki Coffee",
+    "rating": 1.1,
+    "votes": 74,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-11-29",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "178359",
+    "name": "Kiwi Martini",
+    "rating": 1.7,
+    "votes": 104,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-03-14",
+      "text": "Smakade bara sprit och inget mer."
+    }
+  },
+  {
+    "id": "15026",
+    "name": "Kiss me Quick",
+    "rating": 3.4,
+    "votes": 59,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-04-27",
+      "text": "Neutral känsla – saknade något extra."
+    }
+  },
+  {
+    "id": "13190",
+    "name": "Kool-Aid Shot",
+    "rating": 2.3,
+    "votes": 373,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2024-09-06",
+      "text": "Inte riktigt vad jag hoppades på."
+    }
+  },
+  {
+    "id": "17006",
+    "name": "Kool First Aid",
+    "rating": 3.8,
+    "votes": 70,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-09-17",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "11602",
+    "name": "Kentucky B And B",
+    "rating": 2,
+    "votes": 451,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2024-05-07",
+      "text": "Kunde varit bättre."
+    }
+  },
+  {
+    "id": "11604",
+    "name": "Kentucky Colonel",
+    "rating": 3.1,
+    "votes": 269,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2024-03-25",
+      "text": "Helt okej – varken toppen eller botten."
+    }
+  },
+  {
+    "id": "14446",
+    "name": "Kool-Aid Slammer",
+    "rating": 4.3,
+    "votes": 223,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2024-05-04",
+      "text": "Bra blandning, skulle ta den igen."
+    }
+  },
+  {
+    "id": "12714",
+    "name": "Kiwi Papaya Smoothie",
+    "rating": 4,
+    "votes": 148,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2025-02-22",
+      "text": "Bra blandning, skulle ta den igen."
+    }
+  },
+  {
+    "id": "12720",
+    "name": "Kill the cold Smoothie",
+    "rating": 4.3,
+    "votes": 158,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2025-05-07",
+      "text": "Väldigt trevlig drink."
+    }
+  },
+  {
+    "id": "12704",
+    "name": "Limeade",
+    "rating": 3.4,
+    "votes": 276,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2024-03-19",
+      "text": "Helt okej – varken toppen eller botten."
+    }
+  },
+  {
+    "id": "14378",
+    "name": "Lunch Box",
+    "rating": 3.7,
+    "votes": 62,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2023-09-30",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "14366",
+    "name": "Lemon Drop",
+    "rating": 3.3,
+    "votes": 239,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-02-02",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "12752",
+    "name": "Lemon Shot",
+    "rating": 4.6,
+    "votes": 31,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2023-09-20",
+      "text": "En riktig höjdare – skulle beställa den varje gång!"
+    }
+  },
+  {
+    "id": "13196",
+    "name": "Long vodka",
+    "rating": 1.6,
+    "votes": 384,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2024-04-22",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "12692",
+    "name": "Lassi Khara",
+    "rating": 1.9,
+    "votes": 425,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-12-10",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "12694",
+    "name": "Lassi Raita",
+    "rating": 2.8,
+    "votes": 71,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2023-08-30",
+      "text": "Kunde varit bättre."
+    }
+  },
+  {
+    "id": "12702",
+    "name": "Lemouroudji",
+    "rating": 3.5,
+    "votes": 107,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-04-16",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "11658",
+    "name": "Loch Lomond",
+    "rating": 1.6,
+    "votes": 252,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2025-05-18",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "11662",
+    "name": "London Town",
+    "rating": 4.9,
+    "votes": 475,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-03-01",
+      "text": "Fantastisk smak och bra balans."
+    }
+  },
+  {
+    "id": "12698",
+    "name": "Lassi - Mango",
+    "rating": 3.9,
+    "votes": 347,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2024-11-19",
+      "text": "Neutral känsla – saknade något extra."
+    }
+  },
+  {
+    "id": "12696",
+    "name": "Lassi - Sweet",
+    "rating": 1.4,
+    "votes": 218,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-08-20",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "15086",
+    "name": "Limona Corona",
+    "rating": 3.7,
+    "votes": 440,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-06-22",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "11670",
+    "name": "Lord And Lady",
+    "rating": 2.6,
+    "votes": 492,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2023-12-24",
+      "text": "Kunde varit bättre."
+    }
+  },
+  {
+    "id": "11634",
+    "name": "Lady Love Fizz",
+    "rating": 1.4,
+    "votes": 283,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-08-28",
+      "text": "Nej tack – den här gick inte ner."
+    }
+  },
+  {
+    "id": "11002",
+    "name": "Long Island Tea",
+    "rating": 1.6,
+    "votes": 367,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2023-10-09",
+      "text": "Skulle inte rekommendera."
+    }
+  },
+  {
+    "id": "11666",
+    "name": "Lone Tree Cooler",
+    "rating": 1.4,
+    "votes": 10,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2024-08-26",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "11664",
+    "name": "Lone Tree Cocktail",
+    "rating": 3.6,
+    "votes": 28,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-09-26",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "178335",
+    "name": "Lazy Coconut Paloma",
+    "rating": 2.4,
+    "votes": 85,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2023-05-28",
+      "text": "Smakerna passade inte riktigt ihop."
+    }
+  },
+  {
+    "id": "17204",
+    "name": "Long Island Iced Tea",
+    "rating": 2.5,
+    "votes": 53,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2024-11-27",
+      "text": "För stark och obalanserad."
+    }
+  },
+  {
+    "id": "178360",
+    "name": "Lemon Elderflower Spritzer",
+    "rating": 3,
+    "votes": 309,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2023-06-30",
+      "text": "Neutral känsla – saknade något extra."
+    }
+  },
+  {
+    "id": "12690",
+    "name": "Lassi - A South Indian Drink",
+    "rating": 1,
+    "votes": 468,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2023-08-20",
+      "text": "Skulle inte rekommendera."
+    }
+  },
+  {
+    "id": "12776",
+    "name": "Melya",
+    "rating": 1.1,
+    "votes": 419,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2023-06-18",
+      "text": "Nej tack – den här gick inte ner."
+    }
+  },
+  {
+    "id": "11000",
+    "name": "Mojito",
+    "rating": 4,
+    "votes": 263,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2023-12-18",
+      "text": "Frisk och trevlig – rekommenderas!"
+    }
+  },
+  {
+    "id": "17205",
+    "name": "Mimosa",
+    "rating": 4.1,
+    "votes": 418,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2023-09-24",
+      "text": "Bra blandning, skulle ta den igen."
+    }
+  },
+  {
+    "id": "11690",
+    "name": "Mai Tai",
+    "rating": 3.2,
+    "votes": 199,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2025-04-11",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "11728",
+    "name": "Martini",
+    "rating": 3.2,
+    "votes": 112,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2024-08-10",
+      "text": "Neutral känsla – saknade något extra."
+    }
+  },
+  {
+    "id": "178343",
+    "name": "Michelada",
+    "rating": 3,
+    "votes": 121,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2024-11-15",
+      "text": "Helt okej – varken toppen eller botten."
+    }
+  },
+  {
+    "id": "11008",
+    "name": "Manhattan",
+    "rating": 1.4,
+    "votes": 239,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-02-10",
+      "text": "Smakade bara sprit och inget mer."
+    }
+  },
+  {
+    "id": "11007",
+    "name": "Margarita",
+    "rating": 3,
+    "votes": 468,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2024-10-15",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "178370",
+    "name": "Mauresque",
+    "rating": 1.4,
+    "votes": 385,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2025-02-20",
+      "text": "Smakade bara sprit och inget mer."
+    }
+  },
+  {
+    "id": "17206",
+    "name": "Mint Julep",
+    "rating": 2,
+    "votes": 75,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-11-24",
+      "text": "Inte riktigt vad jag hoppades på."
+    }
+  },
+  {
+    "id": "16041",
+    "name": "Mudslinger",
+    "rating": 2.7,
+    "votes": 149,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-12-23",
+      "text": "Kunde varit bättre."
+    }
+  },
+  {
+    "id": "17256",
+    "name": "Martinez 2",
+    "rating": 4,
+    "votes": 79,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2023-10-08",
+      "text": "Inte dum alls, riktigt uppfriskande."
+    }
+  },
+  {
+    "id": "16196",
+    "name": "Moranguito",
+    "rating": 1.9,
+    "votes": 378,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2025-02-02",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "13936",
+    "name": "Miami Vice",
+    "rating": 3.2,
+    "votes": 408,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2025-01-13",
+      "text": "Helt okej – varken toppen eller botten."
+    }
+  },
+  {
+    "id": "11009",
+    "name": "Moscow Mule",
+    "rating": 1.8,
+    "votes": 392,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2024-05-16",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "12988",
+    "name": "Mulled Wine",
+    "rating": 4.3,
+    "votes": 72,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2023-12-14",
+      "text": "Bra blandning, skulle ta den igen."
+    }
+  },
+  {
+    "id": "12774",
+    "name": "Masala Chai",
+    "rating": 1.9,
+    "votes": 183,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2025-04-01",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "178315",
+    "name": "Munich Mule",
+    "rating": 2.3,
+    "votes": 408,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2024-11-10",
+      "text": "För stark och obalanserad."
+    }
+  },
+  {
+    "id": "14209",
+    "name": "Mocha-Berry",
+    "rating": 2.8,
+    "votes": 74,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2023-11-24",
+      "text": "Lite konstig eftersmak."
+    }
+  },
+  {
+    "id": "178358",
+    "name": "Mango Mojito",
+    "rating": 1.7,
+    "votes": 73,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-06-06",
+      "text": "Smakade bara sprit och inget mer."
+    }
+  },
+  {
+    "id": "15841",
+    "name": "Mojito Extra",
+    "rating": 1.1,
+    "votes": 429,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2024-10-27",
+      "text": "Skulle inte rekommendera."
+    }
+  },
+  {
+    "id": "17189",
+    "name": "Monkey Gland",
+    "rating": 2.7,
+    "votes": 74,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-03-22",
+      "text": "Inte riktigt vad jag hoppades på."
+    }
+  },
+  {
+    "id": "14842",
+    "name": "Midnight Mint",
+    "rating": 3,
+    "votes": 318,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2024-04-29",
+      "text": "Neutral känsla – saknade något extra."
+    }
+  },
+  {
+    "id": "17188",
+    "name": "Mary Pickford",
+    "rating": 3.8,
+    "votes": 189,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2024-05-01",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "11798",
+    "name": "Monkey Wrench",
+    "rating": 1.5,
+    "votes": 123,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2024-06-11",
+      "text": "Nej tack – den här gick inte ner."
+    }
+  },
+  {
+    "id": "11003",
+    "name": "Negroni",
+    "rating": 1.5,
+    "votes": 56,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2024-02-17",
+      "text": "Skulle inte rekommendera."
+    }
+  },
+  {
+    "id": "11844",
+    "name": "New York Sour",
+    "rating": 1.2,
+    "votes": 257,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-09-07",
+      "text": "Nej tack – den här gick inte ner."
+    }
+  },
+  {
+    "id": "13861",
+    "name": "Nutty Irishman",
+    "rating": 1.9,
+    "votes": 312,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2023-08-31",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "13192",
+    "name": "National Aquarium",
+    "rating": 1.1,
+    "votes": 370,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2025-05-19",
+      "text": "Smakade bara sprit och inget mer."
+    }
+  },
+  {
+    "id": "13204",
+    "name": "New York Lemonade",
+    "rating": 2.8,
+    "votes": 385,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-07-05",
+      "text": "För stark och obalanserad."
+    }
+  },
+  {
+    "id": "12746",
+    "name": "Nuked Hot Chocolate",
+    "rating": 2.4,
+    "votes": 303,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-06-11",
+      "text": "Smakerna passade inte riktigt ihop."
+    }
+  },
+  {
+    "id": "11872",
+    "name": "Orgasm",
+    "rating": 2.4,
+    "votes": 258,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2025-03-05",
+      "text": "Lite konstig eftersmak."
+    }
+  },
+  {
+    "id": "17827",
+    "name": "Old Pal",
+    "rating": 2.9,
+    "votes": 423,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2023-10-27",
+      "text": "För stark och obalanserad."
+    }
+  },
+  {
+    "id": "178371",
+    "name": "Old Cuban",
+    "rating": 3.9,
+    "votes": 234,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2025-02-16",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "12618",
+    "name": "Orangeade",
+    "rating": 3.1,
+    "votes": 242,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2024-05-17",
+      "text": "Lite för söt för min smak."
+    }
+  },
+  {
+    "id": "16995",
+    "name": "Orange Whip",
+    "rating": 4.5,
+    "votes": 186,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-12-05",
+      "text": "Otroligt fräsch och välbalanserad."
+    }
+  },
+  {
+    "id": "15330",
+    "name": "Orange Crush",
+    "rating": 4.2,
+    "votes": 100,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2023-10-19",
+      "text": "Bra blandning, skulle ta den igen."
+    }
+  },
+  {
+    "id": "11870",
+    "name": "Orange Oasis",
+    "rating": 4.5,
+    "votes": 67,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-02-26",
+      "text": "Otroligt fräsch och välbalanserad."
+    }
+  },
+  {
+    "id": "11001",
+    "name": "Old Fashioned",
+    "rating": 1.8,
+    "votes": 366,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-07-14",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "13499",
+    "name": "Oreo Mudslide",
+    "rating": 2.2,
+    "votes": 11,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2023-11-08",
+      "text": "Kunde varit bättre."
+    }
+  },
+  {
+    "id": "17266",
+    "name": "Oatmeal Cookie",
+    "rating": 3.1,
+    "votes": 40,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2024-05-27",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "14586",
+    "name": "Orange Push-up",
+    "rating": 2.7,
+    "votes": 62,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-03-20",
+      "text": "För stark och obalanserad."
+    }
+  },
+  {
+    "id": "178341",
+    "name": "Orange Rosemary Collins",
+    "rating": 4,
+    "votes": 247,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-01-10",
+      "text": "Mycket god, perfekt för sommarkvällar."
+    }
+  },
+  {
+    "id": "12748",
+    "name": "Orange Scented Hot Chocolate",
+    "rating": 3.9,
+    "votes": 451,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2025-01-15",
+      "text": "Neutral känsla – saknade något extra."
+    }
+  },
+  {
+    "id": "13200",
+    "name": "Owen's Grandmother's Revenge",
+    "rating": 1.3,
+    "votes": 229,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-10-05",
+      "text": "Skulle inte rekommendera."
+    }
+  },
+  {
+    "id": "17253",
+    "name": "Paloma",
+    "rating": 3.8,
+    "votes": 276,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2025-05-21",
+      "text": "Helt okej – varken toppen eller botten."
+    }
+  },
+  {
+    "id": "17190",
+    "name": "Paradise",
+    "rating": 4,
+    "votes": 389,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2023-08-05",
+      "text": "Inte dum alls, riktigt uppfriskande."
+    }
+  },
+  {
+    "id": "11936",
+    "name": "Pink Gin",
+    "rating": 3.2,
+    "votes": 221,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2025-02-21",
+      "text": "Neutral känsla – saknade något extra."
+    }
+  },
+  {
+    "id": "17249",
+    "name": "Pegu Club",
+    "rating": 3.3,
+    "votes": 296,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2025-01-04",
+      "text": "Lite för söt för min smak."
+    }
+  },
+  {
+    "id": "11938",
+    "name": "Pink Lady",
+    "rating": 4.2,
+    "votes": 105,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2025-01-16",
+      "text": "Frisk och trevlig – rekommenderas!"
+    }
+  },
+  {
+    "id": "178354",
+    "name": "Pink Moon",
+    "rating": 3.2,
+    "votes": 38,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2025-01-11",
+      "text": "Helt okej – varken toppen eller botten."
+    }
+  },
+  {
+    "id": "17829",
+    "name": "Penicillin",
+    "rating": 2.1,
+    "votes": 275,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-05-07",
+      "text": "Smakerna passade inte riktigt ihop."
+    }
+  },
+  {
+    "id": "13214",
+    "name": "Pisco Sour",
+    "rating": 3.5,
+    "votes": 114,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2024-01-09",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "17192",
+    "name": "Porto flip",
+    "rating": 1.3,
+    "votes": 129,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2024-05-12",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "17207",
+    "name": "Pina Colada",
+    "rating": 3.2,
+    "votes": 114,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-05-09",
+      "text": "Lite för söt för min smak."
+    }
+  },
+  {
+    "id": "16992",
+    "name": "Pink Penocha",
+    "rating": 4.6,
+    "votes": 468,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2024-12-30",
+      "text": "Otroligt fräsch och välbalanserad."
+    }
+  },
+  {
+    "id": "178338",
+    "name": "Pure Passion",
+    "rating": 2.4,
+    "votes": 112,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-04-19",
+      "text": "Inte riktigt vad jag hoppades på."
+    }
+  },
+  {
+    "id": "13072",
+    "name": "Popped cherry",
+    "rating": 3.9,
+    "votes": 426,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2023-10-18",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "11959",
+    "name": "Poppy Cocktail",
+    "rating": 4.4,
+    "votes": 470,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-02-19",
+      "text": "Inte dum alls, riktigt uppfriskande."
+    }
+  },
+  {
+    "id": "11965",
+    "name": "Port Wine Flip",
+    "rating": 1.7,
+    "votes": 141,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-08-20",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "17191",
+    "name": "Planter's Punch",
+    "rating": 1.6,
+    "votes": 131,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2024-10-10",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "178327",
+    "name": "Pineapple Paloma",
+    "rating": 3,
+    "votes": 90,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2023-10-09",
+      "text": "Neutral känsla – saknade något extra."
+    }
+  },
+  {
+    "id": "178357",
+    "name": "Pornstar Martini",
+    "rating": 4.8,
+    "votes": 31,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2025-05-13",
+      "text": "Den här drinken är magisk!"
+    }
+  },
+  {
+    "id": "178368",
+    "name": "Planter’s Punch",
+    "rating": 2.3,
+    "votes": 255,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2025-03-24",
+      "text": "Kunde varit bättre."
+    }
+  },
+  {
+    "id": "11961",
+    "name": "Port And Starboard",
+    "rating": 1.7,
+    "votes": 208,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-02-21",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "11963",
+    "name": "Port Wine Cocktail",
+    "rating": 3.8,
+    "votes": 198,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2024-11-14",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "15092",
+    "name": "Pysch Vitamin Light",
+    "rating": 3,
+    "votes": 484,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2023-11-30",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "13535",
+    "name": "Pink Panty Pulldowns",
+    "rating": 1.5,
+    "votes": 31,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2023-06-29",
+      "text": "Smakade bara sprit och inget mer."
+    }
+  },
+  {
+    "id": "178323",
+    "name": "Passion Fruit Martini",
+    "rating": 1,
+    "votes": 23,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2025-04-04",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "12718",
+    "name": "Pineapple Gingerale Smoothie",
+    "rating": 3.8,
+    "votes": 183,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2023-08-09",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "11993",
+    "name": "Quentin",
+    "rating": 2.8,
+    "votes": 211,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2023-09-23",
+      "text": "Lite konstig eftersmak."
+    }
+  },
+  {
+    "id": "11987",
+    "name": "Queen Bee",
+    "rating": 1.4,
+    "votes": 474,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2025-04-23",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "13198",
+    "name": "Quick F**K",
+    "rating": 3.1,
+    "votes": 209,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2023-10-10",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "15761",
+    "name": "Quick-sand",
+    "rating": 3.6,
+    "votes": 306,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2025-01-25",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "11989",
+    "name": "Queen Charlotte",
+    "rating": 4.2,
+    "votes": 415,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2025-01-23",
+      "text": "Inte dum alls, riktigt uppfriskande."
+    }
+  },
+  {
+    "id": "11991",
+    "name": "Queen Elizabeth",
+    "rating": 1.8,
+    "votes": 326,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-07-22",
+      "text": "Nej tack – den här gick inte ner."
+    }
+  },
+  {
+    "id": "11983",
+    "name": "Quaker's Cocktail",
+    "rating": 2.6,
+    "votes": 462,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2023-10-23",
+      "text": "Inte riktigt vad jag hoppades på."
+    }
+  },
+  {
+    "id": "11985",
+    "name": "Quarter Deck Cocktail",
+    "rating": 4.6,
+    "votes": 10,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2024-10-10",
+      "text": "En riktig höjdare – skulle beställa den varje gång!"
+    }
+  },
+  {
+    "id": "17208",
+    "name": "Rose",
+    "rating": 2.7,
+    "votes": 195,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2023-06-05",
+      "text": "Smakerna passade inte riktigt ihop."
+    }
+  },
+  {
+    "id": "16031",
+    "name": "Radler",
+    "rating": 4.2,
+    "votes": 158,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2023-08-18",
+      "text": "Väldigt trevlig drink."
+    }
+  },
+  {
+    "id": "12093",
+    "name": "Rum Sour",
+    "rating": 1.7,
+    "votes": 446,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2023-08-29",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "14978",
+    "name": "Rum Punch",
+    "rating": 2.9,
+    "votes": 335,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2025-02-14",
+      "text": "Inte riktigt vad jag hoppades på."
+    }
+  },
+  {
+    "id": "12097",
+    "name": "Rum Toddy",
+    "rating": 4,
+    "votes": 414,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2025-04-09",
+      "text": "Mycket god, perfekt för sommarkvällar."
+    }
+  },
+  {
+    "id": "12055",
+    "name": "Royal Fizz",
+    "rating": 3.7,
+    "votes": 100,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2023-12-16",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "12071",
+    "name": "Rum Cooler",
+    "rating": 3.2,
+    "votes": 480,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2025-01-05",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "16250",
+    "name": "Rum Runner",
+    "rating": 5,
+    "votes": 321,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2024-01-15",
+      "text": "Den här drinken är magisk!"
+    }
+  },
+  {
+    "id": "12101",
+    "name": "Rusty Nail",
+    "rating": 1.7,
+    "votes": 441,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2023-05-26",
+      "text": "Nej tack – den här gick inte ner."
+    }
+  },
+  {
+    "id": "14087",
+    "name": "Red Snapper",
+    "rating": 2.9,
+    "votes": 180,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2023-12-20",
+      "text": "Smakerna passade inte riktigt ihop."
+    }
+  },
+  {
+    "id": "17122",
+    "name": "Royal Bitch",
+    "rating": 3.9,
+    "votes": 495,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2025-02-10",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "15082",
+    "name": "Royal Flush",
+    "rating": 4.1,
+    "votes": 318,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-06-14",
+      "text": "Väldigt trevlig drink."
+    }
+  },
+  {
+    "id": "12067",
+    "name": "Rum Cobbler",
+    "rating": 2,
+    "votes": 109,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-12-02",
+      "text": "Smakerna passade inte riktigt ihop."
+    }
+  },
+  {
+    "id": "17114",
+    "name": "Ruby Tuesday",
+    "rating": 4.7,
+    "votes": 18,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2023-05-24",
+      "text": "Den här drinken är magisk!"
+    }
+  },
+  {
+    "id": "12630",
+    "name": "Rail Splitter",
+    "rating": 3.9,
+    "votes": 340,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2023-05-29",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "17245",
+    "name": "Rosemary Blue",
+    "rating": 4.5,
+    "votes": 332,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2023-06-22",
+      "text": "Den här drinken är magisk!"
+    }
+  },
+  {
+    "id": "178367",
+    "name": "Ramos Gin Fizz",
+    "rating": 4.9,
+    "votes": 13,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-05-13",
+      "text": "Den här drinken är magisk!"
+    }
+  },
+  {
+    "id": "12057",
+    "name": "Royal Gin Fizz",
+    "rating": 1.9,
+    "votes": 10,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-12-23",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "12087",
+    "name": "Rum Milk Punch",
+    "rating": 3.1,
+    "votes": 220,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2025-05-11",
+      "text": "Neutral känsla – saknade något extra."
+    }
+  },
+  {
+    "id": "178333",
+    "name": "Raspberry Julep",
+    "rating": 5,
+    "votes": 55,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2023-11-20",
+      "text": "Fantastisk smak och bra balans."
+    }
+  },
+  {
+    "id": "12091",
+    "name": "Rum Screwdriver",
+    "rating": 2.1,
+    "votes": 213,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2023-08-14",
+      "text": "Lite konstig eftersmak."
+    }
+  },
+  {
+    "id": "17167",
+    "name": "Raspberry Cooler",
+    "rating": 4.2,
+    "votes": 66,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2023-12-18",
+      "text": "Bra blandning, skulle ta den igen."
+    }
+  },
+  {
+    "id": "12089",
+    "name": "Rum Old-fashioned",
+    "rating": 4.3,
+    "votes": 159,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2023-12-10",
+      "text": "Frisk och trevlig – rekommenderas!"
+    }
+  },
+  {
+    "id": "17214",
+    "name": "Russian Spring Punch",
+    "rating": 1.7,
+    "votes": 111,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2023-07-16",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "16984",
+    "name": "Radioactive Long Island Iced Tea",
+    "rating": 1.2,
+    "votes": 32,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2024-04-05",
+      "text": "Smakade bara sprit och inget mer."
+    }
+  },
+  {
+    "id": "17141",
+    "name": "Smut",
+    "rating": 4.4,
+    "votes": 188,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2023-06-05",
+      "text": "Bra blandning, skulle ta den igen."
+    }
+  },
+  {
+    "id": "17215",
+    "name": "Spritz",
+    "rating": 3.6,
+    "votes": 39,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2023-11-23",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "12130",
+    "name": "Scooter",
+    "rating": 3.7,
+    "votes": 222,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2023-08-07",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "13020",
+    "name": "Sangria",
+    "rating": 3.4,
+    "votes": 404,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2023-11-20",
+      "text": "Neutral känsla – saknade något extra."
+    }
+  },
+  {
+    "id": "17193",
+    "name": "Stinger",
+    "rating": 4.8,
+    "votes": 222,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2023-06-09",
+      "text": "Otroligt fräsch och välbalanserad."
+    }
+  },
+  {
+    "id": "12127",
+    "name": "Sazerac",
+    "rating": 3.7,
+    "votes": 272,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2024-05-31",
+      "text": "Helt okej – varken toppen eller botten."
+    }
+  },
+  {
+    "id": "12196",
+    "name": "Sidecar",
+    "rating": 2.1,
+    "votes": 359,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-09-03",
+      "text": "För stark och obalanserad."
+    }
+  },
+  {
+    "id": "178349",
+    "name": "Snowday",
+    "rating": 3.3,
+    "votes": 115,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2024-11-06",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "178322",
+    "name": "Spice 75",
+    "rating": 4.1,
+    "votes": 403,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2023-11-12",
+      "text": "Frisk och trevlig – rekommenderas!"
+    }
+  },
+  {
+    "id": "14195",
+    "name": "Snowball",
+    "rating": 1.8,
+    "votes": 415,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-06-27",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "16985",
+    "name": "Shot-gun",
+    "rating": 4.4,
+    "votes": 326,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2025-04-28",
+      "text": "Inte dum alls, riktigt uppfriskande."
+    }
+  },
+  {
+    "id": "12107",
+    "name": "Salty Dog",
+    "rating": 3.4,
+    "votes": 202,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2024-10-23",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "12308",
+    "name": "Stone Sour",
+    "rating": 3.5,
+    "votes": 150,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2024-09-24",
+      "text": "Neutral känsla – saknade något extra."
+    }
+  },
+  {
+    "id": "13377",
+    "name": "Sea breeze",
+    "rating": 2.6,
+    "votes": 428,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2023-12-02",
+      "text": "Lite konstig eftersmak."
+    }
+  },
+  {
+    "id": "12158",
+    "name": "Scotch Sour",
+    "rating": 3.8,
+    "votes": 396,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-05-08",
+      "text": "Helt okej – varken toppen eller botten."
+    }
+  },
+  {
+    "id": "16990",
+    "name": "Sweet Tooth",
+    "rating": 1.4,
+    "votes": 60,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-02-09",
+      "text": "Smakade bara sprit och inget mer."
+    }
+  },
+  {
+    "id": "12162",
+    "name": "Screwdriver",
+    "rating": 4.4,
+    "votes": 202,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2023-08-08",
+      "text": "Frisk och trevlig – rekommenderas!"
+    }
+  },
+  {
+    "id": "12190",
+    "name": "Sherry Flip",
+    "rating": 1.2,
+    "votes": 278,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2024-12-26",
+      "text": "Nej tack – den här gick inte ner."
+    }
+  },
+  {
+    "id": "12256",
+    "name": "Sol Y Sombra",
+    "rating": 3,
+    "votes": 128,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2024-04-25",
+      "text": "Lite för söt för min smak."
+    }
+  },
+  {
+    "id": "16273",
+    "name": "Shark Attack",
+    "rating": 1.7,
+    "votes": 283,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2024-04-20",
+      "text": "Skulle inte rekommendera."
+    }
+  },
+  {
+    "id": "15184",
+    "name": "San Francisco",
+    "rating": 2.8,
+    "votes": 35,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-10-12",
+      "text": "Smakerna passade inte riktigt ihop."
+    }
+  },
+  {
+    "id": "15226",
+    "name": "Space Odyssey",
+    "rating": 4,
+    "votes": 226,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2023-12-24",
+      "text": "Frisk och trevlig – rekommenderas!"
+    }
+  },
+  {
+    "id": "12188",
+    "name": "Sherry Eggnog",
+    "rating": 1,
+    "votes": 445,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2025-05-19",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "12724",
+    "name": "Sweet Bananas",
+    "rating": 4.5,
+    "votes": 479,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2024-11-15",
+      "text": "Bästa drinken jag någonsin smakat!"
+    }
+  },
+  {
+    "id": "13024",
+    "name": "Sweet Sangria",
+    "rating": 1.5,
+    "votes": 72,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2023-11-16",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "12388",
+    "name": "Thriller",
+    "rating": 4.5,
+    "votes": 491,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2024-01-01",
+      "text": "Fantastisk smak och bra balans."
+    }
+  },
+  {
+    "id": "178350",
+    "name": "The Galah",
+    "rating": 1.8,
+    "votes": 357,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-11-25",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "12856",
+    "name": "Tia-Maria",
+    "rating": 2.4,
+    "votes": 141,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-11-22",
+      "text": "Inte riktigt vad jag hoppades på."
+    }
+  },
+  {
+    "id": "17828",
+    "name": "Tipperary",
+    "rating": 1.4,
+    "votes": 69,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-03-19",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "15006",
+    "name": "Turkeyball",
+    "rating": 2,
+    "votes": 197,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2024-06-04",
+      "text": "Kunde varit bättre."
+    }
+  },
+  {
+    "id": "15639",
+    "name": "Texas Sling",
+    "rating": 3.7,
+    "votes": 200,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2023-11-20",
+      "text": "Neutral känsla – saknade något extra."
+    }
+  },
+  {
+    "id": "12782",
+    "name": "Thai Coffee",
+    "rating": 2.3,
+    "votes": 319,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2025-02-01",
+      "text": "Inte riktigt vad jag hoppades på."
+    }
+  },
+  {
+    "id": "12402",
+    "name": "Tom Collins",
+    "rating": 1,
+    "votes": 23,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-09-11",
+      "text": "Skulle inte rekommendera."
+    }
+  },
+  {
+    "id": "12726",
+    "name": "Tomato Tang",
+    "rating": 4.7,
+    "votes": 267,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2025-04-07",
+      "text": "En riktig höjdare – skulle beställa den varje gång!"
+    }
+  },
+  {
+    "id": "14860",
+    "name": "Talos Coffee",
+    "rating": 1,
+    "votes": 475,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2024-06-08",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "15515",
+    "name": "Tennesee Mud",
+    "rating": 2.5,
+    "votes": 291,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2024-06-30",
+      "text": "Kunde varit bättre."
+    }
+  },
+  {
+    "id": "12362",
+    "name": "Tequila Fizz",
+    "rating": 4.9,
+    "votes": 283,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2024-04-22",
+      "text": "Fantastisk smak och bra balans."
+    }
+  },
+  {
+    "id": "12370",
+    "name": "Tequila Sour",
+    "rating": 1.3,
+    "votes": 284,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-03-29",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "12786",
+    "name": "Thai Iced Tea",
+    "rating": 2.8,
+    "votes": 445,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2023-07-03",
+      "text": "Smakerna passade inte riktigt ihop."
+    }
+  },
+  {
+    "id": "17247",
+    "name": "The Last Word",
+    "rating": 2.1,
+    "votes": 347,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-05-16",
+      "text": "Smakerna passade inte riktigt ihop."
+    }
+  },
+  {
+    "id": "12418",
+    "name": "Turf Cocktail",
+    "rating": 2.7,
+    "votes": 441,
+    "review": {
+      "reviewer": "Camilla E.",
+      "date": "2024-06-03",
+      "text": "Kunde varit bättre."
+    }
+  },
+  {
+    "id": "17824",
+    "name": "The Laverstoke",
+    "rating": 2.6,
+    "votes": 124,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2023-09-15",
+      "text": "Lite konstig eftersmak."
+    }
+  },
+  {
+    "id": "178307",
+    "name": "Tequila Slammer",
+    "rating": 3.2,
+    "votes": 482,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2023-10-30",
+      "text": "Lite svag i smaken, men ändå god."
+    }
+  },
+  {
+    "id": "13621",
+    "name": "Tequila Sunrise",
+    "rating": 1.8,
+    "votes": 106,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2024-08-23",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "178330",
+    "name": "The Philosopher",
+    "rating": 2.2,
+    "votes": 367,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2025-02-28",
+      "text": "Smakerna passade inte riktigt ihop."
+    }
+  },
+  {
+    "id": "12420",
+    "name": "Tuxedo Cocktail",
+    "rating": 3.4,
+    "votes": 355,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2024-10-11",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "14602",
+    "name": "Tequila Surprise",
+    "rating": 2,
+    "votes": 215,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-12-06",
+      "text": "För stark och obalanserad."
+    }
+  },
+  {
+    "id": "12784",
+    "name": "Thai Iced Coffee",
+    "rating": 3.9,
+    "votes": 205,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-06-20",
+      "text": "Neutral känsla – saknade något extra."
+    }
+  },
+  {
+    "id": "17826",
+    "name": "The Jimmy Conway",
+    "rating": 5,
+    "votes": 200,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2023-12-03",
+      "text": "Otroligt fräsch och välbalanserad."
+    }
+  },
+  {
+    "id": "15178",
+    "name": "Texas Rattlesnake",
+    "rating": 2.8,
+    "votes": 270,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2024-05-02",
+      "text": "Kunde varit bättre."
+    }
+  },
+  {
+    "id": "17218",
+    "name": "Vesper",
+    "rating": 2.2,
+    "votes": 161,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2023-06-30",
+      "text": "Kunde varit bättre."
+    }
+  },
+  {
+    "id": "12450",
+    "name": "Victor",
+    "rating": 2.4,
+    "votes": 428,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2024-03-25",
+      "text": "För stark och obalanserad."
+    }
+  },
+  {
+    "id": "17217",
+    "name": "Vampiro",
+    "rating": 2,
+    "votes": 146,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2023-10-31",
+      "text": "För stark och obalanserad."
+    }
+  },
+  {
+    "id": "12444",
+    "name": "Vesuvio",
+    "rating": 3.3,
+    "votes": 446,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2025-02-24",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "12446",
+    "name": "Veteran",
+    "rating": 3.1,
+    "votes": 397,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2025-05-04",
+      "text": "Neutral känsla – saknade något extra."
+    }
+  },
+  {
+    "id": "12436",
+    "name": "Van Vleet",
+    "rating": 3.1,
+    "votes": 190,
+    "review": {
+      "reviewer": "Mats L.",
+      "date": "2023-10-08",
+      "text": "Lite för söt för min smak."
+    }
+  },
+  {
+    "id": "16967",
+    "name": "Vodka Fizz",
+    "rating": 1.6,
+    "votes": 456,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2025-02-08",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "178363",
+    "name": "Vodka Lemon",
+    "rating": 2.2,
+    "votes": 490,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2024-10-23",
+      "text": "För stark och obalanserad."
+    }
+  },
+  {
+    "id": "178362",
+    "name": "Vodka Slime",
+    "rating": 4.3,
+    "votes": 223,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2023-08-26",
+      "text": "Inte dum alls, riktigt uppfriskande."
+    }
+  },
+  {
+    "id": "178364",
+    "name": "Vodka Tonic",
+    "rating": 1,
+    "votes": 461,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2023-12-11",
+      "text": "Skulle inte rekommendera."
+    }
+  },
+  {
+    "id": "14167",
+    "name": "Vodka Martini",
+    "rating": 2,
+    "votes": 239,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-11-25",
+      "text": "För stark och obalanserad."
+    }
+  },
+  {
+    "id": "15403",
+    "name": "Vodka Russian",
+    "rating": 2.3,
+    "votes": 400,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2023-11-18",
+      "text": "Smakerna passade inte riktigt ihop."
+    }
+  },
+  {
+    "id": "12442",
+    "name": "Vermouth Cassis",
+    "rating": 2.5,
+    "votes": 447,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-03-03",
+      "text": "Lite konstig eftersmak."
+    }
+  },
+  {
+    "id": "12452",
+    "name": "Victory Collins",
+    "rating": 4.3,
+    "votes": 286,
+    "review": {
+      "reviewer": "Lucas F.",
+      "date": "2025-05-16",
+      "text": "Inte dum alls, riktigt uppfriskande."
+    }
+  },
+  {
+    "id": "12460",
+    "name": "Vodka And Tonic",
+    "rating": 3.6,
+    "votes": 69,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2023-09-12",
+      "text": "Lite för söt för min smak."
+    }
+  },
+  {
+    "id": "12434",
+    "name": "Valencia Cocktail",
+    "rating": 3,
+    "votes": 482,
+    "review": {
+      "reviewer": "Daniel Z.",
+      "date": "2023-09-01",
+      "text": "Lite för söt för min smak."
+    }
+  },
+  {
+    "id": "12518",
+    "name": "Whisky Mac",
+    "rating": 4.6,
+    "votes": 322,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2024-09-27",
+      "text": "En riktig höjdare – skulle beställa den varje gång!"
+    }
+  },
+  {
+    "id": "17194",
+    "name": "White Lady",
+    "rating": 2.3,
+    "votes": 196,
+    "review": {
+      "reviewer": "Anna K.",
+      "date": "2023-10-31",
+      "text": "Kunde varit bättre."
+    }
+  },
+  {
+    "id": "13058",
+    "name": "Wine Punch",
+    "rating": 4.4,
+    "votes": 321,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2025-03-08",
+      "text": "Bra blandning, skulle ta den igen."
+    }
+  },
+  {
+    "id": "13056",
+    "name": "Wine Cooler",
+    "rating": 1.5,
+    "votes": 445,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2023-11-21",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "178347",
+    "name": "Winter Rita",
+    "rating": 2.4,
+    "votes": 311,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2025-03-11",
+      "text": "Inte riktigt vad jag hoppades på."
+    }
+  },
+  {
+    "id": "11004",
+    "name": "Whiskey Sour",
+    "rating": 2,
+    "votes": 129,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2023-09-15",
+      "text": "Smakerna passade inte riktigt ihop."
+    }
+  },
+  {
+    "id": "12528",
+    "name": "White Russian",
+    "rating": 2.7,
+    "votes": 341,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-09-27",
+      "text": "För stark och obalanserad."
+    }
+  },
+  {
+    "id": "178348",
+    "name": "Winter Paloma",
+    "rating": 1.7,
+    "votes": 377,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2025-01-06",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "178326",
+    "name": "White Wine Sangria",
+    "rating": 1.1,
+    "votes": 308,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2024-08-26",
+      "text": "Skulle inte rekommendera."
+    }
+  },
+  {
+    "id": "16158",
+    "name": "Whitecap Margarita",
+    "rating": 2.2,
+    "votes": 145,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2025-04-12",
+      "text": "Kunde varit bättre."
+    }
+  },
+  {
+    "id": "12474",
+    "name": "Waikiki Beachcomber",
+    "rating": 3.6,
+    "votes": 22,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2025-03-08",
+      "text": "Kanske inte min favorit, men funkar."
+    }
+  },
+  {
+    "id": "17219",
+    "name": "Yellow Bird",
+    "rating": 3.1,
+    "votes": 426,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2023-05-29",
+      "text": "Helt okej – varken toppen eller botten."
+    }
+  },
+  {
+    "id": "12728",
+    "name": "Yoghurt Cooler",
+    "rating": 4.1,
+    "votes": 179,
+    "review": {
+      "reviewer": "Nora M.",
+      "date": "2024-11-22",
+      "text": "Frisk och trevlig – rekommenderas!"
+    }
+  },
+  {
+    "id": "15328",
+    "name": "Zorro",
+    "rating": 3.8,
+    "votes": 114,
+    "review": {
+      "reviewer": "Elin B.",
+      "date": "2023-09-23",
+      "text": "Neutral känsla – saknade något extra."
+    }
+  },
+  {
+    "id": "14888",
+    "name": "Zinger",
+    "rating": 4.8,
+    "votes": 309,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-02-23",
+      "text": "En riktig höjdare – skulle beställa den varje gång!"
+    }
+  },
+  {
+    "id": "15691",
+    "name": "Zoksel",
+    "rating": 1.5,
+    "votes": 326,
+    "review": {
+      "reviewer": "Oscar D.",
+      "date": "2024-07-25",
+      "text": "Tyvärr riktigt dålig blandning."
+    }
+  },
+  {
+    "id": "17241",
+    "name": "Zombie",
+    "rating": 2.3,
+    "votes": 154,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2024-11-25",
+      "text": "För stark och obalanserad."
+    }
+  },
+  {
+    "id": "15933",
+    "name": "Zambeer",
+    "rating": 1.9,
+    "votes": 262,
+    "review": {
+      "reviewer": "Sebastian H.",
+      "date": "2023-12-14",
+      "text": "Smakade bara sprit och inget mer."
+    }
+  },
+  {
+    "id": "16963",
+    "name": "Zorbatini",
+    "rating": 3.3,
+    "votes": 62,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2023-07-16",
+      "text": "Lite för söt för min smak."
+    }
+  },
+  {
+    "id": "15254",
+    "name": "Zenmeister",
+    "rating": 4.3,
+    "votes": 231,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2023-10-09",
+      "text": "Inte dum alls, riktigt uppfriskande."
+    }
+  },
+  {
+    "id": "16942",
+    "name": "Zipperhead",
+    "rating": 3,
+    "votes": 479,
+    "review": {
+      "reviewer": "Hugo J.",
+      "date": "2024-12-26",
+      "text": "Lite för söt för min smak."
+    }
+  },
+  {
+    "id": "17027",
+    "name": "Zima Blaster",
+    "rating": 2.3,
+    "votes": 485,
+    "review": {
+      "reviewer": "Sofia N.",
+      "date": "2024-02-04",
+      "text": "Smakerna passade inte riktigt ihop."
+    }
+  },
+  {
+    "id": "14594",
+    "name": "Zizi Coin-coin",
+    "rating": 1.6,
+    "votes": 35,
+    "review": {
+      "reviewer": "Erik W.",
+      "date": "2025-05-11",
+      "text": "Usch, vad var det här?"
+    }
+  },
+  {
+    "id": "15801",
+    "name": "Zimadori Zinger",
+    "rating": 2.9,
+    "votes": 311,
+    "review": {
+      "reviewer": "Jonas P.",
+      "date": "2023-07-10",
+      "text": "Lite konstig eftersmak."
+    }
+  },
+  {
+    "id": "14065",
+    "name": "Zippy's Revenge",
+    "rating": 2.6,
+    "votes": 170,
+    "review": {
+      "reviewer": "Karin R.",
+      "date": "2023-12-28",
+      "text": "För stark och obalanserad."
+    }
+  },
+  {
+    "id": "14157",
+    "name": "Ziemes Martini Apfelsaft",
+    "rating": 4.5,
+    "votes": 253,
+    "review": {
+      "reviewer": "Lina T.",
+      "date": "2024-10-31",
+      "text": "Bästa drinken jag någonsin smakat!"
+    }
+  }
+]
