@@ -6,19 +6,90 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <h1>Vad är dagens måltid?</h1>
-  <button id="fetchMealBtn">Visa måltid</button>
-  <div id="meal" class="meal"></div>
-
-  <h1>Vad är kvällens drink?</h1>
-  <button id="nightBtn">Visa drink</button>
-  <div id="drink" class="drink"></div>
-  <h2>Måltidsrecensioner</h2>
-  <div id="meal-reviews"></div>
-
-    <h2>Dryckrecensioner</h2>
-      <div id="drink-reviews"></div>
-
+  <body>
+    <header>
+      <h1>Food & Drink Explorer</h1>
+      <p>Discover delicious meals and drinks with ratings!</p>
+    </header>
+  
+    <div class="tabs">
+      <div class="tab active" data-tab="random">Random Selector</div>
+      <div class="tab" data-tab="top-rated">Top Rated</div>
+    </div>
+  
+    <div id="random-tab" class="tab-content active">
+      <div class="button-container">
+        <button id="fetchMealBtn">Get Random Meal</button>
+        <button id="nightBtn">Get Random Drink</button>
+      </div>
+  
+      <div class="container">
+        <div class="card" id="meal">
+          <h2>Click the button to get a random meal</h2>
+        </div>
+        
+        <div class="card" id="drink">
+          <h2>Click the button to get a random drink</h2>
+        </div>
+      </div>
+  
+      <div class="container" style="margin-top: 20px;">
+        <div class="card" id="meal-rating">
+          <h3>Rate this Meal</h3>
+          <div id="meal-rating-display" class="rating-display">
+            <div class="stars">Not rated yet</div>
+          </div>
+          <div class="rating-form">
+            <p>Leave your rating:</p>
+            <div class="star-rating" id="meal-stars">
+              <span data-rating="1">★</span>
+              <span data-rating="2">★</span>
+              <span data-rating="3">★</span>
+              <span data-rating="4">★</span>
+              <span data-rating="5">★</span>
+            </div>
+            <button id="submit-meal-rating" disabled>Submit Rating</button>
+          </div>
+        </div>
+        
+        <div class="card" id="drink-rating">
+          <h3>Rate this Drink</h3>
+          <div id="drink-rating-display" class="rating-display">
+            <div class="stars">Not rated yet</div>
+          </div>
+          <div class="rating-form">
+            <p>Leave your rating:</p>
+            <div class="star-rating" id="drink-stars">
+              <span data-rating="1">★</span>
+              <span data-rating="2">★</span>
+              <span data-rating="3">★</span>
+              <span data-rating="4">★</span>
+              <span data-rating="5">★</span>
+            </div>
+            <button id="submit-drink-rating" disabled>Submit Rating</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div id="top-rated-tab" class="tab-content">
+      <div class="container">
+        <div class="card">
+          <h2>Top 10 Meals</h2>
+          <ol id="top-meals" class="top-list">
+            <li>Loading top meals...</li>
+          </ol>
+        </div>
+        
+        <div class="card">
+          <h2>Top 10 Drinks</h2>
+          <ol id="top-drinks" class="top-list">
+            <li>Loading top drinks...</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  
     <script type="module" src="reviews.js"></script>
 
 
