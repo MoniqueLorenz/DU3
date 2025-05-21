@@ -1,37 +1,22 @@
-async function fetchReviews(endpoint, containerId) {
+export async function fetchAllReviews() {
   try {
-    const res = await fetch(endpoint);
-    const data = await res.json();
-    
-    const container = document.getElementById(containerId);
-    container.innerHTML = ""; // rensa först
+    const res = await fetch("/reviews");
 
-    if (data.length === 0) {
-      container.textContent = "Inga recensioner ännu.";
-      return;
+    if (!res.ok) {
+      throw new Error(`HTTP-fel: ${res.status}`);
     }
 
-    data.forEach(item => {
-      // Visa bara de som har en kommentar eller recension
-      if (item.comment && item.comment.trim() !== "") {
-        const div = document.createElement("div");
-        div.className = "review";
+    const reviews = await res.json(); // ✅ INGEN JSON.parse() här
 
-        div.innerHTML = `
-          <strong>${item.name || "Okänd"}</strong>
-          <p>Betyg: ${item.rating} ⭐</p>
-          <p>${item.comment}</p>
-          <hr/>
-        `;
-        container.appendChild(div);
-      }
+    // 🖨️ Visa recensionerna i konsolen
+    console.log("Alla recensioner:");
+    reviews.forEach((review) => {
+      console.log(`${review.type.toUpperCase()} – ${review.name}: ${review.review}`);
     });
 
+    // 💡 Här kan du också lägga in koden för att visa recensionerna i HTML
+
   } catch (err) {
-    console.error("Fel vid hämtning:", err);
-    document.getElementById(containerId).textContent = "Kunde inte hämta recensioner.";
+    console.error("Fel vid hämtning:", err.message);
   }
 }
-
-fetchReviews("/meal-reviews", "meal-reviews");
-fetchReviews("/drink-reviews", "drink-reviews");
