@@ -2,7 +2,7 @@
 <html lang="sv">
 <head>
   <meta charset="UTF-8" />
-  <title>Random Meal & Drink</title>
+  <title>Food & Drink Explorer</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -89,15 +89,51 @@
         </div>
       </div>
     </div>
-  <script type="module" src="reviews.js"></script>
-  <script type="module" src="mealsfetch.js"></script>
-  <script type="module" src="drinks.js"></script>
-  <script type="module" src="top_drinks.js"></script>
-  <script type="module" src="top_meals.js"></script>
-  <script type="module" src="top-ratings.js"></script>
-  <script type="module" src="index.js"></script>
-  <script type="module" src="combine.js"></script>
-  <script type="module" src="user.js"></script>
+
+    <!-- Error display container -->
+    <div id="error" class="error-message"></div>
+
+    <!-- Review form for manual review submission (hidden by default) -->
+    <div id="reviewForm" class="review-form" style="display: none;">
+      <h3>Add Your Review</h3>
+      <form>
+        <div class="form-group">
+          <label for="reviewer">Your Name:</label>
+          <input type="text" id="reviewer" required>
+        </div>
+        <div class="form-group">
+          <label for="rating">Rating (1-5):</label>
+          <select id="rating" required>
+            <option value="">Select Rating</option>
+            <option value="1">1 Star</option>
+            <option value="2">2 Stars</option>
+            <option value="3">3 Stars</option>
+            <option value="4">4 Stars</option>
+            <option value="5">5 Stars</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="reviewText">Your Review:</label>
+          <textarea id="reviewText" rows="4" required></textarea>
+        </div>
+        <button type="submit">Submit Review</button>
+        <button type="button" onclick="this.parentElement.parentElement.style.display='none'">Cancel</button>
+      </form>
+    </div>
+
+    <!-- Load scripts in correct order -->
+    <!-- Core functionality first -->
+    <script type="module" src="index.js"></script>
+    
+    <!-- Individual feature modules -->
+    <script type="module" src="mealsfetch.js"></script>
+    <script type="module" src="drinks.js"></script>
+    <script type="module" src="reviews.js"></script>
+    <script type="module" src="top_meals.js"></script>
+    <script type="module" src="top_drinks.js"></script>
+    <script type="module" src="top-ratings.js"></script>
+    <script type="module" src="user.js"></script>
+    <script type="module" src="combine.js"></script>
 
 </body>
 </html>
