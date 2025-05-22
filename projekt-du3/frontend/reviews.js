@@ -112,3 +112,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
 fetchAndDisplayReviews();
 //testa fetch merge
+//test
