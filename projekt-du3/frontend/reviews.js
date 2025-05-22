@@ -111,3 +111,4 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 fetchAndDisplayReviews();
+//test merge
