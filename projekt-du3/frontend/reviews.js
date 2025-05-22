@@ -23,6 +23,7 @@ export async function fetchAndDisplayReviews() {
 
 function displayReviews(containerId, reviews, title) {
   const container = document.getElementById(containerId);
+  if (!container) return;
   container.innerHTML = "";
 
   if (!reviews || reviews.length === 0) {
@@ -36,8 +37,8 @@ function displayReviews(containerId, reviews, title) {
     const li = document.createElement("li");
     li.innerHTML = `
       <strong>${review.name}</strong> – Betyg: ${review.rating} (${review.votes} röster)<br>
-      <em>${review.review.reviewer} (${review.review.date})</em><br>
-      <p>${review.review.text}</p>
+      <em>${review.reviewer} (${review.date})</em><br>
+      <p>${review.review}</p>
     `;
     ul.appendChild(li);
   });
@@ -45,7 +46,6 @@ function displayReviews(containerId, reviews, title) {
   container.appendChild(ul);
 }
 
-// Funktion för att POSTa en ny recension
 async function postReview(reviewData) {
   try {
     const res = await fetch("/add-review", {
@@ -59,7 +59,7 @@ async function postReview(reviewData) {
     const data = await res.json();
 
     if (!res.ok) {
-      alert("Fel vid skickande av recension: " + data.error);
+      alert("Fel vid skickande av recension: " + (data.error || "Okänt fel"));
       return false;
     }
 
@@ -71,7 +71,6 @@ async function postReview(reviewData) {
   }
 }
 
-// Koppla ett formulär (lägg till i HTML ett formulär med id="reviewForm")
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("reviewForm");
   if (!form) return;
@@ -83,9 +82,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const rating = parseFloat(form.querySelector("#rating").value);
     const text = form.querySelector("#reviewText").value.trim();
 
-    // Här ska du dynamiskt hämta id och namn från den aktuella måltiden eller drycken
-    // Jag sätter hårdkodat exempel för måltid:
-    const idMeal = "52772"; // byt ut mot dynamiskt värde vid behov
+    // Dynamiska värden här om du vill
+    const idMeal = "52772";
     const name = "Chicken Handi";
 
     if (!reviewer || !text || isNaN(rating)) {
@@ -94,26 +92,22 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     const reviewData = {
-      type: "meal",
-      idMeal,
+      type: "meal", // eller "drink"
+      id: idMeal,
       name,
       rating,
-      votes: 1, // kan sättas dynamiskt
-      review: {
-        reviewer,
-        date: new Date().toISOString().split("T")[0],
-        text,
-      },
+      votes: 1,
+      reviewer,
+      date: new Date().toISOString().split("T")[0],
+      review: text,
     };
 
     const success = await postReview(reviewData);
     if (success) {
       form.reset();
-      fetchAndDisplayReviews(); // uppdatera visade recensioner efter lyckad post
+      fetchAndDisplayReviews(); // Uppdatera listan
     }
   });
 });
 
-// Kör när modulen laddas
 fetchAndDisplayReviews();
-
