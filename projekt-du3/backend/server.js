@@ -4,8 +4,8 @@ const RANDOM_MEAL_URL    = "https://www.themealdb.com/api/json/v1/1/random.php";
 const LOOKUP_MEAL_URL    = "https://www.themealdb.com/api/json/v1/1/lookup.php?i=";
 const RANDOM_DRINK_URL   = "https://www.thecocktaildb.com/api/json/v1/1/random.php";
 const templatePath       = "../frontend/index.html";
-const drinkRatingsPath   = "drink_list_with_ratings.json";
-const mealRatingsPath    = "meal_list_with_ratings.json";
+const drinkRatingsPath   = "drink_reviews.json";
+const mealRatingsPath    = "meal_reviews.json";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*", 
@@ -47,18 +47,20 @@ async function getDrinkRatings() {
   }
 }
 
-async function getTopMeals() {
-  const meals = await getMealRatings();
-  return meals.sort((a, b) =>
-    b.rating === a.rating ? b.votes - a.votes : b.rating - a.rating
-  ).slice(0, 10);
-}
+async function saveReview(review, isMeal = true) {
+  const path = isMeal ? "meal_reviews.json" : "drink_reviews.json";
+  let reviews = [];
 
-async function getTopDrinks() {
-  const drinks = await getDrinkRatings();
-  return drinks.sort((a, b) =>
-    b.rating === a.rating ? b.votes - a.votes : b.rating - a.rating
-  ).slice(0, 10);
+  try {
+    const text = await Deno.readTextFile(path);
+    reviews = JSON.parse(text);
+  } catch {
+    reviews = [];
+  }
+
+  reviews.push(review);
+
+  await Deno.writeTextFile(path, JSON.stringify(reviews, null, 2));
 }
 
 // Server
@@ -70,7 +72,34 @@ serve(async (req) => {
     return new Response(null, { headers: corsHeaders });
   }
 
-  // API-endpoints
+  if (req.method === "POST" && pathname === "/add-review") {
+    try {
+      const body = await req.json();
+
+      if (
+        !body.type || 
+        !(body.idMeal || body.idDrink) || 
+        !body.name || 
+        typeof body.rating !== "number" || 
+        typeof body.votes !== "number" || 
+        !body.review || 
+        !body.review.reviewer || 
+        !body.review.date || 
+        !body.review.text
+      ) {
+        return new Response(JSON.stringify({ error: "Invalid review format" }), { status: 400, headers: corsHeaders });
+      }
+
+      const isMeal = body.type === "meal";
+      await saveReview(body, isMeal);
+
+      return new Response(JSON.stringify({ success: true }), { status: 200, headers: corsHeaders });
+
+    } catch (err) {
+      return new Response(JSON.stringify({ error: err.message }), { status: 500, headers: corsHeaders });
+    }
+  }
+
   if (pathname === "/meal") {
     const meal = await getRandomMealDetails();
     return new Response(JSON.stringify(meal), {
@@ -86,34 +115,39 @@ serve(async (req) => {
   }
 
   if (pathname === "/top-meals") {
-    const topMeals = await getTopMeals();
+    const meals = await getMealRatings();
+    const topMeals = meals.sort((a, b) =>
+      b.rating === a.rating ? b.votes - a.votes : b.rating - a.rating
+    ).slice(0, 10);
     return new Response(JSON.stringify(topMeals), {
       headers: { ...corsHeaders, "Content-Type": "application/json" },
     });
   }
 
   if (pathname === "/top-drinks") {
-    const topDrinks = await getTopDrinks();
+    const drinks = await getDrinkRatings();
+    const topDrinks = drinks.sort((a, b) =>
+      b.rating === a.rating ? b.votes - a.votes : b.rating - a.rating
+    ).slice(0, 10);
     return new Response(JSON.stringify(topDrinks), {
       headers: { ...corsHeaders, "Content-Type": "application/json" },
     });
   }
 
-  if (pathname === "/meal-ratings") {
+  if (pathname === "/meal-reviews") {
     const ratings = await getMealRatings();
     return new Response(JSON.stringify(ratings), {
       headers: { ...corsHeaders, "Content-Type": "application/json" },
     });
   }
 
-  if (pathname === "/drink-ratings") {
+  if (pathname === "/drink-reviews") {
     const ratings = await getDrinkRatings();
     return new Response(JSON.stringify(ratings), {
       headers: { ...corsHeaders, "Content-Type": "application/json" },
     });
   }
 
-  // Frontend-filer
   if (pathname === "/" || pathname === "/index.html") {
     try {
       const html = await Deno.readTextFile(templatePath);
@@ -124,23 +158,7 @@ serve(async (req) => {
       return new Response("index.html hittades inte", { status: 404 });
     }
   }
-  if (pathname === "/reviews") {
-  try {
-    const file = await Deno.readTextFile("all_reviews.json");
-    const data = JSON.parse(file);
-    return new Response(JSON.stringify(data), {
-      headers: { "Content-Type": "application/json" }
-    });
-  } catch (err) {
-    return new Response(JSON.stringify({ error: err.message }), {
-      status: 500,
-      headers: { "Content-Type": "application/json" }
-    });
-  }
-}
 
-
-  // JS-filer
   const jsFiles = [
     "mealsfetch.js",
     "drinks.js",
@@ -164,7 +182,6 @@ serve(async (req) => {
     }
   }
 
-  // CSS
   if (pathname === "/style.css") {
     try {
       const css = await Deno.readTextFile("../frontend/style.css");
