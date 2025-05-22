@@ -132,3 +132,106 @@ ul {
 .tab-content.active {
   display: block;
 }
+
+/* Additional CSS for reviews */
+
+.reviews-section {
+  margin-top: 20px;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+
+.review-item {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.review-item.user-review {
+  background-color: #f0f7ff;
+  border-left: 3px solid #4CAF50;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.reviewer-name {
+  font-weight: bold;
+}
+
+.review-date {
+  color: #777;
+  font-size: 0.9em;
+}
+
+.review-stars {
+  color: #FFD700;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.review-comment {
+  line-height: 1.4;
+}
+
+/* Rating system styling */
+.star-rating span {
+  margin-right: 5px;
+  transition: color 0.2s;
+}
+
+.star-rating span:hover {
+  cursor: pointer;
+}
+
+.rating-form button {
+  margin-top: 10px;
+  background-color: #4CAF50;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.rating-form button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.rating-form button:not(:disabled):hover {
+  opacity: 1;
+}
+
+/* Top rated items styling */
+.top-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+
+.item-name {
+  flex: 1;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.item-rating {
+  color: #FFD700;
+  white-space: nowrap;
+  margin-right: 10px;
+}
+
+.item-votes {
+  font-size: 0.85em;
+  color: #777;
+}
+
+/* Tab content adjustments */
+.tab-content {
+  padding: 20px 0;
+}

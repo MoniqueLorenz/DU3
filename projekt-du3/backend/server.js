@@ -148,6 +148,7 @@ serve(async (req) => {
     "reviews.js",
     "top_meals.js",
     "top_drinks.js",
+    "index.js",
   ];
 
   for (const file of jsFiles) {
@@ -155,7 +156,7 @@ serve(async (req) => {
       try {
         const js = await Deno.readTextFile(`../frontend/${file}`);
         return new Response(js, {
-          headers: { ...corsHeaders, "Content-Type": "application/javascript" },
+          headers: { ...corsHeaders, "Content-Type": "text/javascript; charset=utf-8" },
         });
       } catch {
         return new Response(`${file} hittades inte`, { status: 404 });
