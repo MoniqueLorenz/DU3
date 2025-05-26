@@ -457,6 +457,7 @@ function addReviewToDisplay(type, reviewData) {
     
     const starsHTML = generateStarsHTML(reviewData.rating);
     
+    //lägg detta under allt senare
     reviewElement.innerHTML = `
         <div class="review-header">
             <span class="reviewer-name">${reviewData.review.reviewer} (New)</span>
