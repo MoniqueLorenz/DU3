@@ -14,16 +14,39 @@ const corsHeaders = {
   "Access-Control-Allow-Headers": "Content-Type"
 };
 
-// API-funktioner
-async function getRandomMealDetails() {
-  const res = await fetch(RANDOM_MEAL_URL);
-  const data = await res.json();
-  const id = data.meals[0].idMeal;
-  const detailRes = await fetch(`${LOOKUP_MEAL_URL}${id}`);
-  const detail = await detailRes.json();
-  return detail.meals[0];
+// Lägg till dessa funktioner nära toppen av din serverfil, t.ex. efter corsHeaders
+
+const usersPath = "users.json";
+
+async function readUsers() {
+  try {
+    const text = await Deno.readTextFile(usersPath);
+    return JSON.parse(text);
+  } catch {
+    return []; // Returnera tom array om filen inte finns
+  }
 }
 
+async function writeUsers(users) {
+  await Deno.writeTextFile(usersPath, JSON.stringify(users, null, 2));
+}
+
+// API-funktioner
+async function getRandomMealDetails() {
+  try {
+    const res = await fetch(RANDOM_MEAL_URL);
+    if (!res.ok) throw new Error('Failed to fetch meal');
+    const data = await res.json();
+    const id = data.meals[0].idMeal;
+    const detailRes = await fetch(`${LOOKUP_MEAL_URL}${id}`);
+    if (!detailRes.ok) throw new Error('Failed to fetch meal details');
+    const detail = await detailRes.json();
+    return detail.meals[0];
+  } catch (err) {
+    console.error('Error fetching meal:', err);
+    throw err; // Låt servern hantera felet
+  }
+}
 async function getRandomDrink() {
   const res = await fetch(RANDOM_DRINK_URL);
   const data = await res.json();
@@ -113,6 +136,41 @@ serve(async (req) => {
 
   if (req.method === "OPTIONS") {
     return new Response(null, { headers: corsHeaders });
+  }
+
+   if (req.method === "POST" && pathname === "/user") {
+    try {
+      const { username, password } = await req.json();
+
+      if (!username || !password) {
+        return new Response(
+          JSON.stringify({ error: "Både användarnamn och lösenord krävs." }),
+          { status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" } }
+        );
+      }
+
+      const users = await readUsers();
+
+      if (users.some(u => u.username === username)) {
+        return new Response(
+          JSON.stringify({ error: "Användarnamnet är redan taget." }),
+          { status: 409, headers: { ...corsHeaders, "Content-Type": "application/json" } }
+        );
+      }
+
+      users.push({ username, password });
+      await writeUsers(users);
+
+      return new Response(
+        JSON.stringify({ message: "Användare skapad!" }),
+        { status: 201, headers: { ...corsHeaders, "Content-Type": "application/json" } }
+      );
+    } catch (err) {
+      return new Response(
+        JSON.stringify({ error: "Ogiltig förfrågan." }),
+        { status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" } }
+      );
+    }
   }
 
   // Handle POST requests for adding reviews
@@ -253,7 +311,6 @@ serve(async (req) => {
       }
     }
   }
-
   // Serve CSS
   if (pathname === "/style.css") {
     try {

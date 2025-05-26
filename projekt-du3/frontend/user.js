@@ -1,3 +1,39 @@
+// funktion som lägger till användare permanent i en json-fil (databas där användarnamn och lösenord sparas)
+
+
+console.log("hej")
+async function registerUser() {
+    const usernameInput = document.getElementById("username_input").value.trim();
+    const passwordInput = document.getElementById("password_input").value.trim();
+    const messageText = document.getElementById("message_text");
+
+    if (!usernameInput || !passwordInput) {
+        messageText.textContent = "Please fill in both fields!";
+        return;
+    }
+
+    const response = await fetch("/user", { // Ändra URL till er server
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ username: usernameInput, password: passwordInput })
+    });
+
+    const result = await response.json();
+
+    if (result.error) {
+        messageText.textContent = result.error;
+    } else {
+        messageText.textContent = "Account created!";
+    }
+}
+
+document.getElementById("register_button").addEventListener("click", () => {
+    console.log("Button clicked"); // Kontrollera om klick händer
+    registerUser();
+});
+
+
+
 // user.js - Handles user reviews and ratings
 
 // Current active items
@@ -97,42 +133,87 @@ function setupSubmitButtons() {
 }
 
 // Submit a review for meal or drink
-function submitReview(type, item, rating) {
-  // Ask for review text
-  const reviewText = prompt(`Add your review for ${item.name}:`, '');
-  if (reviewText === null) return; // User cancelled
+// function submitReview(type, item, rating) {
+//   // Ask for review text
+//   const reviewText = prompt(`Add your review for ${item.name}:`, '');
+//   if (reviewText === null) return; // User cancelled
   
-  // Create review object
+//   // Create review object
+//   const review = {
+//     id: item.idMeal || item.idDrink,
+//     name: item.name || item.strMeal || item.strDrink,
+//     type: type,
+//     rating: rating,
+//     reviewer: 'You',
+//     date: new Date().toISOString().split('T')[0],
+//     review: reviewText || `Rated ${rating} out of 5 stars`
+//   };
+  
+//   // In a real application, we would send this to the server
+//   console.log('Submitting review:', review);
+  
+//   // For now, just display it locally
+//   addReviewToDisplay(type, review);
+  
+//   // Reset rating after submission
+//   if (type === 'meal') {
+//     selectedMealRating = 0;
+//     elements.submitMealRatingBtn.disabled = true;
+//   } else {
+//     selectedDrinkRating = 0;
+//     elements.submitDrinkRatingBtn.disabled = true;
+//   }
+  
+//   // Reset stars display
+//   highlightStars(type, 0);
+  
+//   // Show success message
+//   alert('Your review has been submitted. Thank you!');
+// }
+
+async function submitReview(type, item, rating) {
+  const reviewText = prompt(`Add your review for ${item.name}:`, '');
+  if (reviewText === null) return;
+
   const review = {
     id: item.idMeal || item.idDrink,
     name: item.name || item.strMeal || item.strDrink,
     type: type,
     rating: rating,
-    reviewer: 'You',
-    date: new Date().toISOString().split('T')[0],
-    review: reviewText || `Rated ${rating} out of 5 stars`
+    votes: 1, // Lägg till votes
+    review: {
+      reviewer: 'You', // I en skarp miljö, hämta inloggad användare
+      date: new Date().toISOString().split('T')[0],
+      text: reviewText || `Rated ${rating} out of 5 stars`
+    }
   };
-  
-  // In a real application, we would send this to the server
-  console.log('Submitting review:', review);
-  
-  // For now, just display it locally
-  addReviewToDisplay(type, review);
-  
-  // Reset rating after submission
-  if (type === 'meal') {
-    selectedMealRating = 0;
-    elements.submitMealRatingBtn.disabled = true;
-  } else {
-    selectedDrinkRating = 0;
-    elements.submitDrinkRatingBtn.disabled = true;
+
+  try {
+    const response = await fetch('/add-review', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(review)
+    });
+
+    if (!response.ok) throw new Error('Failed to submit review');
+
+    // Reset rating och visa meddelande
+    if (type === 'meal') {
+      selectedMealRating = 0;
+      elements.submitMealRatingBtn.disabled = true;
+    } else {
+      selectedDrinkRating = 0;
+      elements.submitDrinkRatingBtn.disabled = true;
+    }
+    highlightStars(type, 0);
+    alert('Your review has been submitted. Thank you!');
+
+    // Lägg till recensionen lokalt i displayen
+    addReviewToDisplay(type, review);
+  } catch (err) {
+    console.error('Error submitting review:', err);
+    alert('Failed to submit review. Please try again.');
   }
-  
-  // Reset stars display
-  highlightStars(type, 0);
-  
-  // Show success message
-  alert('Your review has been submitted. Thank you!');
 }
 
 // Add a new review to the display
