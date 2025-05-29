@@ -25,6 +25,7 @@ async function fetchTopDrinks() {
     }
     
     const topDrinks = await response.json();
+    console.log(topDrinks);
     displayTopItems('top-drinks', topDrinks);
   } catch (error) {
     console.error('Error fetching top drinks:', error);
@@ -34,8 +35,11 @@ async function fetchTopDrinks() {
 }
 
 // Display the top rated items
+/*
 function displayTopItems(containerId, items) {
-  const container = document.querySelector(`#${containerId} .items-list`);
+  //  const container = document.querySelector(`#${containerId} .items-list`);
+  const container = document.getElementById(containerId);
+  alert(container);
   
   if (items.length === 0) {
     container.innerHTML = '<p>No rated items available.</p>';
@@ -46,11 +50,11 @@ function displayTopItems(containerId, items) {
   
   items.forEach(item => {
     const listItem = document.createElement('li');
+
     
     const nameSpan = document.createElement('span');
     nameSpan.className = 'item-name';
     nameSpan.textContent = item.name;
-    
     const ratingSpan = document.createElement('span');
     ratingSpan.className = 'item-rating';
     // Create stars based on rating
@@ -62,6 +66,11 @@ function displayTopItems(containerId, items) {
     const votesSpan = document.createElement('span');
     votesSpan.className = 'item-votes';
     votesSpan.textContent = `${item.votes} votes`;
+
+    nameSpan.addEventListener('click', () => {
+      const mealId = listItem.dataset.id;
+      alert("clicked on item");
+    });
     
     listItem.appendChild(nameSpan);
     listItem.appendChild(ratingSpan);
@@ -70,6 +79,8 @@ function displayTopItems(containerId, items) {
     itemsList.appendChild(listItem);
   });
   
+  
   container.innerHTML = '';
   container.appendChild(itemsList);
 }
+  */

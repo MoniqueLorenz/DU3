@@ -680,3 +680,32 @@ ul, ol {
     font-size: 24px;
   }
 }
+
+/*Login, Popup, Modal*/
+.loginModal{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.31);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginPopup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 400px;
+  width: 400px;
+  border-radius: 3px;
+
+  background-color: white;
+}

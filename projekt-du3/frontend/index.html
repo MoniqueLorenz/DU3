@@ -4,42 +4,67 @@
   <meta charset="UTF-8" />
   <title>Food & Drink Explorer</title>
   <link rel="stylesheet" href="style.css" />
-  <style>
-    /* Additional styles for the review input areas */
-
-  </style>
 </head>
 <body>
  
-    <header>
-      <div id="headers_container">
-        <div id="left_header">
-          <h1>Food and Drinks Explorer</h1>
-          <p>Discover delicious meals and drinks with ratings!</p>
+     <header>
+        <div id="header_container">
+            <div id="left_header">
+                <h1>Food and Drinks Explorer</h1>
+                <p>Discover delicious meals and drinks with ratings!</p>
+            </div>
+            <div id="right_header">
+                <button id="account_button">Your Account</button>
+            </div>
         </div>
-        <div id="right_header">
-          <button id="account_button">Your account</button>
-        </div>
-      </div>
     </header>
 
-    <!-- Dropdown after login -->
-<div id="account_dropdown" class="hidden">
-  <button id="dropdown_button">Account ▼</button>
-  <div id="dropdown_menu" class="dropdown hidden">
-    <a href="#">Favourites</a>
-    <a href="#" id="logout_btn">Log out</a>
-  </div>
-</div>
+    <!-- Login/Signup Modal -->
+    <div id="auth_modal" class="modal hidden">
+        <div class="modal_content">
+            <span id="close_modal" class="close">&times;</span>
+            <div id="login_form">
+                <h2>Login</h2>
+                <div class="form_group">
+                    <label for="login_username">Username:</label>
+                    <input type="text" id="login_username" placeholder="Enter username" required>
+                </div>
+                <div class="form_group">
+                    <label for="login_password">Password:</label>
+                    <input type="password" id="login_password" placeholder="Enter password" required>
+                </div>
+                <button id="login_submit">Login</button>
+                <p>Don't have an account? <a href="#" id="switch_to_signup">Sign up</a></p>
+            </div>
+            <div id="signup_form" class="hidden">
+                <h2>Sign Up</h2>
+                <div class="form_group">
+                    <label for="signup_username">Username:</label>
+                    <input type="text" id="signup_username" placeholder="Choose a username" required>
+                </div>
+                <div class="form_group">
+                    <label for="signup_password">Password:</label>
+                    <input type="password" id="signup_password" placeholder="Choose a password" required>
+                </div>
+                <button id="signup_submit">Sign Up</button>
+                <p>Already have an account? <a href="#" id="switch_to_login">Login</a></p>
+            </div>
+        </div>
+    </div>
 
-<!-- Dropdown after login -->
-<div id="account_dropdown" class="hidden">
-  <button id="dropdown_button">Account ▼</button>
-  <div id="dropdown_menu" class="dropdown hidden">
-    <a href="#">Favourites</a>
-    <a href="#" id="logout_btn">Log out</a>
-  </div>
-</div>
+    <!-- Dropdown after login -->
+    <div id="account_dropdown" class="dropdown hidden">
+        <button id="dropdown_button">Account ▼</button>
+        <div id="dropdown_menu" class="dropdown hidden">
+            <div id="user_info"></div>
+            <h3>Your Favorites</h3>
+            <div id="favorites_list">
+                <p>No favorites yet.</p>
+            </div>
+            <a href="#" id="logout_btn">Log out</a>
+        </div>
+    </div>
+
 
 
   
@@ -70,7 +95,6 @@
           <div id="meal-rating-display" class="rating-display">
             <div class="stars">Not rated yet</div>
           </div>
-          
           <div class="rating-form">
             <p>Leave your rating:</p>
             <div class="star-rating" id="meal-stars">
@@ -80,23 +104,7 @@
               <span data-rating="4">★</span>
               <span data-rating="5">★</span>
             </div>
-          </div>
-
-          <!-- New review input section for meals -->
-          <div class="review-input-section" id="meal-review-inputs">
-            <h4>Add Your Review</h4>
-            
-            <div class="form-group">
-              <label for="meal-reviewer-name">Your Name:</label>
-              <input type="text" id="meal-reviewer-name" placeholder="Enter your name">
-            </div>
-            
-            <div class="form-group">
-              <label for="meal-review-text">Your Review (optional):</label>
-              <textarea id="meal-review-text" placeholder="Tell us what you thought about this meal..."></textarea>
-            </div>
-            
-            <button id="submit-meal-rating" class="review-submit-btn" disabled>Submit Review</button>
+            <button id="submit-meal-rating" disabled>Submit Rating</button>
           </div>
         </div>
         
@@ -105,7 +113,6 @@
           <div id="drink-rating-display" class="rating-display">
             <div class="stars">Not rated yet</div>
           </div>
-          
           <div class="rating-form">
             <p>Leave your rating:</p>
             <div class="star-rating" id="drink-stars">
@@ -115,23 +122,7 @@
               <span data-rating="4">★</span>
               <span data-rating="5">★</span>
             </div>
-          </div>
-
-          <!-- New review input section for drinks -->
-          <div class="review-input-section" id="drink-review-inputs">
-            <h4>Add Your Review</h4>
-            
-            <div class="form-group">
-              <label for="drink-reviewer-name">Your Name:</label>
-              <input type="text" id="drink-reviewer-name" placeholder="Enter your name">
-            </div>
-            
-            <div class="form-group">
-              <label for="drink-review-text">Your Review (optional):</label>
-              <textarea id="drink-review-text" placeholder="Tell us what you thought about this drink..."></textarea>
-            </div>
-            
-            <button id="submit-drink-rating" class="review-submit-btn" disabled>Submit Review</button>
+            <button id="submit-drink-rating" disabled>Submit Rating</button>
           </div>
         </div>
       </div>
@@ -158,6 +149,34 @@
     <!-- Error display container -->
     <div id="error" class="error-message"></div>
 
+    <!-- Review form for manual review submission (hidden by default) -->
+    <div id="reviewForm" class="review-form" style="display: none;">
+      <h3>Add Your Review</h3>
+      <form>
+        <div class="form-group">
+          <label for="reviewer">Your Name:</label>
+          <input type="text" id="reviewer" required>
+        </div>
+        <div class="form-group">
+          <label for="rating">Rating (1-5):</label>
+          <select id="rating" required>
+            <option value="">Select Rating</option>
+            <option value="1">1 Star</option>
+            <option value="2">2 Stars</option>
+            <option value="3">3 Stars</option>
+            <option value="4">4 Stars</option>
+            <option value="5">5 Stars</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="reviewText">Your Review:</label>
+          <textarea id="reviewText" rows="4" required></textarea>
+        </div>
+        <button type="submit">Submit Review</button>
+        <button type="button" onclick="this.parentElement.parentElement.style.display='none'">Cancel</button>
+      </form>
+    </div>
+
     <!-- Load scripts in correct order -->
     <!-- Core functionality first -->
     <script type="module" src="index.js"></script>
@@ -170,6 +189,7 @@
     <script type="module" src="top_drinks.js"></script>
     <script type="module" src="top-ratings.js"></script>
     <script type="module" src="user.js"></script>
+    <script type="module" src="combine.js"></script>
 
 </body>
 </html>

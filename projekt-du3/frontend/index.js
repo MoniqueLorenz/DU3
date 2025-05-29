@@ -10,7 +10,10 @@ let currentDrink = null;
 let selectedMealRating = 0;
 let selectedDrinkRating = 0;
 
+
 document.addEventListener('DOMContentLoaded', function() {
+    
+
     console.log('Food & Drink Explorer loaded!');
     
     // Tab functionality
@@ -24,6 +27,10 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Setup meal and drink fetching with review integration
     setupItemFetching();
+
+    //login popup
+    setupLoginPopup();
+    
 });
 
 // Tab system setup
@@ -393,7 +400,7 @@ function submitMealReview(rating) {
     }
     
     // Get review text
-    const reviewText = prompt('Add a comment for your review (optional):');
+    const reviewText = document.getElementById("meal-review-text").value.trim();
     if (reviewText === null) {
         return; // User cancelled
     }
@@ -458,7 +465,7 @@ function submitDrinkReview(rating) {
     }
     
     // Get review text
-    const reviewText = prompt('Add a comment for your review (optional):');
+    const reviewText = document.getElementById("drink-review-text").value.trim();
     if (reviewText === null) {
         return; // User cancelled
     }
@@ -641,8 +648,123 @@ function populateTopList(listId, items) {
             '<span class="item-rating">' + starsHTML + ' (' + item.rating + ')</span>' +
             '<span class="item-votes">' + item.votes + ' ' + voteText + '</span>';
         
+
+        li.addEventListener('click', () => {
+        console.log("clicked on item");
+
+        //implementera logik för att hämta data från item sedan ta ID och skicka den till ett API request
+        //API URL FÖR att hämta information baseret  på id www.themealdb.com/api/json/v1/1/lookup.php?i=52772
+        //Visa up det på hemsidan
+
+        });
+            
         list.appendChild(li);
     }
+}
+
+async function setupLoginPopup(){
+    const modal = document.createElement("div");
+    modal.classList.add("loginModal");
+
+    const popup = document.createElement("div");
+    popup.classList.add("loginPopup");
+
+    popup.innerHTML = `
+    <div id="auth_modal" class="modal">
+        <div class="modal_content">
+            <div id="login_form">
+                <h2>Login</h2>
+                <div class="form_group">
+                    <label for="login_username">Username:</label>
+                    <input type="text" id="login_username" placeholder="Enter username" required>
+                </div>
+                <div class="form_group">
+                    <label for="login_password">Password:</label>
+                    <input type="password" id="login_password" placeholder="Enter password" required>
+                </div>
+                <button id="login_submit">Login</button>
+                <p>Don't have an account? <a href="#" id="switch_to_signup">Sign up</a></p>
+            </div>
+            <div id="signup_form" class="hidden">
+                <h2>Sign Up</h2>
+                <div class="form_group">
+                    <label for="signup_username">Username:</label>
+                    <input type="text" id="signup_username" placeholder="Choose a username" required>
+                </div>
+                <div class="form_group">
+                    <label for="signup_password">Password:</label>
+                    <input type="password" id="signup_password" placeholder="Choose a password" required>
+                </div>
+                <button id="signup_submit">Sign Up</button>
+                <p>Already have an account? <a href="#" id="switch_to_login">Login</a></p>
+            </div>
+        </div>
+    </div>
+    `;
+
+    const loginForm = popup.querySelector("#auth_modal").querySelector("#login_form");
+    const signupForm = popup.querySelector("#auth_modal").querySelector("#signup_form");
+
+    popup.querySelector("#auth_modal").querySelector("#switch_to_signup").addEventListener("click", function(){
+        loginForm.classList.add("hidden");
+        signupForm.classList.remove("hidden");
+    })
+
+    popup.querySelector("#auth_modal").querySelector("#switch_to_login").addEventListener("click", function(){
+        loginForm.classList.remove("hidden");
+        signupForm.classList.add("hidden");
+    })
+    //I både signup och login - ta bort blanksteg
+    loginForm.querySelector("#login_submit").addEventListener("click", async function(){
+        const username = loginForm.querySelector("#login_username").value;
+        const password = loginForm.querySelector("#login_password").value;
+
+        const request = new Request("/get-user"); 
+        let response = await fetch(request);         
+
+        if (response.status === 200) {
+            let content = await response.json();
+
+            for(let user of content){
+                if(user.username == username && user.password == password){
+                    modal.remove();
+                }
+            }
+        } 
+    })
+
+    async function registerUser() {
+        const usernameInput = signupForm.querySelector("#signup_username").value.trim();
+        const passwordInput = signupForm.querySelector("#signup_password").value.trim();
+        // const messageText = signupForm.querySelector("#message_text");
+
+        // if (!usernameInput || !passwordInput) {
+        //     messageText.textContent = "Please fill in both fields!";
+        //     return;
+        // }
+
+        const response = await fetch("/user", { // Ändra URL till er server
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ username: usernameInput, password: passwordInput })
+        });
+
+        const result = await response.json();
+
+        // if (result.error) {
+        //     messageText.textContent = result.error;
+        // } else {
+        //     messageText.textContent = "Account created!";
+        // }
+    }
+
+    signupForm.querySelector("#signup_submit").addEventListener("click", () => {
+        console.log("Button clicked"); // Kontrollera om klick händer
+        registerUser();
+    });
+
+    modal.append(popup);
+    document.querySelector("body").append(modal);
 }
 
 

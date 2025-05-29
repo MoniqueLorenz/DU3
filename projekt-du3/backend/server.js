@@ -212,6 +212,14 @@ serve(async (req) => {
   }
 
   // API endpoints
+
+  if (pathname === "/get-user") {
+    const user = await readUsers(); 
+    return new Response(JSON.stringify(user), { 
+      headers: { ...corsHeaders, "Content-Type": "application/json" },
+    })
+  }
+
   if (pathname === "/meal") {
     const meal = await getRandomMealDetails();
     return new Response(JSON.stringify(meal), {
