@@ -7,10 +7,66 @@
 </head>
 <body>
  
-    <header>
-      <h1>Food & Drink Explorer</h1>
-      <p>Discover delicious meals and drinks with ratings!</p>
+     <header>
+        <div id="header_container">
+            <div id="left_header">
+                <h1>Food and Drinks Explorer</h1>
+                <p>Discover delicious meals and drinks with ratings!</p>
+            </div>
+            <div id="right_header">
+                <button id="account_button">Your Account</button>
+            </div>
+        </div>
     </header>
+
+    <!-- Login/Signup Modal -->
+    <div id="auth_modal" class="modal hidden">
+        <div class="modal_content">
+            <span id="close_modal" class="close">&times;</span>
+            <div id="login_form">
+                <h2>Login</h2>
+                <div class="form_group">
+                    <label for="login_username">Username:</label>
+                    <input type="text" id="login_username" placeholder="Enter username" required>
+                </div>
+                <div class="form_group">
+                    <label for="login_password">Password:</label>
+                    <input type="password" id="login_password" placeholder="Enter password" required>
+                </div>
+                <button id="login_submit">Login</button>
+                <p>Don't have an account? <a href="#" id="switch_to_signup">Sign up</a></p>
+            </div>
+            <div id="signup_form" class="hidden">
+                <h2>Sign Up</h2>
+                <div class="form_group">
+                    <label for="signup_username">Username:</label>
+                    <input type="text" id="signup_username" placeholder="Choose a username" required>
+                </div>
+                <div class="form_group">
+                    <label for="signup_password">Password:</label>
+                    <input type="password" id="signup_password" placeholder="Choose a password" required>
+                </div>
+                <button id="signup_submit">Sign Up</button>
+                <p>Already have an account? <a href="#" id="switch_to_login">Login</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dropdown after login -->
+    <div id="account_dropdown" class="dropdown hidden">
+        <button id="dropdown_button">Account ▼</button>
+        <div id="dropdown_menu" class="dropdown hidden">
+            <div id="user_info"></div>
+            <h3>Your Favorites</h3>
+            <div id="favorites_list">
+                <p>No favorites yet.</p>
+            </div>
+            <a href="#" id="logout_btn">Log out</a>
+        </div>
+    </div>
+
+
+
   
     <div class="tabs">
       <div class="tab active" data-tab="random">Random Selector</div>
@@ -133,7 +189,7 @@
     <script type="module" src="top_drinks.js"></script>
     <script type="module" src="top-ratings.js"></script>
     <script type="module" src="user.js"></script>
-    <script type="module" src="combine.js"></script> //tror inte att vi behöver ha denna
+    <script type="module" src="combine.js"></script>
 
 </body>
 </html>

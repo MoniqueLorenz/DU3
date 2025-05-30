@@ -47,6 +47,7 @@ function displayReviews(containerId, reviews, title) {
 }
 
 async function postReview(reviewData) {
+
   try {
     const res = await fetch("/add-review", {
       method: "POST",
@@ -55,6 +56,7 @@ async function postReview(reviewData) {
       },
       body: JSON.stringify(reviewData),
     });
+
 
     const data = await res.json();
 

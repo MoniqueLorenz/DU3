@@ -3252,16 +3252,16 @@
     "type": "meal"
   },
   {
+    "type": "meal",
     "idMeal": "52772",
-    "name": "Teriyaki Chicken Casserole",
-    "rating": 2.5,
-    "votes": 429,
+    "name": "Chicken Handi",
+    "rating": 1.2,
+    "votes": 1,
     "review": {
-      "reviewer": "Jonas P.",
-      "date": "2024-03-06",
-      "text": "Lite för konstig för min smak."
-    },
-    "type": "meal"
+      "reviewer": "maja",
+      "date": "2025-05-24",
+      "text": "2"
+    }
   },
   {
     "idMeal": "52806",

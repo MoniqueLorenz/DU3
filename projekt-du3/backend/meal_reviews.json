@@ -616,14 +616,15 @@
     }
   },
   {
+    "type": "meal",
     "idMeal": "52840",
     "name": "Clam chowder",
-    "rating": 4.1,
-    "votes": 145,
+    "rating": 4,
+    "votes": 1,
     "review": {
-      "reviewer": "Anna K.",
-      "date": "2025-03-11",
-      "text": "Inte perfekt, men väldigt god."
+      "reviewer": "You",
+      "date": "2025-05-28",
+      "text": "iii"
     }
   },
   {
@@ -1079,14 +1080,15 @@
     }
   },
   {
+    "type": "meal",
     "idMeal": "52895",
     "name": "English Breakfast",
-    "rating": 4.7,
-    "votes": 362,
+    "rating": 4,
+    "votes": 1,
     "review": {
-      "reviewer": "Nora M.",
-      "date": "2025-01-28",
-      "text": "Otroligt god! En ny favorit."
+      "reviewer": "You",
+      "date": "2025-05-27",
+      "text": "uue"
     }
   },
   {
@@ -2135,14 +2137,15 @@
     }
   },
   {
+    "type": "meal",
     "idMeal": "52847",
     "name": "Pork Cassoulet",
-    "rating": 1.9,
-    "votes": 144,
+    "rating": 3,
+    "votes": 1,
     "review": {
-      "reviewer": "Karin R.",
-      "date": "2024-04-20",
-      "text": "En besvikelse."
+      "reviewer": "You",
+      "date": "2025-05-28",
+      "text": "this is the text in the review box"
     }
   },
   {
@@ -2982,14 +2985,15 @@
     }
   },
   {
+    "type": "meal",
     "idMeal": "52772",
-    "name": "Teriyaki Chicken Casserole",
-    "rating": 2.5,
-    "votes": 429,
+    "name": "Chicken Handi",
+    "rating": 1.2,
+    "votes": 1,
     "review": {
-      "reviewer": "Jonas P.",
-      "date": "2024-03-06",
-      "text": "Lite för konstig för min smak."
+      "reviewer": "maja",
+      "date": "2025-05-24",
+      "text": "2"
     }
   },
   {

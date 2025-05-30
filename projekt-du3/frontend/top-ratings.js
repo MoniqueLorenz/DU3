@@ -1,39 +1,3 @@
-// This file fetches and displays the top rated meals and drinks
-document.addEventListener('DOMContentLoaded', function() {
-  // Add a container for the top ratings if not already in your HTML
-  if (!document.getElementById('top-ratings-container')) {
-    const topRatingsContainer = document.createElement('div');
-    topRatingsContainer.id = 'top-ratings-container';
-    topRatingsContainer.className = 'ratings-section';
-    
-    const topRatingsTitle = document.createElement('h2');
-    topRatingsTitle.textContent = 'Top Rated Items';
-    topRatingsContainer.appendChild(topRatingsTitle);
-    
-    const topMealsDiv = document.createElement('div');
-    topMealsDiv.id = 'top-meals';
-    topMealsDiv.className = 'top-items';
-    topMealsDiv.innerHTML = '<h3>Top 10 Meals</h3><div class="items-list"></div>';
-    
-    const topDrinksDiv = document.createElement('div');
-    topDrinksDiv.id = 'top-drinks';
-    topDrinksDiv.className = 'top-items';
-    topDrinksDiv.innerHTML = '<h3>Top 10 Drinks</h3><div class="items-list"></div>';
-    
-    topRatingsContainer.appendChild(topMealsDiv);
-    topRatingsContainer.appendChild(topDrinksDiv);
-    
-    // Add the container to the main content area
-    const mainContent = document.querySelector('main') || document.body;
-    mainContent.appendChild(topRatingsContainer);
-  }
-  
-  // Fetch top meals
-  fetchTopMeals();
-  
-  // Fetch top drinks
-  fetchTopDrinks();
-});
 
 // Fetch top 10 meals
 async function fetchTopMeals() {
@@ -61,6 +25,7 @@ async function fetchTopDrinks() {
     }
     
     const topDrinks = await response.json();
+    console.log(topDrinks);
     displayTopItems('top-drinks', topDrinks);
   } catch (error) {
     console.error('Error fetching top drinks:', error);
@@ -70,8 +35,11 @@ async function fetchTopDrinks() {
 }
 
 // Display the top rated items
+/*
 function displayTopItems(containerId, items) {
-  const container = document.querySelector(`#${containerId} .items-list`);
+  //  const container = document.querySelector(`#${containerId} .items-list`);
+  const container = document.getElementById(containerId);
+  alert(container);
   
   if (items.length === 0) {
     container.innerHTML = '<p>No rated items available.</p>';
@@ -82,11 +50,11 @@ function displayTopItems(containerId, items) {
   
   items.forEach(item => {
     const listItem = document.createElement('li');
+
     
     const nameSpan = document.createElement('span');
     nameSpan.className = 'item-name';
     nameSpan.textContent = item.name;
-    
     const ratingSpan = document.createElement('span');
     ratingSpan.className = 'item-rating';
     // Create stars based on rating
@@ -98,6 +66,11 @@ function displayTopItems(containerId, items) {
     const votesSpan = document.createElement('span');
     votesSpan.className = 'item-votes';
     votesSpan.textContent = `${item.votes} votes`;
+
+    nameSpan.addEventListener('click', () => {
+      const mealId = listItem.dataset.id;
+      alert("clicked on item");
+    });
     
     listItem.appendChild(nameSpan);
     listItem.appendChild(ratingSpan);
@@ -106,6 +79,8 @@ function displayTopItems(containerId, items) {
     itemsList.appendChild(listItem);
   });
   
+  
   container.innerHTML = '';
   container.appendChild(itemsList);
 }
+  */
