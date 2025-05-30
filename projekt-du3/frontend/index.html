@@ -175,6 +175,45 @@
         <button type="submit">Submit Review</button>
         <button type="button" onclick="this.parentElement.parentElement.style.display='none'">Cancel</button>
       </form>
+      async function submitDrinkReviewClicked() {
+      
+      const reviewerName = document.getElementById("drink-reviewer-name").value;
+      const description = document.getElementById("drink-review-text").value;
+
+      //Hardcoded - TODO: populate with real value instead
+      const stars = 5;
+      const rating = 9.2;
+      const drinkName = "A Night In Old Mandalay";
+      const drinkID = "17832";
+
+      if (!reviewerName || !stars) {
+        alert("please fill in your name and select stars!");
+      } else {
+
+        const reviewObject = {
+          type: "drink",
+          idDrink: drinkID,
+          name: drinkName,
+          rating: rating,
+          votes: stars,
+          review: {
+            reviewer: reviewerName,
+            date: new Date().toISOString().split("T")[0],
+            text: description,
+          }
+        }
+
+        //TODO send API request to endpoint
+        const response = await postReview(reviewObject);
+      }
+    }
+  </script>
+
+
+
+</body>
+
+</html>
     </div>
 
     <!-- Load scripts in correct order -->
@@ -190,6 +229,7 @@
     <script type="module" src="top-ratings.js"></script>
     <script type="module" src="user.js"></script>
     <script type="module" src="combine.js"></script>
+    
 
 </body>
 </html>
