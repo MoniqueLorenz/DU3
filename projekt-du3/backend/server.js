@@ -1,4 +1,5 @@
 import { serve } from "https://deno.land/std@0.190.0/http/server.ts";
+import { UserManager } from "./UserManager.js";
 
 const RANDOM_MEAL_URL    = "https://www.themealdb.com/api/json/v1/1/random.php";
 const LOOKUP_MEAL_URL    = "https://www.themealdb.com/api/json/v1/1/lookup.php?i=";
@@ -210,6 +211,36 @@ serve(async (req) => {
       });
     }
   }
+
+  const userManager = new UserManager("users.json");
+
+console.log("Servern körs på http://localhost:8000");
+
+serve(async (req) => {
+  const url = new URL(req.url);
+
+  if (req.method === "POST" && url.pathname === "/user") {
+    const body = await req.json();
+    const { username, password } = body;
+
+    const result = await userManager.register(username, password);
+    console.log("UserManager result:", result); // ← Lägg till denna rad
+
+    if (!result.success) {
+      return new Response(JSON.stringify({ error: result.error }), {
+        status: 400,
+        headers: { "Content-Type": "application/json" },
+      });
+    }
+
+    return new Response(JSON.stringify({ success: true }), {
+      status: 200,
+      headers: { "Content-Type": "application/json" },
+    });
+  }
+
+  return new Response("Not found", { status: 404 });
+});
 
   // API endpoints
 
