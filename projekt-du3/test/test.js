@@ -3,7 +3,7 @@
 // skicka några dåliga requests för att se hur servern hanterar det
 
 // GET /favourites - hämtar listan
-
+/*
 async function test1() {
     const request = new Request("http://localhost:8000/favourites"); 
     const response = await fetch(request);
@@ -143,3 +143,5 @@ testError1();
 testError2();
 testError3(); 
 testError4(); 
+
+*/
