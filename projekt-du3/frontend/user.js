@@ -1,3 +1,4 @@
+/*
 // funktion som lägger till användare permanent i en json-fil (databas där användarnamn och lösenord sparas)
 
 // user.js - Handles user reviews and ratings
@@ -97,7 +98,7 @@ function setupSubmitButtons() {
     submitReview('drink', currentDrink, selectedDrinkRating);
   });
 }
-
+*/
 // Submit a review for meal or drink
 // function submitReview(type, item, rating) {
 //   // Ask for review text
@@ -137,7 +138,7 @@ function setupSubmitButtons() {
 //   alert('Your review has been submitted. Thank you!');
 // }
 
-async function submitReview(type, item, rating) {
+/*async function submitReview(type, item, rating) {
   const reviewText = prompt(`Add your review for ${item.name}:`, '');
   if (reviewText === null) return;
 
@@ -166,10 +167,10 @@ async function submitReview(type, item, rating) {
     // Reset rating och visa meddelande
     if (type === 'meal') {
       selectedMealRating = 0;
-      elements.submitMealRatingBtn.disabled = true;
+      elements.submitMealRatingBtn = true;
     } else {
       selectedDrinkRating = 0;
-      elements.submitDrinkRatingBtn.disabled = true;
+      elements.submitDrinkRatingBtn = true;
     }
     highlightStars(type, 0);
     alert('Your review has been submitted. Thank you!');
@@ -178,7 +179,7 @@ async function submitReview(type, item, rating) {
     addReviewToDisplay(type, review);
   } catch (err) {
     console.error('Error submitting review:', err);
-    alert('Failed to submit review. Please try again.');
+    
   }
 }
 

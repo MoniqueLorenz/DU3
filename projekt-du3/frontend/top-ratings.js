@@ -35,7 +35,7 @@ async function fetchTopDrinks() {
 }
 
 // Display the top rated items
-/*
+
 function displayTopItems(containerId, items) {
   //  const container = document.querySelector(`#${containerId} .items-list`);
   const container = document.getElementById(containerId);
@@ -83,4 +83,4 @@ function displayTopItems(containerId, items) {
   container.innerHTML = '';
   container.appendChild(itemsList);
 }
-  */
+  

@@ -110,14 +110,15 @@
     }
   },
   {
+    "type": "meal",
     "idMeal": "52826",
     "name": "Braised Beef Chilli",
-    "rating": 3.1,
-    "votes": 410,
+    "rating": 4,
+    "votes": 1,
     "review": {
-      "reviewer": "Camilla E.",
-      "date": "2024-05-18",
-      "text": "Smaken var okej men inte min stil."
+      "reviewer": "You",
+      "date": "2025-05-30",
+      "text": "hot"
     }
   },
   {
@@ -683,14 +684,15 @@
     }
   },
   {
+    "type": "meal",
     "idMeal": "52860",
     "name": "Chocolate Raspberry Brownies",
-    "rating": 3.3,
-    "votes": 226,
+    "rating": 5,
+    "votes": 1,
     "review": {
-      "reviewer": "Camilla E.",
-      "date": "2023-12-20",
-      "text": "Neutral upplevelse, varken bra eller dålig."
+      "reviewer": "You",
+      "date": "2025-05-30",
+      "text": "brown stew chicken"
     }
   },
   {
@@ -1367,14 +1369,15 @@
     }
   },
   {
+    "type": "meal",
     "idMeal": "53021",
     "name": "Golabki (cabbage roll)",
-    "rating": 4.3,
-    "votes": 305,
+    "rating": 4,
+    "votes": 1,
     "review": {
-      "reviewer": "Hugo J.",
-      "date": "2024-06-04",
-      "text": "Inte perfekt, men väldigt god."
+      "reviewer": "You",
+      "date": "2025-06-01",
+      "text": "golabki 3"
     }
   },
   {
@@ -1686,14 +1689,15 @@
     }
   },
   {
+    "type": "meal",
     "idMeal": "52782",
     "name": "Lamb tomato and sweet spices",
-    "rating": 3.7,
-    "votes": 452,
+    "rating": 1,
+    "votes": 1,
     "review": {
-      "reviewer": "Camilla E.",
-      "date": "2024-05-10",
-      "text": "Fungerar – men inget speciellt."
+      "reviewer": "You",
+      "date": "2025-05-30",
+      "text": "lamb tomato"
     }
   },
   {
@@ -1884,14 +1888,15 @@
     }
   },
   {
+    "type": "meal",
     "idMeal": "52880",
     "name": "McSinghs Scotch pie",
-    "rating": 2.8,
-    "votes": 486,
+    "rating": 5,
+    "votes": 1,
     "review": {
-      "reviewer": "Nora M.",
-      "date": "2023-10-14",
-      "text": "Kände inte riktigt att det passade mig."
+      "reviewer": "You",
+      "date": "2025-05-30",
+      "text": "fish"
     }
   },
   {
@@ -1939,14 +1944,15 @@
     }
   },
   {
+    "type": "meal",
     "idMeal": "52991",
     "name": "Mince Pies",
-    "rating": 1.3,
-    "votes": 358,
+    "rating": 2,
+    "votes": 1,
     "review": {
-      "reviewer": "Mats L.",
-      "date": "2023-05-21",
-      "text": "Smaken föll mig inte alls i smaken."
+      "reviewer": "You",
+      "date": "2025-05-30",
+      "text": "mince pie"
     }
   },
   {
@@ -2060,14 +2066,15 @@
     }
   },
   {
+    "type": "meal",
     "idMeal": "53051",
     "name": "Nasi lemak",
-    "rating": 2.6,
-    "votes": 151,
+    "rating": 5,
+    "votes": 1,
     "review": {
-      "reviewer": "Karin R.",
-      "date": "2025-04-15",
-      "text": "Kanske bättre med några ändringar."
+      "reviewer": "You",
+      "date": "2025-05-30",
+      "text": "nasi"
     }
   },
   {
@@ -2204,14 +2211,15 @@
     }
   },
   {
+    "type": "meal",
     "idMeal": "52916",
     "name": "Pear Tarte Tatin",
-    "rating": 2.4,
-    "votes": 361,
+    "rating": 4,
+    "votes": 1,
     "review": {
-      "reviewer": "Sebastian H.",
-      "date": "2023-06-26",
-      "text": "Kände inte riktigt att det passade mig."
+      "reviewer": "You",
+      "date": "2025-05-30",
+      "text": "pear"
     }
   },
   {
@@ -2765,14 +2773,15 @@
     }
   },
   {
+    "type": "meal",
     "idMeal": "52950",
     "name": "Szechuan Beef",
-    "rating": 2,
-    "votes": 203,
+    "rating": 5,
+    "votes": 1,
     "review": {
-      "reviewer": "Jonas P.",
-      "date": "2024-11-28",
-      "text": "Smakerna fungerade inte ihop tyvärr."
+      "reviewer": "You",
+      "date": "2025-06-01",
+      "text": "beef"
     }
   },
   {
@@ -2919,14 +2928,15 @@
     }
   },
   {
+    "type": "meal",
     "idMeal": "53028",
     "name": "Shawarma",
-    "rating": 3.1,
-    "votes": 354,
+    "rating": 4,
+    "votes": 1,
     "review": {
-      "reviewer": "Elin B.",
-      "date": "2024-12-07",
-      "text": "Helt okej, men inget jag lagar igen."
+      "reviewer": "You",
+      "date": "2025-05-30",
+      "text": "shawarma"
     }
   },
   {
@@ -2997,14 +3007,15 @@
     }
   },
   {
+    "type": "meal",
     "idMeal": "52806",
     "name": "Tandoori chicken",
-    "rating": 2.7,
-    "votes": 236,
+    "rating": 5,
+    "votes": 1,
     "review": {
-      "reviewer": "Sebastian H.",
-      "date": "2024-11-26",
-      "text": "Kände inte riktigt att det passade mig."
+      "reviewer": "You",
+      "date": "2025-05-30",
+      "text": "tandori chicken"
     }
   },
   {
@@ -3030,14 +3041,15 @@
     }
   },
   {
+    "type": "meal",
     "idMeal": "52845",
     "name": "Turkey Meatloaf",
-    "rating": 1.5,
-    "votes": 172,
+    "rating": 4,
+    "votes": 1,
     "review": {
-      "reviewer": "Daniel Z.",
-      "date": "2023-09-23",
-      "text": "Smaken föll mig inte alls i smaken."
+      "reviewer": "You",
+      "date": "2025-06-01",
+      "text": "turkey meatloaf recension"
     }
   },
   {

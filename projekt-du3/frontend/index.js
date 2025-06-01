@@ -3,6 +3,8 @@
 // Import functions from other modules
 import { fetchTopMeals } from './top_meals.js';
 import { fetchTopDrinks } from './top_drinks.js';
+import { User } from './klass.js';
+
 
 // Global variables to track current items and ratings
 let currentMeal = null;
@@ -28,8 +30,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Setup meal and drink fetching with review integration
     setupItemFetching();
 
-    //login popup
-    setupLoginPopup();
+    //login popup viktig kod
+    //setupLoginPopup();
     
 });
 
