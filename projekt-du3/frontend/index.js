@@ -35,6 +35,8 @@ document.addEventListener('DOMContentLoaded', function() {
     
 });
 
+
+
 // Tab system setup
 function setupTabs() {
     const tabs = document.querySelectorAll('.tab');

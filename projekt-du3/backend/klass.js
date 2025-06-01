@@ -4,7 +4,6 @@ export class User {
        this.isLoggedIn = false;
    }
 
-
    login(username, password) {
        // Simple validation for demonstration purposes
        if (username === 'admin' && password === 'password') {
@@ -15,17 +14,14 @@ export class User {
        return false;
    }
 
-
    logout() {
        this.username = null;
        this.isLoggedIn = false;
    }
 
-
    getUsername() {
        return this.username;
    }
-
 
    isAuthenticated() {
        return this.isLoggedIn;

@@ -662,14 +662,15 @@
     }
   },
   {
+    "type": "meal",
     "idMeal": "52853",
     "name": "Chocolate Avocado Mousse",
-    "rating": 1.9,
-    "votes": 472,
+    "rating": 5,
+    "votes": 1,
     "review": {
-      "reviewer": "Nora M.",
-      "date": "2025-04-05",
-      "text": "Smaken föll mig inte alls i smaken."
+      "reviewer": "You",
+      "date": "2025-06-01",
+      "text": "hej"
     }
   },
   {

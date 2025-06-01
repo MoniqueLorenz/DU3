@@ -1,4 +1,4 @@
-/*
+
 // funktion som lägger till användare permanent i en json-fil (databas där användarnamn och lösenord sparas)
 
 // user.js - Handles user reviews and ratings
@@ -98,47 +98,9 @@ function setupSubmitButtons() {
     submitReview('drink', currentDrink, selectedDrinkRating);
   });
 }
-*/
-// Submit a review for meal or drink
-// function submitReview(type, item, rating) {
-//   // Ask for review text
-//   const reviewText = prompt(`Add your review for ${item.name}:`, '');
-//   if (reviewText === null) return; // User cancelled
-  
-//   // Create review object
-//   const review = {
-//     id: item.idMeal || item.idDrink,
-//     name: item.name || item.strMeal || item.strDrink,
-//     type: type,
-//     rating: rating,
-//     reviewer: 'You',
-//     date: new Date().toISOString().split('T')[0],
-//     review: reviewText || `Rated ${rating} out of 5 stars`
-//   };
-  
-//   // In a real application, we would send this to the server
-//   console.log('Submitting review:', review);
-  
-//   // For now, just display it locally
-//   addReviewToDisplay(type, review);
-  
-//   // Reset rating after submission
-//   if (type === 'meal') {
-//     selectedMealRating = 0;
-//     elements.submitMealRatingBtn.disabled = true;
-//   } else {
-//     selectedDrinkRating = 0;
-//     elements.submitDrinkRatingBtn.disabled = true;
-//   }
-  
-//   // Reset stars display
-//   highlightStars(type, 0);
-  
-//   // Show success message
-//   alert('Your review has been submitted. Thank you!');
-// }
 
-/*async function submitReview(type, item, rating) {
+
+async function submitReview(type, item, rating) {
   const reviewText = prompt(`Add your review for ${item.name}:`, '');
   if (reviewText === null) return;
 
