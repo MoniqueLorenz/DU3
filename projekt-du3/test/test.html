@@ -676,4 +676,270 @@
         });
     </script>
 </body>
+</html><!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Test Suite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .controls {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 0 5px;
+        }
+
+        .btn:hover {
+            background: #0056b3;
+        }
+
+        .btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        #serverUrl {
+            padding: 10px;
+            margin: 0 10px;
+            border: 1px solid #ddd;
+            width: 250px;
+        }
+
+        .progress {
+            background: #e9ecef;
+            height: 20px;
+            margin: 20px 0;
+        }
+
+        .progress-bar {
+            background: #28a745;
+            height: 100%;
+            width: 0%;
+            text-align: center;
+            color: white;
+            line-height: 20px;
+        }
+
+        .test-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .test-item {
+            background: white;
+            border: 1px solid #ddd;
+            padding: 15px;
+        }
+
+        .test-item.pending {
+            border-left: 4px solid #ffc107;
+            background: #fff3cd;
+        }
+
+        .test-item.success {
+            border-left: 4px solid #28a745;
+            background: #d4edda;
+        }
+
+        .test-item.error {
+            border-left: 4px solid #dc3545;
+            background: #f8d7da;
+        }
+
+        .test-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .test-title {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .test-method {
+            padding: 4px 8px;
+            color: white;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+
+        .method-get { background: #007bff; }
+        .method-post { background: #28a745; }
+        .method-put { background: #fd7e14; }
+        .method-delete { background: #dc3545; }
+        .method-options { background: #6f42c1; }
+
+        .test-url {
+            color: #666;
+            font-family: monospace;
+            margin-bottom: 10px;
+            word-break: break-all;
+        }
+
+        .test-status {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .status-icon {
+            width: 16px;
+            height: 16px;
+            margin-right: 8px;
+            text-align: center;
+            color: white;
+            font-size: 12px;
+            line-height: 16px;
+        }
+
+        .status-pending { background: #ffc107; }
+        .status-success { background: #28a745; }
+        .status-error { background: #dc3545; }
+
+        .test-details {
+            background: #f8f9fa;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #dee2e6;
+        }
+
+        .response-preview {
+            background: #343a40;
+            color: #28a745;
+            padding: 10px;
+            margin-top: 10px;
+            font-family: monospace;
+            font-size: 0.9em;
+            max-height: 200px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+        }
+
+        .summary {
+            background: #007bff;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .summary-stats {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 15px;
+        }
+
+        .summary-stat {
+            text-align: center;
+        }
+
+        .summary-number {
+            font-size: 2em;
+            font-weight: bold;
+            display: block;
+        }
+
+        .spinner {
+            border: 2px solid #f3f3f3;
+            border-top: 2px solid #007bff;
+            border-radius: 50%;
+            width: 16px;
+            height: 16px;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+            margin-right: 8px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        #currentTest {
+            text-align: center;
+            margin: 20px 0;
+            font-weight: bold;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧪 API Test Suite</h1>
+        
+        <div class="controls">
+            <button class="btn" id="startBtn" onclick="startTests()">Starta tester</button>
+            <button class="btn" id="clearBtn" onclick="clearResults()">Rensa resultat</button>
+            <input type="text" id="serverUrl" placeholder="Server URL (t.ex. http://localhost:8080)" 
+                   value="http://localhost:8080" style="padding: 10px; margin: 0 10px; border-radius: 5px; border: 1px solid #ddd;">
+        </div>
+
+        <div class="progress">
+            <div class="progress-bar" id="progressBar">0%</div>
+        </div>
+
+        <div id="currentTest" style="text-align: center; margin: 20px 0; font-weight: bold; color: #667eea;"></div>
+
+        <div class="test-grid" id="testResults"></div>
+
+        <div class="summary" id="summary" style="display: none;">
+            <h2>📊 Test Sammanfattning</h2>
+            <div class="summary-stats">
+                <div class="summary-stat">
+                    <span class="summary-number" id="totalTests">0</span>
+                    <span>Totalt</span>
+                </div>
+                <div class="summary-stat">
+                    <span class="summary-number" id="successTests">0</span>
+                    <span>Lyckade</span>
+                </div>
+                <div class="summary-stat">
+                    <span class="summary-number" id="errorTests">0</span>
+                    <span>Misslyckade</span>
+                </div>
+                <div class="summary-stat">
+                    <span class="summary-number" id="totalTime">0ms</span>
+                    <span>Total tid</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="test1.js">
+
+    </script>
+</body>
 </html>

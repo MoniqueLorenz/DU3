@@ -4760,5 +4760,17 @@
       "date": "2025-05-28",
       "text": "this is the text in the review area"
     }
+  },
+  {
+    "type": "drink",
+    "idDrink": "67890",
+    "name": "Test Drink",
+    "rating": 3.8,
+    "votes": 1,
+    "review": {
+      "reviewer": "TestUser",
+      "date": "2025-06-01T13:38:41.676Z",
+      "text": "Detta är en testrecension för drink."
+    }
   }
 ]

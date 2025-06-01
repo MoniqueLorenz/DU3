@@ -743,7 +743,7 @@ async function setupLoginPopup(){
         //     return;
         // }
 
-        const response = await fetch("/user", { // Ändra URL till er server
+        const response = await fetch("http://localhost:8080/user", { // Ändra URL till er server
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ username: usernameInput, password: passwordInput })

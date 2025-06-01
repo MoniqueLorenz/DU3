@@ -3325,5 +3325,17 @@
       "date": "2023-10-26",
       "text": "Inte perfekt, men väldigt god."
     }
+  },
+  {
+    "type": "meal",
+    "idMeal": "12345",
+    "name": "Test Meal",
+    "rating": 4.5,
+    "votes": 1,
+    "review": {
+      "reviewer": "TestUser",
+      "date": "2025-06-01T13:38:41.676Z",
+      "text": "Detta är en testrecension för måltid."
+    }
   }
 ]

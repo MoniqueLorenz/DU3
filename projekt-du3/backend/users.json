@@ -9,6 +9,28 @@
   },
   {
     "username": "la",
-    "password": "la"
+    "password": "la",
+    "username": "testuser_1748779247543",
+    "password": "testpassword123"
+  },
+  {
+    "username": "testuser_1748779298400",
+    "password": "testpassword123"
+  },
+  {
+    "username": "duplicate_user",
+    "password": "password123"
+  },
+  {
+    "username": "testuser_1748779988922",
+    "password": "testpassword123"
+  },
+  {
+    "username": "testuser_1748785026324",
+    "password": "testpassword123"
+  },
+  {
+    "username": "testuser_1748785121676",
+    "password": "testpassword123"
   }
 ]
