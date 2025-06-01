@@ -3,16 +3,30 @@ export async function fetchTopDrinks() {
     const res = await fetch("/top-drinks");
     const drinks = await res.json();
 
-    const sorted = drinks.sort((a, b) => {
-      if (b.rating === a.rating) return b.votes - a.votes;
-      return b.rating - a.rating;
-    });
+    for (let i = 0; i < drinks.length - 1; i++) {
+      for (let j = i + 1; j < drinks.length; j++) {
+        if (
+          drinks[j].rating > drinks[i].rating ||
+          (drinks[j].rating === drinks[i].rating && drinks[j].votes > drinks[i].votes)
+        ) {
+          const temp = drinks[i];
+          drinks[i] = drinks[j];
+          drinks[j] = temp;
+        }
+      }
+    }
 
-    const top = sorted.slice(0, 10);
+    const top = [];
+    for (let i = 0; i < 10 && i < drinks.length; i++) {
+      top.push(drinks[i]);
+    }
+
     console.log("Top 10 drinks by rating:\n");
-    top.forEach((drink, index) => {
-      console.log(`${index + 1}. ${drink.name} (Rating: ${drink.rating}, Votes: ${drink.votes})`);
-    });
+
+    for (let i = 0; i < top.length; i++) {
+      const drink = top[i];
+      console.log((i + 1) + ". " + drink.name + " (Rating: " + drink.rating + ", Votes: " + drink.votes + ")");
+    }
 
   } catch (err) {
     console.error("Fel vid hämtning eller tolkning av drinkdata:", err.message);

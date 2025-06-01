@@ -1150,14 +1150,15 @@
     }
   },
   {
+    "type": "meal",
     "idMeal": "52815",
     "name": "French Lentils With Garlic and Thyme",
-    "rating": 3.9,
-    "votes": 393,
+    "rating": 4,
+    "votes": 1,
     "review": {
-      "reviewer": "Lina T.",
-      "date": "2023-06-24",
-      "text": "Smaken var okej men inte min stil."
+      "reviewer": "You",
+      "date": "2025-06-01",
+      "text": "hhdsw"
     }
   },
   {
@@ -1901,14 +1902,15 @@
     }
   },
   {
+    "type": "meal",
     "idMeal": "52900",
     "name": "Madeira Cake",
-    "rating": 2.3,
-    "votes": 421,
+    "rating": 4,
+    "votes": 1,
     "review": {
-      "reviewer": "Sofia N.",
-      "date": "2023-09-18",
-      "text": "Lite för konstig för min smak."
+      "reviewer": "You",
+      "date": "2025-06-01",
+      "text": "jnjd"
     }
   },
   {
@@ -3263,14 +3265,15 @@
     }
   },
   {
+    "type": "meal",
     "idMeal": "52863",
     "name": "Vegetarian Casserole",
-    "rating": 2.7,
-    "votes": 66,
+    "rating": 4,
+    "votes": 1,
     "review": {
-      "reviewer": "Hugo J.",
-      "date": "2024-02-16",
-      "text": "Kände inte riktigt att det passade mig."
+      "reviewer": "You",
+      "date": "2025-06-01",
+      "text": "hhdsw"
     }
   },
   {

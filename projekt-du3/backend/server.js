@@ -230,7 +230,7 @@ serve(async (req) => {
     }
   }
 
-  /*const userManager = new UserManager("users.json");
+const userManager = new UserManager("users.json");
 
 console.log("Servern körs på http://localhost:8000");
 
@@ -259,7 +259,7 @@ serve(async (req) => {
 
   return new Response("Not found", { status: 404 });
 });
-*/
+
   // API endpoints
 
   if (pathname === "/get-user") { // eget api
