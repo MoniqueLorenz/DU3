@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
     setupItemFetching();
 
     //login popup viktig kod
-    //setupLoginPopup();
+    setupLoginPopup();
     
 });
 
@@ -741,12 +741,6 @@ async function setupLoginPopup(){
     async function registerUser() {
         const usernameInput = signupForm.querySelector("#signup_username").value.trim();
         const passwordInput = signupForm.querySelector("#signup_password").value.trim();
-        // const messageText = signupForm.querySelector("#message_text");
-
-        // if (!usernameInput || !passwordInput) {
-        //     messageText.textContent = "Please fill in both fields!";
-        //     return;
-        // }
 
         const response = await fetch("http://localhost:8080/user", { // Ändra URL till er server
             method: "POST",
