@@ -1,5 +1,4 @@
 import { serve } from "https://deno.land/std@0.190.0/http/server.ts";
-import { UserManager } from "./UserManager.js";
 
 const RANDOM_MEAL_URL    = "https://www.themealdb.com/api/json/v1/1/random.php";
 const LOOKUP_MEAL_URL    = "https://www.themealdb.com/api/json/v1/1/lookup.php?i=";
@@ -212,7 +211,7 @@ serve(async (req) => {
     }
   }
 
-  const userManager = new UserManager("users.json");
+  /*const userManager = new UserManager("users.json");
 
 console.log("Servern körs på http://localhost:8000");
 
@@ -241,7 +240,7 @@ serve(async (req) => {
 
   return new Response("Not found", { status: 404 });
 });
-
+*/
   // API endpoints
 
   if (pathname === "/get-user") {
