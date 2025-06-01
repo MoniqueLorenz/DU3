@@ -3,7 +3,7 @@
 // Import functions from other modules
 import { fetchTopMeals } from './top_meals.js';
 import { fetchTopDrinks } from './top_drinks.js';
-import { User } from './klass.js';
+
 
 
 // Global variables to track current items and ratings
@@ -136,9 +136,9 @@ function highlightStars(stars, rating) {
         const star = stars[i];
         const starRating = parseInt(star.dataset.rating);
         if (starRating <= rating) {
-            star.style.color = '#FFD700'; // Gold color for selected stars
+            star.style.color = 'gold'; // Gold color for selected stars
         } else {
-            star.style.color = '#ccc'; // Gray color for unselected stars
+            star.style.color = 'grey'; // Gray color for unselected stars
         }
     }
 }
@@ -415,6 +415,7 @@ function submitMealReview(rating) {
     }
     
     // Create review object
+    //fixa de med ---  date: new Date().toISOString().split('T')[0],
     const reviewData = {
         type: "meal",
         idMeal: currentMeal.idMeal,
